@@ -1,0 +1,58 @@
+[2017-10-30 14:47:19.963] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-30 17:56:32.622] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-10-30 17:56:57.253] [DEBUG] database - UPDATE :tbname SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM :tbname WHERE id = :id) as b),
+													     CONCAT(':pids',',',':id')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM :tbname 
+												WHERE id = :id or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM :tbname WHERE id = :id),'%') 
+											) a
+										)
+[2017-10-30 17:56:57.254] [DEBUG] database - UPDATE menus SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM menus WHERE id = 26) as b),
+													     CONCAT('23',',','26')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM menus 
+												WHERE id = 26 or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM menus WHERE id = 26),'%') 
+											) a
+										)
+[2017-10-30 17:56:57.263] [DEBUG] database - SHOW COLUMNS FROM `menus`
+[2017-10-30 17:56:57.272] [DEBUG] database - UPDATE `menus` SET `name`=":name",`alink`=":alink",`pid`=:pid,`pids`=":pids",`sort`=:sort,`status`=:status WHERE `id`=26 
+[2017-10-30 17:56:57.272] [DEBUG] database - UPDATE `menus` SET `name`="线上活动",`alink`="/act/lists",`pid`=23,`pids`="23",`sort`=3,`status`=1 WHERE `id`=26 
+[2017-10-30 17:56:57.290] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-30 17:56:57.296] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-30 17:56:57.296] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("更新成功","/api/menu/26","127.0.0.1","admin","2017-10-30 05:56:57")
+[2017-10-30 17:56:57.318] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-30 17:56:57.337] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-10-30 17:57:06.970] [DEBUG] database - UPDATE :tbname SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM :tbname WHERE id = :id) as b),
+													     CONCAT(':pids',',',':id')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM :tbname 
+												WHERE id = :id or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM :tbname WHERE id = :id),'%') 
+											) a
+										)
+[2017-10-30 17:57:06.971] [DEBUG] database - UPDATE menus SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM menus WHERE id = 25) as b),
+													     CONCAT('23',',','25')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM menus 
+												WHERE id = 25 or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM menus WHERE id = 25),'%') 
+											) a
+										)
+[2017-10-30 17:57:06.976] [DEBUG] database - SHOW COLUMNS FROM `menus`
+[2017-10-30 17:57:06.982] [DEBUG] database - UPDATE `menus` SET `name`=":name",`alink`=":alink",`pid`=:pid,`pids`=":pids",`sort`=:sort,`status`=:status WHERE `id`=25 
+[2017-10-30 17:57:06.983] [DEBUG] database - UPDATE `menus` SET `name`="活动模板",`alink`="/act/tpl",`pid`=23,`pids`="23",`sort`=2,`status`=1 WHERE `id`=25 
+[2017-10-30 17:57:06.997] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-30 17:57:07.003] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-30 17:57:07.004] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("更新成功","/api/menu/25","127.0.0.1","admin","2017-10-30 05:57:06")
+[2017-10-30 17:57:07.017] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-30 17:57:07.023] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC

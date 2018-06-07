@@ -1,0 +1,506 @@
+[2018-04-20 10:37:43.997] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:37:44.002] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:37:44.003] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:37:44.004] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 10:37:44.012] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:37:44.013] [INFO] system - 关闭连接
+[2018-04-20 10:37:44.014] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:37:44.014] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:37:44.014] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 10:37:44.016] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:37:44.016] [INFO] system - 关闭连接
+[2018-04-20 10:37:44.018] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:37:44.018] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:37:52.054] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:37:52.060] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:37:52.061] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:37:52.061] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 10:37:52.069] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:37:52.069] [INFO] system - 关闭连接
+[2018-04-20 10:37:52.071] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:37:52.071] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:37:52.071] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 10:37:52.072] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:37:52.072] [INFO] system - 关闭连接
+[2018-04-20 10:37:52.074] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:37:52.075] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:39:00.962] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:39:00.968] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:39:00.969] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:39:00.969] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 10:39:00.976] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:39:00.976] [INFO] system - 关闭连接
+[2018-04-20 10:39:00.977] [INFO] system - 程序出现未捕获异常
+[2018-04-20 10:39:00.977] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 10:39:00.978] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 10:39:00.979] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 10:39:00.979] [INFO] system - 关闭连接
+[2018-04-20 10:39:00.980] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:39:00.981] [INFO] system - 正在监听 port 7071
+[2018-04-20 10:52:48.009] [INFO] system - 正在监听 port 7071
+[2018-04-20 11:16:34.997] [INFO] system - 正在监听 port 7071
+[2018-04-20 11:16:35.002] [INFO] system - 程序出现未捕获异常
+[2018-04-20 11:16:35.003] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 11:16:35.003] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 11:16:35.010] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 11:16:35.010] [INFO] system - 关闭连接
+[2018-04-20 11:16:35.012] [INFO] system - 正在监听 port 7071
+[2018-04-20 11:20:15.259] [INFO] system - 正在监听 port 7071
+[2018-04-20 11:20:46.759] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:20:30.961] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:25:10.461] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:25:10.467] [INFO] system - 程序出现未捕获异常
+[2018-04-20 13:25:10.468] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 13:25:10.469] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 13:25:10.478] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 13:25:10.478] [INFO] system - 关闭连接
+[2018-04-20 13:25:10.479] [INFO] system - 程序出现未捕获异常
+[2018-04-20 13:25:10.479] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 13:25:10.479] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 13:25:10.481] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 13:25:10.481] [INFO] system - 关闭连接
+[2018-04-20 13:25:10.483] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:25:10.483] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:26:07.408] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:26:07.415] [INFO] system - 程序出现未捕获异常
+[2018-04-20 13:26:07.417] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 13:26:07.417] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 13:26:07.427] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 13:26:07.427] [INFO] system - 关闭连接
+[2018-04-20 13:26:07.428] [INFO] system - 程序出现未捕获异常
+[2018-04-20 13:26:07.428] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 13:26:07.428] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 13:26:07.430] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 13:26:07.430] [INFO] system - 关闭连接
+[2018-04-20 13:26:07.433] [INFO] system - 正在监听 port 7071
+[2018-04-20 13:26:07.433] [INFO] system - 正在监听 port 7071
+[2018-04-20 16:13:45.775] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:13:55.778] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:14:05.782] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:14:16.086] [INFO] system - 正在监听 port 7071
+[2018-04-20 16:14:16.091] [INFO] system - 程序出现未捕获异常
+[2018-04-20 16:14:16.091] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 16:14:16.092] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 16:14:16.099] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 16:14:16.099] [INFO] system - 关闭连接
+[2018-04-20 16:14:16.100] [INFO] system - 程序出现未捕获异常
+[2018-04-20 16:14:16.101] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 16:14:16.101] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 16:14:16.102] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 16:14:16.102] [INFO] system - 关闭连接
+[2018-04-20 16:14:16.104] [INFO] system - 正在监听 port 7071
+[2018-04-20 16:14:16.105] [INFO] system - 正在监听 port 7071
+[2018-04-20 16:14:36.123] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:14:46.135] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:14:56.139] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:15:47.330] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:15:57.336] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 16:16:07.340] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-04-20 17:53:01.067] [INFO] system - 正在监听 port 7071
+[2018-04-20 17:53:01.072] [INFO] system - 程序出现未捕获异常
+[2018-04-20 17:53:01.072] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 17:53:01.072] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 17:53:01.081] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 17:53:01.081] [INFO] system - 关闭连接
+[2018-04-20 17:53:01.083] [INFO] system - 程序出现未捕获异常
+[2018-04-20 17:53:01.083] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 17:53:01.083] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 17:53:01.084] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 17:53:01.085] [INFO] system - 关闭连接
+[2018-04-20 17:53:01.086] [INFO] system - 正在监听 port 7071
+[2018-04-20 17:53:01.086] [INFO] system - 正在监听 port 7071
+[2018-04-20 17:53:07.387] [INFO] system - 正在监听 port 7071
+[2018-04-20 17:53:07.398] [INFO] system - 程序出现未捕获异常
+[2018-04-20 17:53:07.399] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 17:53:07.400] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-20 17:53:07.412] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 17:53:07.412] [INFO] system - 关闭连接
+[2018-04-20 17:53:07.414] [INFO] system - 程序出现未捕获异常
+[2018-04-20 17:53:07.415] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-20 17:53:07.415] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-20 17:53:07.416] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-20 17:53:07.416] [INFO] system - 关闭连接
+[2018-04-20 17:53:07.419] [INFO] system - 正在监听 port 7071
+[2018-04-20 17:53:07.419] [INFO] system - 正在监听 port 7071

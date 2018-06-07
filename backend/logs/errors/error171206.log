@@ -1,0 +1,54 @@
+[2017-12-06 13:46:05.784] [ERROR] system - error in domain { Error: ENOTEMPTY: directory not empty, rmdir '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/images'
+    at Error (native)
+    at Object.fs.rmdirSync (fs.js:886:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/components.controller.js:72:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1565:20)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:91:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:136:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+  errno: -66,
+  code: 'ENOTEMPTY',
+  syscall: 'rmdir',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/images',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-06 14:50:37.385] [ERROR] system - error in domain { TypeError: Cannot read property 'substring' of undefined
+    at results.lists.map (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:77:51)
+    at Array.map (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:76:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:65:21
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }

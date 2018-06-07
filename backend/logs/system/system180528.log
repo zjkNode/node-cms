@@ -1,0 +1,81 @@
+[2018-05-28 11:59:54.124] [INFO] system - 正在监听 port 7071
+[2018-05-28 13:55:34.382] [INFO] system - 正在监听 port 7071
+[2018-05-28 13:56:51.845] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:00:14.136] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:07:03.405] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:11:43.842] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:13:20.502] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:14:05.021] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:23:21.737] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:23:54.628] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:24:35.632] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:25:23.293] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:28:02.771] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:28:35.976] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:29:20.737] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:32:09.697] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:33:25.855] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:37:42.995] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:52:40.360] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:55:12.728] [INFO] system - 正在监听 port 7071
+[2018-05-28 14:58:04.748] [INFO] system - 正在监听 port 7071
+[2018-05-28 15:03:23.951] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:00:27.352] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:01:21.867] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js:112:20
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:747:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-05-28 18:03:19.890] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:20:09.545] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:20:14.906] [ERROR] system - error in domain { ReferenceError: callback is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:884:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:747:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-05-28 18:20:55.787] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:22:00.263] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:23:53.163] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:41:54.381] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:47:39.166] [INFO] system - 正在监听 port 7071
+[2018-05-28 18:52:36.230] [INFO] system - 正在监听 port 7071

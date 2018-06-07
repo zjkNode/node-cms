@@ -1,0 +1,7 @@
+{% extends "activity/components/_partials/_alert.html" %}
+
+{% block alertContent %}
+	{% for imgPath in item.content.image_path %}
+		<img src="{{imgPath}}" alt="" />
+	{% endfor %}
+{% endblock %}

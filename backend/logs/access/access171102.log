@@ -1,0 +1,8 @@
+[2017-11-02 18:04:33.329] [WARN] access - GET /api/user/userInfo
+[2017-11-02 18:04:33.355] [INFO] access - GET /api/menu/listsTree
+[2017-11-02 18:08:50.107] [WARN] access - GET /api/menu/listsTree
+[2017-11-02 18:08:50.116] [WARN] access - GET /api/user/userInfo
+[2017-11-02 18:12:33.083] [WARN] access - GET /api/menu/listsTree
+[2017-11-02 18:12:33.091] [WARN] access - GET /api/user/userInfo
+[2017-11-02 18:13:04.715] [WARN] access - GET /api/menu/listsTree
+[2017-11-02 18:13:04.729] [WARN] access - GET /api/user/userInfo

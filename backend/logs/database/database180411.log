@@ -1,0 +1,753 @@
+[2018-04-11 11:15:15.630] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 11:15:17.631] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 11:15:17.643] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-04-11 11:26:05.637] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:05.640] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:13.653] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=103 
+[2018-04-11 11:26:13.674] [DEBUG] database - DELETE FROM `act` WHERE `id`=103 
+[2018-04-11 11:26:13.700] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:13.701] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:17.106] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=101 
+[2018-04-11 11:26:17.119] [DEBUG] database - DELETE FROM `act` WHERE `id`=101 
+[2018-04-11 11:26:17.145] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:17.146] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:23.909] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-04-11 11:26:23.919] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=100 
+[2018-04-11 11:26:23.931] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 11:26:23.939] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=100 
+[2018-04-11 11:26:23.940] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=100 
+[2018-04-11 11:26:23.970] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:23.974] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:26.647] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=100 
+[2018-04-11 11:26:26.673] [DEBUG] database - DELETE FROM `act` WHERE `id`=100 
+[2018-04-11 11:26:26.713] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:26.714] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:29.820] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-04-11 11:26:29.825] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 11:26:29.834] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=98 
+[2018-04-11 11:26:29.835] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=98 
+[2018-04-11 11:26:29.870] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:29.871] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:33.131] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-04-11 11:26:33.142] [DEBUG] database - DELETE FROM `act` WHERE `id`=98 
+[2018-04-11 11:26:33.172] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:33.173] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:35.884] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=97 
+[2018-04-11 11:26:35.888] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 11:26:35.894] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=97 
+[2018-04-11 11:26:35.894] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=97 
+[2018-04-11 11:26:35.921] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:35.922] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:38.310] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=97 
+[2018-04-11 11:26:38.317] [DEBUG] database - DELETE FROM `act` WHERE `id`=97 
+[2018-04-11 11:26:38.339] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:38.340] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:40.513] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=95 
+[2018-04-11 11:26:40.519] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 11:26:40.523] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=95 
+[2018-04-11 11:26:40.523] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=95 
+[2018-04-11 11:26:40.542] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:40.544] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:43.144] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=95 
+[2018-04-11 11:26:43.151] [DEBUG] database - DELETE FROM `act` WHERE `id`=95 
+[2018-04-11 11:26:43.175] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:43.176] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:45.020] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=94 
+[2018-04-11 11:26:45.027] [DEBUG] database - DELETE FROM `act` WHERE `id`=94 
+[2018-04-11 11:26:45.049] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:45.050] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:47.310] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=92 
+[2018-04-11 11:26:47.332] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:47.333] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:50.439] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=92 
+[2018-04-11 11:26:50.463] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:26:50.463] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:58.785] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 11:26:58.806] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:26:58.806] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:27:15.453] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=92 
+[2018-04-11 11:27:15.476] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:27:15.476] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:57:53.835] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=92 
+[2018-04-11 11:57:53.858] [DEBUG] database - DELETE FROM `act` WHERE `id`=92 
+[2018-04-11 11:57:53.895] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 11:57:53.900] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 11:58:04.926] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 11:58:07.204] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 11:58:07.214] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 13:30:34.291] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 13:30:34.447] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 13:30:34.499] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 13:30:34.500] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","a40de4d6801c44e08dbb975922ed0c84","http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523424579348.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;0px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523424588132.png&quot;]}],&quot;activityCode&quot;:&quot;a40de4d6801c44e08dbb975922ed0c84&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",1,"images,buttons,images",1,"2018-04-11 01:30:34")
+[2018-04-11 13:30:34.814] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:30:34.819] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:30:48.635] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 13:31:00.424] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:31:00.425] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:31:39.283] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 13:31:39.310] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:31:39.312] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:33:44.454] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=104 
+[2018-04-11 13:33:44.468] [DEBUG] database - DELETE FROM `act` WHERE `id`=104 
+[2018-04-11 13:33:44.504] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:33:44.510] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:33:51.296] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 13:33:54.055] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 13:33:54.065] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 13:34:39.592] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 13:34:39.748] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 13:34:39.818] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 13:34:39.819] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","d77e141d140c4b02a2f7aae4f45ec2ac","http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523424850597.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;0px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://test-local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523424857751.png&quot;]}],&quot;activityCode&quot;:&quot;d77e141d140c4b02a2f7aae4f45ec2ac&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",1,"images,buttons,images",1,"2018-04-11 01:34:39")
+[2018-04-11 13:34:40.097] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:34:40.097] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:39:50.062] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=105 
+[2018-04-11 13:39:50.065] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 13:39:57.324] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:39:57.326] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:40:00.339] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=105 
+[2018-04-11 13:40:00.349] [DEBUG] database - DELETE FROM `act` WHERE `id`=105 
+[2018-04-11 13:40:00.373] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 13:40:00.373] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:40:02.279] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 13:40:03.930] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 13:40:03.937] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 13:40:37.135] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 13:40:37.312] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 13:40:37.381] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 13:40:37.382] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","01b624ca7cba4eff9347ac31ce135dbb","http://local_activity.zhenggaofeng.com/zgf/lact1/4/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/4/img/1523425223455.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;0px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/4/img/1523425228663.png&quot;]}],&quot;activityCode&quot;:&quot;01b624ca7cba4eff9347ac31ce135dbb&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",1,"images,buttons,images",1,"2018-04-11 01:40:37")
+[2018-04-11 13:40:37.711] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 13:40:37.713] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 14:36:05.510] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 14:36:05.522] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-04-11 14:36:16.900] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:16.909] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:16.916] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2018-04-11 14:36:16.925] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:16.931] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2018-04-11 14:36:33.660] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-04-11 14:36:37.768] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:37.776] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2018-04-11 14:36:37.779] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:37.785] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:36:37.793] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2018-04-11 14:36:56.121] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-11 14:36:56.121] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-11 14:36:56.131] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-11 14:38:10.453] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-04-11 14:38:10.470] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-04-11 14:38:10.476] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-04-11 14:38:10.483] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-04-11 14:38:10.488] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-11 14:38:10.496] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-11 14:38:10.497] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-04-11 02:38:10")
+[2018-04-11 14:38:22.003] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 14:38:22.003] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 14:38:29.365] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 14:39:26.111] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-04-11 14:39:38.205] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:39:38.213] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2018-04-11 14:39:38.219] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:39:38.220] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:39:38.226] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2018-04-11 14:39:48.647] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:39:48.652] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2018-04-11 14:39:48.653] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2018-04-11 14:39:48.660] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:39:52.290] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2018-04-11 14:39:52.296] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-04-11 14:40:24.133] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2018-04-11 14:40:24.141] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:40:32.061] [DEBUG] database - SHOW COLUMNS FROM `dep`
+[2018-04-11 14:40:32.076] [DEBUG] database - INSERT INTO `dep` (`name`,`pid`,`pids`,`status`,`create_time`) VALUES (":name",:pid,":pids",:status,":create_time")
+[2018-04-11 14:40:32.077] [DEBUG] database - INSERT INTO `dep` (`name`,`pid`,`pids`,`status`,`create_time`) VALUES ("aaa",1,"1",1,"2018-04-11 02:40:32")
+[2018-04-11 14:40:32.112] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2018-04-11 14:40:32.118] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:40:36.403] [DEBUG] database - SELECT count(*) as tmp_count FROM `users`
+[2018-04-11 14:40:36.404] [DEBUG] database - SELECT * FROM `users`  order by `id` DESC LIMIT 0,15
+[2018-04-11 14:40:36.410] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:40:36.411] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (1)  order by `pids` ASC
+[2018-04-11 14:40:36.412] [DEBUG] database - SELECT * FROM `roles`  WHERE `id` in (1) 
+[2018-04-11 14:40:39.459] [DEBUG] database - SELECT * FROM `roles`  WHERE `depid`=1 
+[2018-04-11 14:40:40.806] [DEBUG] database - SELECT * FROM `roles`  WHERE `depid`=2 
+[2018-04-11 14:40:44.652] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:40:44.658] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2018-04-11 14:40:44.663] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2018-04-11 14:40:44.664] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:11:50.514] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 16:12:00.857] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 16:12:00.869] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:35:36.590] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 16:35:36.596] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:36:00.029] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 16:36:00.226] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 16:36:00.267] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 16:36:00.268] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","82910f43efd44bf1a290ec247fea0928","http://local_activity.zhenggaofeng.com/zgf/lact1/5/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/5/img/1523435751487.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;61d2dd4139e3495aab96a331efa2d054&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/5/img/1523435757367.png&quot;]}],&quot;activityCode&quot;:&quot;82910f43efd44bf1a290ec247fea0928&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",1,"images,buttons,images",1,"2018-04-11 04:36:00")
+[2018-04-11 16:36:00.696] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:36:00.698] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:36:12.499] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=106 
+[2018-04-11 16:36:12.506] [DEBUG] database - DELETE FROM `act` WHERE `id`=106 
+[2018-04-11 16:36:12.538] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:36:12.539] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:36:14.760] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=107 
+[2018-04-11 16:36:14.767] [DEBUG] database - DELETE FROM `act` WHERE `id`=107 
+[2018-04-11 16:36:14.795] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:36:14.798] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:36:32.995] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 16:36:35.131] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 16:36:35.137] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:36:58.663] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 16:36:58.740] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 16:36:58.781] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 16:36:58.782] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","bdb3af6a8ef541c3a388739489dc4d5e","http://local_activity.zhenggaofeng.com/zgf/lact1/1/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435802191.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;357bcd805aee4a8ebcfffc8b2890ecc7&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435808819.png&quot;]}],&quot;activityCode&quot;:&quot;bdb3af6a8ef541c3a388739489dc4d5e&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",1,"images,buttons,images",1,"2018-04-11 04:36:58")
+[2018-04-11 16:36:59.192] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:36:59.193] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:39:32.521] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 16:39:32.523] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:39:34.462] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 16:39:34.631] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 16:41:04.243] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 16:41:04.398] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 16:41:04.473] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`oss_code`=":oss_code",`data`=":data" WHERE `id`=108 
+[2018-04-11 16:41:04.473] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="http://local_activity.zhenggaofeng.com/zgf/lact1/1/index.html",`activity_code`="bdb3af6a8ef541c3a388739489dc4d5e",`user_id`=1,`status`=5,`update_time`="2018-04-11 04:41:04",`oss_code`="zgf",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435802191.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;357bcd805aee4a8ebcfffc8b2890ecc7&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435808819.png&quot;]}],&quot;activityCode&quot;:&quot;bdb3af6a8ef541c3a388739489dc4d5e&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}" WHERE `id`=108 
+[2018-04-11 16:41:04.782] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:41:04.789] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:45:43.864] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 16:45:43.886] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:45:43.900] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:46:19.766] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:46:19.767] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:46:29.669] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:46:29.670] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:47:07.512] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:47:07.513] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:47:10.341] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:47:10.342] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:47:22.550] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:47:22.550] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:51:26.198] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 16:51:26.234] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:51:26.255] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:52:50.987] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:52:50.988] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:53:15.216] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:53:15.217] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:53:35.890] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:53:35.890] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:53:52.414] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:53:52.415] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:54:12.911] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:54:12.913] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:54:47.619] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:54:47.620] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:54:57.408] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 16:54:59.049] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 16:54:59.061] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:55:01.174] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 16:55:01.180] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 16:55:01.182] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("","","08b55517a9d642febffea80c3abfe550","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5fba9d25d05a4f26bac3e675df757b3c&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[]}],&quot;activityCode&quot;:&quot;08b55517a9d642febffea80c3abfe550&quot;,&quot;code&quot;:&quot;&quot;}",1,"images,buttons,images",1,"2018-04-11 04:55:01")
+[2018-04-11 16:55:01.461] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:55:01.461] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:55:09.130] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 16:55:09.139] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 16:55:19.792] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:55:19.792] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 16:57:19.565] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 16:57:19.566] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:00:15.196] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:00:15.198] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:00:30.498] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:00:30.498] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:00:37.191] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:01:46.898] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:02:13.911] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:02:13.934] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:03:05.675] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:03:05.691] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:04:38.114] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:04:38.132] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:04:38.605] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:04:38.610] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:06:37.399] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:06:37.409] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:07:05.089] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:07:05.103] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:07:53.390] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:07:53.402] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:10:13.654] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:10:13.665] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:23:27.596] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:23:27.602] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:23:32.805] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:23:32.813] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=108 
+[2018-04-11 17:23:32.813] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`activity_code`="bdb3af6a8ef541c3a388739489dc4d5e",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435802191.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;357bcd805aee4a8ebcfffc8b2890ecc7&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435808819.png&quot;]}],&quot;activityCode&quot;:&quot;bdb3af6a8ef541c3a388739489dc4d5e&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8&quot;}",`url`="http://local_activity.zhenggaofeng.com/zgf/lact1/1/index.html",`components`="images,buttons,images",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-04-11 05:23:32" WHERE `id`=108 
+[2018-04-11 17:23:33.073] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:23:33.074] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:23:43.397] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:23:43.407] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:39:49.369] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:39:49.382] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:40:17.103] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:40:26.656] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-04-11 17:40:26.665] [DEBUG] database - UPDATE `act_config` SET `name`=":name",`domain`=":domain",`oss_code`=":oss_code",`publish_path`=":publish_path",`baidu_code`=":baidu_code",`download_urls`=":download_urls",`uuser_id`=:uuser_id,`update_time`=":update_time" WHERE `id`=2 
+[2018-04-11 17:40:26.666] [DEBUG] database - UPDATE `act_config` SET `name`="火山钱包",`domain`="http://activity.zhenggaofeng.com",`oss_code`="zgf",`publish_path`="/www/nodecms/static-act",`baidu_code`="a038eafe00cef1ffcc9f026f877d0f17",`download_urls`="huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;hmcu=&amp;amp;hmkw=&amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;ls=1&amp;amp;mt=8",`uuser_id`=1,`update_time`="2018-04-11 05:40:26" WHERE `id`=2 
+[2018-04-11 17:40:26.692] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:40:32.312] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-04-11 17:40:32.322] [DEBUG] database - UPDATE `act_config` SET `name`=":name",`domain`=":domain",`oss_code`=":oss_code",`publish_path`=":publish_path",`baidu_code`=":baidu_code",`download_urls`=":download_urls",`uuser_id`=:uuser_id,`update_time`=":update_time" WHERE `id`=5 
+[2018-04-11 17:40:32.322] [DEBUG] database - UPDATE `act_config` SET `name`="小小租",`domain`="http://activity.xiaoxiaozulin.com",`oss_code`="xxz",`publish_path`="/www/nodecms/static-act",`baidu_code`="1111",`download_urls`="1111",`uuser_id`=1,`update_time`="2018-04-11 05:40:32" WHERE `id`=5 
+[2018-04-11 17:40:32.354] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:40:43.252] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:40:43.261] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:40:48.474] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 17:40:48.485] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:41:11.494] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:41:11.501] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=109 
+[2018-04-11 17:41:11.502] [DEBUG] database - UPDATE `act` SET `name`="act2",`code`="act2",`activity_code`="08b55517a9d642febffea80c3abfe550",`data`="{&quot;title&quot;:&quot;act2&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180411174048/1523439660427.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5fba9d25d05a4f26bac3e675df757b3c&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180411174048/1523439667288.png&quot;]}],&quot;activityCode&quot;:&quot;08b55517a9d642febffea80c3abfe550&quot;,&quot;code&quot;:&quot;act2&quot;}",`url`="",`components`="images,buttons,images",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-04-11 05:41:11" WHERE `id`=109 
+[2018-04-11 17:41:11.753] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:41:11.754] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:41:13.867] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 17:41:13.877] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:41:16.539] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 17:41:16.692] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:41:16.751] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`oss_code`=":oss_code",`data`=":data" WHERE `id`=109 
+[2018-04-11 17:41:16.752] [DEBUG] database - UPDATE `act` SET `name`="act2",`code`="act2",`components`="images,buttons,images",`url`="http://local_activity.zhenggaofeng.com/zgf/lact2/1/index.html",`activity_code`="08b55517a9d642febffea80c3abfe550",`user_id`=1,`status`=5,`update_time`="2018-04-11 05:41:16",`oss_code`="zgf",`data`="{&quot;title&quot;:&quot;act2&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact2/1/img/1523439660427.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5fba9d25d05a4f26bac3e675df757b3c&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact2/1/img/1523439667288.png&quot;]}],&quot;activityCode&quot;:&quot;08b55517a9d642febffea80c3abfe550&quot;,&quot;code&quot;:&quot;act2&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;hmcu=&amp;amp;amp;hmkw=&amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;ls=1&amp;amp;amp;mt=8&quot;}" WHERE `id`=109 
+[2018-04-11 17:41:17.036] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:41:17.038] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:41:19.356] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 17:41:19.365] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:42:28.832] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:42:38.794] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-04-11 17:42:38.799] [DEBUG] database - UPDATE `act_config` SET `name`=":name",`domain`=":domain",`oss_code`=":oss_code",`publish_path`=":publish_path",`baidu_code`=":baidu_code",`download_urls`=":download_urls",`uuser_id`=:uuser_id,`update_time`=":update_time" WHERE `id`=2 
+[2018-04-11 17:42:38.799] [DEBUG] database - UPDATE `act_config` SET `name`="火山钱包",`domain`="http://activity.zhenggaofeng.com",`oss_code`="zgf",`publish_path`="/www/static_act",`baidu_code`="a038eafe00cef1ffcc9f026f877d0f17",`download_urls`="huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;hmcu=&amp;amp;amp;hmkw=&amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;ls=1&amp;amp;amp;mt=8",`uuser_id`=1,`update_time`="2018-04-11 05:42:38" WHERE `id`=2 
+[2018-04-11 17:42:38.819] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:42:43.709] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:42:43.715] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:42:46.229] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:42:46.235] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:50:21.348] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 17:50:21.411] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:50:21.448] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`oss_code`=":oss_code",`data`=":data" WHERE `id`=108 
+[2018-04-11 17:50:21.448] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="http://local_activity.zhenggaofeng.com/zgf/lact1/1/index.html",`activity_code`="bdb3af6a8ef541c3a388739489dc4d5e",`user_id`=1,`status`=5,`update_time`="2018-04-11 05:50:21",`oss_code`="zgf",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435802191.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;357bcd805aee4a8ebcfffc8b2890ecc7&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/1/img/1523435808819.png&quot;]}],&quot;activityCode&quot;:&quot;bdb3af6a8ef541c3a388739489dc4d5e&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}" WHERE `id`=108 
+[2018-04-11 17:50:21.801] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:50:21.808] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:50:30.720] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:50:30.729] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 17:50:36.436] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:50:40.890] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:50:40.891] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:50:44.655] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=109 
+[2018-04-11 17:50:44.661] [DEBUG] database - DELETE FROM `act` WHERE `id`=109 
+[2018-04-11 17:50:44.687] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:50:44.689] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:50:46.909] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=108 
+[2018-04-11 17:50:46.914] [DEBUG] database - DELETE FROM `act` WHERE `id`=108 
+[2018-04-11 17:50:46.937] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:50:46.938] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:50:48.729] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 17:50:50.812] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:50:50.820] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 17:53:06.720] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 17:53:06.902] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:53:06.932] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 17:53:06.933] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","254f744b690045359c4cbdc0cd5aff4f","http://local_activity.zhenggaofeng.com/zgf/lact1/4/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",5,"images,buttons,images",1,"2018-04-11 05:53:06")
+[2018-04-11 17:53:07.248] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:53:07.255] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:53:14.573] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 17:53:14.598] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 17:53:36.925] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 17:53:36.926] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 17:53:43.840] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 17:53:43.847] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:57:00.981] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 17:57:00.996] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:59:32.045] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 17:59:32.059] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 17:59:32.120] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 17:59:32.127] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 17:59:32.129] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 17:59:32",`publish_time`="2018-04-11 17:59:32" WHERE `id`=110 
+[2018-04-11 17:59:32.134] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 17:59:32",`publish_time`="2018-04-11 17:59:32" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:49:28.395] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:49:28.405] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:49:28.446] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:49:28.454] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:49:28.454] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:49:28",`publish_time`="2018-04-11 19:49:28" WHERE `id`=110 
+[2018-04-11 19:49:28.458] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:49:28",`publish_time`="2018-04-11 19:49:28" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:49:41.764] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:49:41.768] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:49:41.786] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:49:41.793] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:49:41.794] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:49:41",`publish_time`="2018-04-11 19:49:41" WHERE `id`=110 
+[2018-04-11 19:49:41.797] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:49:41",`publish_time`="2018-04-11 19:49:41" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:49:41.939] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:49:41.943] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:49:41.957] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:49:41.964] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:49:41.964] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:49:41",`publish_time`="2018-04-11 19:49:41" WHERE `id`=110 
+[2018-04-11 19:49:41.968] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:49:41",`publish_time`="2018-04-11 19:49:41" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:49:42.937] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:49:42.941] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:49:42.953] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:49:42.959] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:49:42.959] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:49:42",`publish_time`="2018-04-11 19:49:42" WHERE `id`=110 
+[2018-04-11 19:49:42.962] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:49:42",`publish_time`="2018-04-11 19:49:42" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:49:43.135] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:49:43.139] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:49:43.155] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:49:43.161] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:49:43.161] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:49:43",`publish_time`="2018-04-11 19:49:43" WHERE `id`=110 
+[2018-04-11 19:49:43.165] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:49:43",`publish_time`="2018-04-11 19:49:43" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:50:41.433] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 19:50:41.465] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 19:50:41.466] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 19:50:52.576] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:50:52.582] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:50:52.634] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:50:52.642] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:50:52.642] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.comzgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=,`update_time`="2018-04-11 19:50:52",`publish_time`="2018-04-11 19:50:52" WHERE `id`=110 
+[2018-04-11 19:50:52.649] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`update_time`="2018-04-11 19:50:52",`publish_time`="2018-04-11 19:50:52" WHERE `' at line 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2018-04-11 19:57:15.228] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:57:15.230] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 19:57:15.239] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:57:15.240] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 19:57:15.328] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:57:15.329] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 19:57:15.336] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:57:15.337] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.com/zgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=1,`update_time`="2018-04-11 19:57:15",`publish_time`="2018-04-11 19:57:15" WHERE `id`=110 
+[2018-04-11 19:57:15.339] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`oss_code`=":oss_code",`activity_code`=":activity_code",`url`=":url",`data`=":data",`status`=:status,`components`=":components",`user_id`=:user_id,`create_time`=":create_time",`uuser_id`=:uuser_id,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=110 
+[2018-04-11 19:57:15.339] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`oss_code`="zgf",`activity_code`="254f744b690045359c4cbdc0cd5aff4f",`url`="http://activity.zhenggaofeng.com/zgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`status`=2,`components`="images,buttons,images",`user_id`=1,`create_time`="Wed Apr 11 2018 05:53:06 GMT+0800 (CST)",`uuser_id`=1,`update_time`="2018-04-11 19:57:15",`publish_time`="2018-04-11 19:57:15" WHERE `id`=110 
+[2018-04-11 19:57:15.348] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: 'Wed Apr 11 2018 05:53:06 GMT+0800 (CST)' for column 'create_time' at row 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlState: '22007',
+  index: 0 }
+[2018-04-11 19:57:15.377] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: 'Wed Apr 11 2018 05:53:06 GMT+0800 (CST)' for column 'create_time' at row 1
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlState: '22007',
+  index: 0 }
+[2018-04-11 20:01:23.915] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 20:01:23.926] [DEBUG] database - SELECT * FROM `act_config`  WHERE `oss_code`="zgf" 
+[2018-04-11 20:01:23.985] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 20:01:23.993] [DEBUG] database - UPDATE `act` SET `url`=":url",`data`=":data",`uuser_id`=:uuser_id,`status`=:status,`publish_time`=":publish_time",`update_time`=":update_time" WHERE `id`=110 
+[2018-04-11 20:01:23.994] [DEBUG] database - UPDATE `act` SET `url`="http://activity.zhenggaofeng.com/zgf/lact1/4/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440260521.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;21dd9d671e9d4e2c9e5f7e6989e7d364&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://activity.zhenggaofeng.com/zgf/lact1/4/img/1523440266313.png&quot;]}],&quot;activityCode&quot;:&quot;254f744b690045359c4cbdc0cd5aff4f&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",`uuser_id`=1,`status`=2,`publish_time`="2018-04-11 20:01:23",`update_time`="2018-04-11 20:01:23" WHERE `id`=110 
+[2018-04-11 20:01:24.039] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:01:24.047] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:18:10.395] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:18:10.399] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:18:15.163] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 20:18:15.183] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 20:18:22.614] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:18:22.615] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:18:30.429] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 20:18:30.452] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 20:18:30.459] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=110 
+[2018-04-11 20:18:30.461] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=110 
+[2018-04-11 20:18:30.487] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:18:30.488] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:18:34.441] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=110 
+[2018-04-11 20:18:34.456] [DEBUG] database - DELETE FROM `act` WHERE `id`=110 
+[2018-04-11 20:18:34.480] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:18:34.481] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:18:36.309] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-11 20:18:38.232] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-11 20:18:38.240] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-11 20:19:03.157] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-04-11 20:19:03.361] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-04-11 20:19:03.390] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":oss_code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-04-11 20:19:03.391] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`oss_code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","zgf","02a7cd5619af4a338afd9482ce239812","http://local_activity.zhenggaofeng.com/zgf/lact1/5/index.html","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/5/img/1523449133650.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin&quot;:&quot;20px 0&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;ce589c06e9cd4c698082ab0936a404a4&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/lact1/5/img/1523449139446.png&quot;]}],&quot;activityCode&quot;:&quot;02a7cd5619af4a338afd9482ce239812&quot;,&quot;code&quot;:&quot;act1&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;ls=1&amp;amp;amp;amp;mt=8&quot;}",5,"images,buttons,images",1,"2018-04-11 08:19:03")
+[2018-04-11 20:19:03.742] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:19:03.742] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:20:27.468] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:20:27.470] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:20:34.487] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:20:34.488] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:21:15.688] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 20:21:15.723] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:21:15.724] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-11 20:29:05.699] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-11 20:29:05.716] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-11 20:29:05.717] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

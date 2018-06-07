@@ -1,0 +1,358 @@
+[2017-11-14 10:25:46.308] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:25:46.316] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:25:48.276] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 10:25:48.279] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:25:49.685] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:25:49.686] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:37:17.808] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:37:28.426] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 10:37:28.535] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-14 10:37:28.596] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`template`=":template",`update_time`=":update_time" WHERE `id`="32" 
+[2017-11-14 10:37:28.597] [DEBUG] database - UPDATE `act_tpl` SET `name`="tttt",`code`="ttttt",`parts`="images_0,buttons_1",`desc`="",`template`="/template_act/ttttt/20171114/tpl1",`update_time`="2017-11-14 10:37:28" WHERE `id`="32" 
+[2017-11-14 10:37:29.041] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:37:29.085] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:41:42.112] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:42:04.894] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-14 10:42:04.938] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`template`=":template",`update_time`=":update_time" WHERE `id`="32" 
+[2017-11-14 10:42:04.939] [DEBUG] database - UPDATE `act_tpl` SET `name`="tttt",`code`="ttttt",`parts`="images_0,buttons_1",`desc`="",`template`="/template_act/ttttt/20171114/tpl1",`update_time`="2017-11-14 10:42:04" WHERE `id`="32" 
+[2017-11-14 10:42:05.313] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:42:05.371] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:42:25.712] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:43:06.516] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 10:43:06.564] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 10:43:06.564] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 10:43:06")
+[2017-11-14 10:43:54.065] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 10:43:54.116] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 10:43:54.135] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 10:43:54.136] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 10:43:54")
+[2017-11-14 10:47:12.775] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 10:47:12.789] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 10:47:12.790] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 10:47:12")
+[2017-11-14 10:48:51.175] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:48:51.178] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:48:54.184] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:49:32.486] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 10:49:32.520] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-14 10:49:32.535] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`template`=":template",`update_time`=":update_time" WHERE `id`="32" 
+[2017-11-14 10:49:32.536] [DEBUG] database - UPDATE `act_tpl` SET `name`="tttt",`code`="ttttt",`parts`="images_0,buttons_1",`desc`="",`template`="/template_act/ttttt/20171114",`update_time`="2017-11-14 10:49:32" WHERE `id`="32" 
+[2017-11-14 10:49:32.816] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 10:49:32.818] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 10:49:46.656] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:50:11.925] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 10:50:11.934] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 10:50:11.934] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 10:50:11")
+[2017-11-14 10:53:12.624] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 10:53:12.674] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 10:53:12.689] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 10:53:12.690] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 10:53:12")
+[2017-11-14 10:53:40.695] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-14 10:53:40.722] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=32 
+[2017-11-14 10:54:11.216] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 10:54:11.226] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-14 10:54:11.226] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("test1","test1","https://activity.jiandanjiekuan.com/pages/public/test1/tpl1.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;https://activity.jiandanjiekuan.com/pages/test1/img/logo_1510628036663.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114105340/logo_1510628042276.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114105340/logo_1510628048199.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;auto&quot;}}}}",2,"template_act/ttttt/20171114","1","2017-11-14 10:54:11","2017-11-14 10:54:11")
+[2017-11-14 10:54:11.541] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 10:54:11.550] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 18:39:28.353] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 18:39:28.354] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:07:55.763] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:07:55.764] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:08:02.453] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:08:02.453] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:08:08.434] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:08:08.435] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:08:11.824] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:08:11.829] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:08:51.172] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:08:51.206] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-14 19:08:51.216] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":template",":parts",":desc",":status",:count,":create_time")
+[2017-11-14 19:08:51.217] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("zjkpc","tplpc","template_act/tplpc/20171114/tpl1.html","images_0,buttons_1","","1",0,"2017-11-14 07:08:51")
+[2017-11-14 19:08:51.467] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:08:51.471] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:08:53.797] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:09:20.049] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:09:20.067] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js [ 'url can not be nullundefined' ]
+[2017-11-14 19:09:20.072] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:20.083] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:20.084] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:20")
+[2017-11-14 19:09:20.084] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:20.095] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:20.095] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:20")
+[2017-11-14 19:09:22.872] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:09:22.880] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js [ 'url can not be nullundefined' ]
+[2017-11-14 19:09:22.885] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:22.885] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:22.893] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:22.893] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:22")
+[2017-11-14 19:09:22.894] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:22.894] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:22")
+[2017-11-14 19:09:44.476] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:09:44.487] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js [ 'url can not be nullundefined' ]
+[2017-11-14 19:09:44.491] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:44.491] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:09:44.499] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:44.500] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:44")
+[2017-11-14 19:09:44.500] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:09:44.500] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:09:44")
+[2017-11-14 19:12:44.328] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:12:44.336] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js [ 'url can not be nullundefined' ]
+[2017-11-14 19:12:44.347] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:12:44.347] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:12:44.353] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:12:44.353] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:12:44")
+[2017-11-14 19:12:44.354] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:12:44.354] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:12:44")
+[2017-11-14 19:14:43.581] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:14:43.630] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:14:43.650] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js [ 'url can not be nullundefined' ]
+[2017-11-14 19:14:43.661] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:14:43.661] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:14:43.672] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:14:43.673] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:14:43")
+[2017-11-14 19:14:43.674] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:14:43.674] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:14:43")
+[2017-11-14 19:17:02.142] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:17:02.229] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:17:02.238] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:17:02.246] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:17:02.246] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:17:02")
+[2017-11-14 19:17:02.248] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:17:02.248] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:17:02")
+[2017-11-14 19:17:32.008] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:17:32.072] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:17:32.089] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:17:32.090] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:17:32")
+[2017-11-14 19:17:32.091] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:17:32.097] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:17:32.098] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:17:32")
+[2017-11-14 19:18:46.512] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:18:46.589] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:18:46.607] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:18:46.609] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:18:46.610] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:18:46")
+[2017-11-14 19:18:46.618] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:18:46.619] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:18:46")
+[2017-11-14 19:20:58.482] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:20:58.557] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:20:58.570] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:20:58.576] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:20:58.577] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:20:58")
+[2017-11-14 19:20:58.577] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:20:58.577] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:20:58")
+[2017-11-14 19:21:09.235] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-14 19:21:09.265] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:21:10.999] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:21:34.597] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:21:34.598] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:21:34.608] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:21:34.608] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:21:34")
+[2017-11-14 19:21:34.616] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:21:34.617] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:21:34")
+[2017-11-14 19:22:08.457] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:22:08.503] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:08.513] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:08.523] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:08.523] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:08")
+[2017-11-14 19:22:08.524] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:08.524] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:08")
+[2017-11-14 19:22:20.571] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:20.572] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:20.578] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:20.578] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:20")
+[2017-11-14 19:22:20.591] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:20.591] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:20")
+[2017-11-14 19:22:20.869] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:20.869] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:20.881] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:20.881] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:20")
+[2017-11-14 19:22:20.884] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:20.884] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:20")
+[2017-11-14 19:22:21.365] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:21.366] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:21.378] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:21.378] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:21")
+[2017-11-14 19:22:21.378] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:21.378] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:21")
+[2017-11-14 19:22:21.461] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:21.462] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:21.476] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:21.476] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:21")
+[2017-11-14 19:22:21.477] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:21.477] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:21")
+[2017-11-14 19:22:31.182] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:31.182] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:22:31.191] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:31.191] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:31")
+[2017-11-14 19:22:31.196] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:22:31.196] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:22:31")
+[2017-11-14 19:24:08.480] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:24:08.483] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:24:08.493] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:24:08.494] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:24:08")
+[2017-11-14 19:24:08.494] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:24:08.494] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:24:08")
+[2017-11-14 19:29:21.865] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:29:21.912] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:29:21.927] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:29:21.928] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:29:21.929] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:29:21")
+[2017-11-14 19:29:21.934] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:29:21.935] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:29:21")
+[2017-11-14 19:29:40.483] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-14 19:29:40.503] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:29:42.051] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:30:03.019] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:30:03.070] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:03.085] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:03.086] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:03")
+[2017-11-14 19:30:03.087] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:03.098] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:03.098] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:03")
+[2017-11-14 19:30:11.461] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:11.461] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:11.467] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:11.468] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:11")
+[2017-11-14 19:30:11.468] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:11.469] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:11")
+[2017-11-14 19:30:49.426] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:30:49.483] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:49.492] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:30:49.498] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:49.501] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:49")
+[2017-11-14 19:30:49.501] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:30:49.502] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:30:49")
+[2017-11-14 19:31:19.625] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:31:19.683] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:31:19.695] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:31:19.696] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:31:19")
+[2017-11-14 19:31:19.697] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:31:19.702] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:31:19.702] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:31:19")
+[2017-11-14 19:31:47.823] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:31:47.886] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:31:47.904] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:31:47.904] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:31:47.905] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:31:47")
+[2017-11-14 19:31:47.909] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:31:47.910] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:31:47")
+[2017-11-14 19:32:18.247] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:32:18.304] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:32:18.314] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:32:18.315] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:32:18.315] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:32:18")
+[2017-11-14 19:32:18.324] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:32:18.325] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:32:18")
+[2017-11-14 19:32:39.566] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:32:39.627] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:32:39.640] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:32:39.641] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:32:39.642] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:32:39")
+[2017-11-14 19:32:39.648] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:32:39.649] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:32:39")
+[2017-11-14 19:33:04.359] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:33:04.415] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:33:04.427] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:33:04.428] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:33:04")
+[2017-11-14 19:33:04.429] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:33:04.436] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:33:04.437] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:33:04")
+[2017-11-14 19:33:34.759] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:33:34.822] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:33:34.831] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:33:34.842] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:33:34.845] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:33:34")
+[2017-11-14 19:33:34.845] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:33:34.846] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:33:34")
+[2017-11-14 19:34:01.717] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:34:01.769] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:34:01.782] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:34:01.782] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:34:01.783] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:34:01")
+[2017-11-14 19:34:01.787] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:34:01.788] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:34:01")
+[2017-11-14 19:34:29.983] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:34:30.040] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:34:30.052] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:34:30.053] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:34:30.053] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:34:30")
+[2017-11-14 19:34:30.057] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:34:30.058] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:34:30")
+[2017-11-14 19:35:02.808] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:35:02.810] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:35:26.886] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:35:26.920] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-14 19:35:26.932] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":template",":parts",":desc",":status",:count,":create_time")
+[2017-11-14 19:35:26.937] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("aaaa","aaaa","template_act/aaaa/20171114/tpl1.html","images_0,buttons_1,images_2,buttons_3","","1",0,"2017-11-14 07:35:26")
+[2017-11-14 19:35:27.187] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:35:27.187] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:35:47.726] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2017-11-14 19:36:46.599] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:36:46.600] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:36:48.934] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:37:31.926] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:37:31.927] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:37:31.938] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:37:31.938] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:37:31")
+[2017-11-14 19:37:31.948] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:37:31.948] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:37:31")
+[2017-11-14 19:37:59.846] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:37:59.902] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:37:59.915] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:37:59.916] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:37:59")
+[2017-11-14 19:37:59.917] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:37:59.923] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:37:59.924] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:37:59")
+[2017-11-14 19:39:00.055] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:43:15.984] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:48:45.040] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:49:57.095] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:49:57.143] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:49:57.152] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-14 19:49:57.153] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("ttt","ttt","https://activity.jiandanjiekuan.com/pagesttt/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;https://activity.jiandanjiekuan.com/pages/public/ttt/img/logo_1510659415689.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114193648/logo_1510659424271.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114193648/logo_1510659428765.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;auto&quot;}}}}",2,"template_act/tplpc/20171114/tpl1.html","1","2017-11-14 07:49:57","2017-11-14 19:49:57")
+[2017-11-14 19:49:57.168] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:49:57.177] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:49:57.178] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:49:57")
+[2017-11-14 19:49:57.462] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:49:57.470] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:52:20.822] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-14 19:52:20.824] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:52:33.421] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2017-11-14 19:52:33.429] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="7" 
+[2017-11-14 19:52:33.430] [DEBUG] database - UPDATE `config` SET `name`="活动页面保存路径",`key`="actPublishPath",`value`="{root}/www/static_act",`status`=1,`update_time`="2017-11-14 07:52:33" WHERE `id`="7" 
+[2017-11-14 19:52:33.457] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:52:33.458] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-14 19:53:28.521] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:53:28.523] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:53:30.203] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:53:30.203] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:53:32.414] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 19:53:32.414] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:53:35.168] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2017-11-14 19:53:55.250] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-14 19:53:55.295] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-14 19:53:55.305] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-14 19:53:55.306] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("aaaa","aaaa","https://activity.jiandanjiekuan.com/pages/aaaa/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;https://activity.jiandanjiekuan.com/pages/public/aaaa/img/logo_1510660423039.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114195335/logo_1510660427515.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;/public/temp/20171114195335/logo_1510660432870.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;auto&quot;}}}}",2,"template_act/tplpc/20171114/tpl1.html","1","2017-11-14 07:53:55","2017-11-14 19:53:55")
+[2017-11-14 19:53:55.320] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-14 19:53:55.327] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-14 19:53:55.328] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败","/api/act/publish","127.0.0.1","admin","2017-11-14 07:53:55")
+[2017-11-14 19:53:55.577] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:53:55.578] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:55:27.058] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:55:27.059] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:55:50.787] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 19:55:50.787] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:58:51.792] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-14 19:58:51.793] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-14 19:58:52.738] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-14 19:58:52.739] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-14 20:02:28.682] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-14 20:02:28.704] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 20:02:28.716] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 20:02:47.766] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-14 20:02:47.767] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-14 20:02:49.601] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 20:02:49.603] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-14 20:02:53.517] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-14 20:02:53.520] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-14 20:03:17.099] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2017-11-14 20:03:25.153] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-14 20:03:25.153] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

@@ -1,0 +1,11 @@
+[2017-11-08 14:32:35.376] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-08 14:33:12.090] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-08 14:36:38.159] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-08 14:36:38.161] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-08 14:36:41.375] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-08 14:36:41.375] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-11-08 14:36:41.382] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-11-08 14:36:44.394] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-08 14:36:44.400] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-08 14:36:44.412] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-08 14:36:47.257] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 

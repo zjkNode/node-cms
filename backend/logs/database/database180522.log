@@ -1,0 +1,114 @@
+[2018-05-22 10:25:24.489] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 10:25:24.493] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 10:25:27.512] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-22 10:25:27.524] [DEBUG] database - DELETE FROM `act` WHERE `id`=117 
+[2018-05-22 10:25:27.549] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 10:25:27.550] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 10:36:24.262] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-22 10:36:26.296] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-22 10:36:26.309] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 10:38:41.440] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-22 10:38:41.447] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-05-22 10:38:41.448] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("ttt","tttt","7d78a08bda5d4f099cae46048bcabfb5","","{&quot;title&quot;:&quot;ttt&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;419px&quot;,&quot;background-image&quot;:&quot;/temp/20180522103626/1526956600032.jpg&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;100px&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180522103626/1526956616164.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;第一行文本\u0001第三行文本\u0001第三行文本\u0001第四行文本&quot;}}],&quot;activityCode&quot;:&quot;7d78a08bda5d4f099cae46048bcabfb5&quot;,&quot;code&quot;:&quot;tttt&quot;}",1,"rolling",1,"2018-05-22 10:38:41")
+[2018-05-22 10:38:41.756] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 10:38:41.764] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 10:38:44.258] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 10:38:44.266] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:12:28.836] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:12:28.841] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:33:12.737] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:33:12.750] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:33:41.287] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:33:41.306] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:34:44.721] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:34:44.729] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:35:27.053] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:35:27.064] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:46:53.702] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:46:53.715] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:47:33.155] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:47:33.161] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:47:51.339] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:47:51.348] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:48:59.500] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:48:59.535] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 11:49:28.568] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 11:49:28.626] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 13:48:31.347] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-22 13:48:31.383] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 13:48:31.423] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 13:48:54.774] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-22 13:48:54.783] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=118 
+[2018-05-22 13:48:54.784] [DEBUG] database - UPDATE `act` SET `name`="ttt",`code`="tttt",`activity_code`="7d78a08bda5d4f099cae46048bcabfb5",`data`="{&quot;title&quot;:&quot;ttt&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;419px&quot;,&quot;background-image&quot;:&quot;/temp/20180522103626/1526956600032.jpg&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;100px&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180522103626/1526956616164.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;第一行文本\\u0001第三行文本\\u0001第三行文本\\u0001第四行文本&quot;}}],&quot;activityCode&quot;:&quot;7d78a08bda5d4f099cae46048bcabfb5&quot;,&quot;code&quot;:&quot;tttt&quot;}",`url`="",`components`="rolling",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-05-22 01:48:54" WHERE `id`=118 
+[2018-05-22 13:48:55.131] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 13:48:55.137] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 13:48:57.368] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=121 
+[2018-05-22 13:48:57.379] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 13:55:18.518] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=121 
+[2018-05-22 13:55:18.546] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 13:55:38.710] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-22 13:55:38.716] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=121 
+[2018-05-22 13:55:38.716] [DEBUG] database - UPDATE `act` SET `name`="ttt",`code`="tttt",`activity_code`="7d78a08bda5d4f099cae46048bcabfb5",`data`="{&quot;title&quot;:&quot;ttt&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;419px&quot;,&quot;background-image&quot;:&quot;/temp/20180522103626/1526956600032.jpg&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;100px&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180522103626/1526956616164.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;第一行文本\u0001\u0001第三行文本\u0001第三行文本\u0001第四行文本&quot;}}],&quot;activityCode&quot;:&quot;7d78a08bda5d4f099cae46048bcabfb5&quot;,&quot;code&quot;:&quot;tttt&quot;}",`url`="",`components`="rolling",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-05-22 01:55:38" WHERE `id`=121 
+[2018-05-22 13:55:39.027] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 13:55:39.027] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 13:55:41.216] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=121 
+[2018-05-22 13:55:41.224] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 16:32:45.678] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2018-05-22 16:32:45.681] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-22 16:32:45.682] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-22 16:32:45.696] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:18.487] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:18.488] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:21.812] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=121 
+[2018-05-22 16:33:21.819] [DEBUG] database - DELETE FROM `act` WHERE `id`=121 
+[2018-05-22 16:33:21.844] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:21.844] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:23.788] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=120 
+[2018-05-22 16:33:23.794] [DEBUG] database - DELETE FROM `act` WHERE `id`=120 
+[2018-05-22 16:33:23.834] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:23.842] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:25.776] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=119 
+[2018-05-22 16:33:25.783] [DEBUG] database - DELETE FROM `act` WHERE `id`=119 
+[2018-05-22 16:33:25.813] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:25.814] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:29.026] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=118 
+[2018-05-22 16:33:29.030] [DEBUG] database - DELETE FROM `act` WHERE `id`=118 
+[2018-05-22 16:33:29.049] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:29.050] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:31.155] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=115 
+[2018-05-22 16:33:31.173] [DEBUG] database - DELETE FROM `act` WHERE `id`=115 
+[2018-05-22 16:33:31.196] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:33:31.197] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:33:32.628] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-22 16:33:34.668] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 16:33:34.689] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-22 16:36:46.398] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-22 16:36:46.411] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-05-22 16:36:46.412] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("rolling","act_roll","dbc60e06cc7147dcaf91a313beed59b3","","{&quot;title&quot;:&quot;rolling&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;400px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;#eeeeee&quot;,&quot;padding-top&quot;:&quot;150px&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180522163334/1526978125219.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;刘*兴 135****6599 抽中1000元免息券\u0001陈*   133****1665 抽中400元免息券\u0001杨*婷 158****9002 抽中饿了么红包\u0001刘*   139****6331 抽中10元直减券\u0001龙*钟 152****0959 抽中1000元现金\u0001吕*红 182****5400 抽中1000元现金\u0001尹*   182****0049 抽中500元免息券\u0001张*海 156****7462 抽中来伊份30元优惠券\u0001范*   139****3158 抽中400元免息券\u0001于*宇 187****6536 抽中饿了么红包\u0001赵*容 135****9254 抽中饿了么红包\u0001梁*琳 131****9907 抽中10元直减券\u0001李*明 152****9103 抽中饿了么红包\u0001默*   186****5997 抽中500元免息券\u0001刘*云 150****1603 抽中10元直减券\u0001张*坤 188****0485 抽中1000元现金\u0001郑*   182****6752 抽中500元免息券\u0001姚*强 133****9002 抽中1000元现金\u0001谭*   152****3548 抽中饿了么红包\u0001郑*宇 138****1218 抽中400元免息券\u0001郭*敏 188****0743 抽中1000元现金\u0001李*   136****5942 抽中10元直减券\u0001刘*婷 156****2609 抽中饿了么红包\u0001邓*   132****9943 抽中5元直减券\u0001郑*兴 182****3706 抽中5元直减券\u0001郭*平 150****9098 抽中1000元现金\u0001阳*   155****9165 抽中500元免息券\u0001杨*宾 183****0664 抽中饿了么红包\u0001柳*   136****0088 抽中500元免息券\u0001张*齐 183****7586 抽中饿了么红包\u0001蒋*立 187****4509 抽中1000元现金\u0001邹*平 186****2774抽中5元直减券\u0001彭*   138****5321 抽中饿了么红包\u0001李*劲 133****3902 抽中500元免息券\u0001郭*林 157****2505 抽中10元直减券\u0001贺*   139****2605 抽中1000元现金\u0001程*江 150****9980 抽中500元免息券\u0001刘*东 132****6642 抽中1000免息券\u0001默*   182****0678 抽中饿了么红包\u0001王*立 136****0450 抽中1000元现金\u0001葛*涓 183****0201 抽中来伊份30元优惠券\u0001黄*   134****5627 抽中500元免息券\u0001周*明 150****0258 抽中饿了么红包\u0001赵*平 155****1679 抽中来伊份30元优惠券\u0001李*丹 135****8655 抽中400元免息券\u0001田*   186****2203 抽中饿了么红包\u0001潘*伟 159****8873 抽中500元免息券\u0001孟*辉 188****2256 抽中5元直减券\u0001倪*   159****3617 抽中1000元现金\u0001严*卫 188****9897 抽中10元直减券\u0001毕*远 130****2459 抽中1000元现金\u0001管*风 158****0017 抽中饿了么红包&quot;}}],&quot;activityCode&quot;:&quot;dbc60e06cc7147dcaf91a313beed59b3&quot;,&quot;code&quot;:&quot;act_roll&quot;}",1,"rolling",1,"2018-05-22 04:36:46")
+[2018-05-22 16:36:46.742] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 16:36:46.754] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:36:49.502] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=122 
+[2018-05-22 16:36:49.510] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 16:36:54.431] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-05-22 16:36:54.733] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-22 16:36:54.841] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`oss_code`=":oss_code",`data`=":data" WHERE `id`=122 
+[2018-05-22 16:36:54.842] [DEBUG] database - UPDATE `act` SET `name`="rolling",`code`="act_roll",`components`="rolling",`url`="http://local_activity.zhenggaofeng.com/zgf/lact_roll/1/index.html",`activity_code`="dbc60e06cc7147dcaf91a313beed59b3",`user_id`=1,`status`=5,`update_time`="2018-05-22 04:36:54",`oss_code`="zgf",`data`="{&quot;title&quot;:&quot;rolling&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;400px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;#eeeeee&quot;,&quot;padding-top&quot;:&quot;150px&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;http://local_activity.zhenggaofeng.com/zgf/lact_roll/1/img/1526978125219.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;刘*兴 135****6599 抽中1000元免息券\u0001陈*   133****1665 抽中400元免息券\u0001杨*婷 158****9002 抽中饿了么红包\u0001刘*   139****6331 抽中10元直减券\u0001龙*钟 152****0959 抽中1000元现金\u0001吕*红 182****5400 抽中1000元现金\u0001尹*   182****0049 抽中500元免息券\u0001张*海 156****7462 抽中来伊份30元优惠券\u0001范*   139****3158 抽中400元免息券\u0001于*宇 187****6536 抽中饿了么红包\u0001赵*容 135****9254 抽中饿了么红包\u0001梁*琳 131****9907 抽中10元直减券\u0001李*明 152****9103 抽中饿了么红包\u0001默*   186****5997 抽中500元免息券\u0001刘*云 150****1603 抽中10元直减券\u0001张*坤 188****0485 抽中1000元现金\u0001郑*   182****6752 抽中500元免息券\u0001姚*强 133****9002 抽中1000元现金\u0001谭*   152****3548 抽中饿了么红包\u0001郑*宇 138****1218 抽中400元免息券\u0001郭*敏 188****0743 抽中1000元现金\u0001李*   136****5942 抽中10元直减券\u0001刘*婷 156****2609 抽中饿了么红包\u0001邓*   132****9943 抽中5元直减券\u0001郑*兴 182****3706 抽中5元直减券\u0001郭*平 150****9098 抽中1000元现金\u0001阳*   155****9165 抽中500元免息券\u0001杨*宾 183****0664 抽中饿了么红包\u0001柳*   136****0088 抽中500元免息券\u0001张*齐 183****7586 抽中饿了么红包\u0001蒋*立 187****4509 抽中1000元现金\u0001邹*平 186****2774抽中5元直减券\u0001彭*   138****5321 抽中饿了么红包\u0001李*劲 133****3902 抽中500元免息券\u0001郭*林 157****2505 抽中10元直减券\u0001贺*   139****2605 抽中1000元现金\u0001程*江 150****9980 抽中500元免息券\u0001刘*东 132****6642 抽中1000免息券\u0001默*   182****0678 抽中饿了么红包\u0001王*立 136****0450 抽中1000元现金\u0001葛*涓 183****0201 抽中来伊份30元优惠券\u0001黄*   134****5627 抽中500元免息券\u0001周*明 150****0258 抽中饿了么红包\u0001赵*平 155****1679 抽中来伊份30元优惠券\u0001李*丹 135****8655 抽中400元免息券\u0001田*   186****2203 抽中饿了么红包\u0001潘*伟 159****8873 抽中500元免息券\u0001孟*辉 188****2256 抽中5元直减券\u0001倪*   159****3617 抽中1000元现金\u0001严*卫 188****9897 抽中10元直减券\u0001毕*远 130****2459 抽中1000元现金\u0001管*风 158****0017 抽中饿了么红包&quot;}}],&quot;activityCode&quot;:&quot;dbc60e06cc7147dcaf91a313beed59b3&quot;,&quot;code&quot;:&quot;act_roll&quot;,&quot;baidu_code&quot;:&quot;a038eafe00cef1ffcc9f026f877d0f17&quot;,&quot;download_urls&quot;:&quot;huoshanqianbao://open_android_app,huoshanqianbao://open_ios_app,http://dl.zhenggaofeng.com/app/dl/huoshanqianbao.apk,http://a.app.qq.com/o/simple.jsp?pkgname=com.zgf.huoshan&amp;amp;amp;amp;amp;hmsr=%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85&amp;amp;amp;amp;amp;hmpl=%E5%BA%94%E7%94%A8%E5%AE%9D%E5%BE%AE%E4%BF%A1%E4%B8%8B%E8%BD%BD&amp;amp;amp;amp;amp;hmcu=&amp;amp;amp;amp;amp;hmkw=&amp;amp;amp;amp;amp;hmci=,https://itunes.apple.com/us/app/%E7%81%AB%E5%B1%B1%E9%92%B1%E5%8C%85-%E6%9E%81%E9%80%9F%E5%B0%8F%E9%A2%9D%E5%80%9F%E6%AC%BE/id1357532883?l=zh&amp;amp;amp;amp;amp;ls=1&amp;amp;amp;amp;amp;mt=8&quot;}" WHERE `id`=122 
+[2018-05-22 16:36:55.155] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 16:36:55.156] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 17:15:46.673] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=122 
+[2018-05-22 17:15:47.044] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 18:24:07.942] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-22 18:24:08.013] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-22 18:24:08.017] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-22 18:24:08.026] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-22 18:24:08.039] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-22 18:24:08.048] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-22 18:24:08.048] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-22 06:24:08")
+[2018-05-22 18:24:14.092] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-22 18:24:14.092] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-22 18:24:16.028] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=122 
+[2018-05-22 18:24:16.039] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 18:26:07.590] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=122 
+[2018-05-22 18:26:07.614] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-22 18:26:39.881] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=122 
+[2018-05-22 18:26:39.891] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

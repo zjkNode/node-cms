@@ -1,0 +1,7 @@
+[2017-11-03 14:49:19.880] [INFO] access - GET /api/user/userInfo
+[2017-11-03 14:49:19.891] [INFO] access - GET /api/menu/listsTree
+[2017-11-03 17:59:38.232] [INFO] access - POST /api/signout
+[2017-11-03 17:59:51.116] [ERROR] access - POST /api/signin
+[2017-11-03 18:00:26.731] [INFO] access - POST /api/signin
+[2017-11-03 18:00:26.808] [WARN] access - GET /api/menu/listsTree
+[2017-11-03 18:00:26.814] [INFO] access - GET /api/user/userInfo

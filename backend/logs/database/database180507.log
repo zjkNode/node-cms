@@ -1,0 +1,46 @@
+[2018-05-07 15:24:00.312] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-07 15:24:00.341] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-07 15:24:00.345] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-07 15:24:00.352] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-07 15:24:00.373] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-07 15:24:00.379] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-07 15:24:00.379] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-07 03:24:00")
+[2018-05-07 15:24:00.465] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-07 15:27:09.141] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-07 15:27:10.943] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-07 15:27:10.947] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-07 15:27:12.168] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 15:27:42.883] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 15:27:54.034] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:04:01.058] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-07 16:04:01.078] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-05-07 16:04:01.086] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-05-07 16:04:01.086] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("转盘模板","zpan","/images/act_tpl_image/1525680241074.png","turnplate","",1,0,"2018-05-07 04:04:01")
+[2018-05-07 16:04:01.353] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:04:10.939] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-07 16:04:10.961] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:08:07.576] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-07 16:08:07.578] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-07 16:08:16.355] [DEBUG] database - DELETE FROM `config` WHERE `id`="7" 
+[2018-05-07 16:08:19.628] [DEBUG] database - DELETE FROM `config` WHERE `id`="6" 
+[2018-05-07 16:10:33.099] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2018-05-07 16:10:33.106] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="4" 
+[2018-05-07 16:10:33.106] [DEBUG] database - UPDATE `config` SET `name`="图片上传保存路径",`key`="imageSavePath",`value`="/www/nodecms",`status`=1,`update_time`="2018-05-07 04:10:33" WHERE `id`="4" 
+[2018-05-07 16:10:33.137] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-07 16:10:33.141] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-07 16:11:53.544] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:11:55.501] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-07 16:12:07.059] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-07 16:12:07.080] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-05-07 16:12:07.090] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`cover`=":cover",`update_time`=":update_time" WHERE `id`="55" 
+[2018-05-07 16:12:07.090] [DEBUG] database - UPDATE `act_tpl` SET `name`="转盘模板",`code`="zpan",`parts`="turnplate",`desc`="",`cover`="/images/act_tpl_image/1525680727077.png",`update_time`="2018-05-07 04:12:07" WHERE `id`="55" 
+[2018-05-07 16:12:07.337] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:25:38.586] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:27:18.850] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-07 16:27:18.852] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-07 16:28:55.450] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 16:28:58.134] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 17:02:27.458] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-07 17:02:27.477] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-07 17:06:56.958] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-07 17:06:56.971] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

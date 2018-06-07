@@ -1,0 +1,99 @@
+{% extends "jdjk-pc/partials/layout.html" %}
+
+
+{% block headerCss %}
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/css/pc-wdzx.css"/>
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/css/pcCommonDif.css"/>
+{% endblock %}
+
+
+{% block body %}
+<div class="content">
+    <div class="out">
+        <h3 class="nav_path">
+            <a href="https://www.jiandanjiekuan.com">首页</a>&gt;
+            {% if pNewsTypes.length === 2 %}
+                <span>{{ pNewsTypes[1].name }}</span>
+            {% elif pNewsTypes.length === 3 %}
+                <a href="/{{ typeCode }}/">{{ pNewsTypes[1].name }} </a> &gt;
+                <span>{{ pNewsTypes[2].name }}</span>
+            {% endif %}
+        </h3>
+        <div class="main full">
+            <h2>
+                <ul id="tabNav">
+                    {% for newsType in cTypes %}
+                        <li class="{{'active' if typeKey == newsType.code }}"><a href="{{ newsType.path }}">{{ newsType.name }}</a></li>
+                    {% endfor %}
+                    <!-- {% if typeCode === 'zixun' %}
+                    <li class="{{'active' if typeKey === 'zx' }}"><a href="/zixun/">资讯首页</a></li>
+                    <li class="{{'active' if typeKey === 'zxgjjdk' }}"><a href="/zixun/gongjijindaikuan">公积金贷款</a></li>
+                    <li class="{{'active' if typeKey === 'zxxedk' }}"><a href="/zixun/xiaoedaikuan">小额贷款</a></li>
+                    <li class="{{'active' if typeKey === 'zxdydk' }}"><a href="/zixun/diyadaikuan">抵押贷款</a></li>
+                    <li class="{{'active' if typeKey === 'zxxykdk' }}"><a href="/zixun/xinyongkadaikuan">信用卡贷款</a></li>
+                    {% else %}
+                    <li class="{{'active' if typeKey === 'wd' }}"><a href="/wenda/">问答首页</a></li>
+                    <li class="{{'active' if typeKey === 'wddydk' }}"><a href="/wenda/diyadaikuan">抵押贷款</a></li>
+                    <li class="{{'active' if typeKey === 'wdgrdk' }}"><a href="/wenda/gerendaikuan">个人贷款</a></li>
+                    <li class="{{'active' if typeKey === 'wdmfdk' }}"><a href="/wenda/maifangdaikuan">买房贷款</a></li>
+                    <li class="{{'active' if typeKey === 'wdmcdk' }}"><a href="/wenda/maichedaikuan">买车贷款</a></li>
+                    {% endif %} -->
+                </ul>
+            </h2>
+            <div class="list">
+                <ul id="conList">
+                    {% for item in newsLists %}
+                    <li><a href="/{{ typeCode }}/{{item.id}}.html" title="{{item.title}}">• {{item.title}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+
+            <div id="pageBar" class="page">
+                <div class="ui-paging-container">
+                    <ul>   
+                        {% if page.first === 0 %}
+                        <li class="page-first ui-pager ui-pager-disabled"><a href="javascript:void(0)">首页</a></li>
+                        {% else %}
+                        <li class="page-first ui-pager"><a href="/{{ typeCode }}/?pn=1">首页</a></li>
+                        {% endif %}
+
+                        {% if page.prev === 0 %}
+                        <li class="page-prev ui-pager ui-pager-disabled"><a href="javascript:void(0)">&lt; 上一页</a></li>
+                        {% else %}
+                        <li class="page-prev ui-pager"><a href="/{{ typeCode }}/?pn={{ page.prev }}">&lt; 上一页</a></li>
+                        {% endif %}
+
+
+                        {% for item in page.series %}
+                            {% if item === '...' %}
+                            <li class="ui-paging-ellipse">...</li>
+                            {% else %}
+                            <li class="ui-pager {{ 'focus' if page.index == item }}"><a href="/{{ typeCode }}/?pn={{ item }}">{{ item }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if page.next === 0 %}
+                        <li class="page-next ui-pager ui-pager-disabled"><a href="javascript:void(0)">下一页 &gt;</a> </li>
+                        {% else %}
+                        <li class="page-next ui-pager"><a href="/{{ typeCode }}/?pn={{ page.next }}">下一页 &gt; </a></li>
+
+                        {% endif %}
+
+                        {% if page.end === 0 %}
+                        <li class="page-last ui-pager ui-pager-disabled"><a href="javascript:void(0)">尾页</a></li>
+                        {% else %}
+                        <li class="page-last ui-pager"><a href="/{{ typeCode }}/?pn={{ page.end }}">尾页</a></li>
+                        {% endif %}
+                        <li class="ui-paging-toolbar">
+                            至 <input type="text" class="ui-paging-count" onkeyup="value=value.replace(/[^\d]/g,'');" value="{{ page.index }}">页 <a href="javascript:void(0)">跳转</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{baseUrl}}/js/pc-wdzx.js"></script>
+<script src="{{baseUrl}}/js/pcCommonDif.js"></script>
+{% endblock %}

@@ -1,0 +1,386 @@
+[2017-11-21 17:26:25.569] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2017-11-21 17:26:25.572] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 17:26:25.573] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 17:26:25.574] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2017-11-21 17:26:25.574] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 17:26:25.616] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2017-11-21 17:26:25.617] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2017-11-21 17:42:36.706] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-21 17:42:36.734] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-21 17:42:36.740] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-11-21 17:42:36.750] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-11-21 17:42:36.767] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-21 17:42:36.777] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-21 17:42:36.777] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-11-21 05:42:36")
+[2017-11-21 17:42:39.290] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-21 17:42:44.807] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:42:44.808] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 17:42:44.856] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (9,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 17:42:49.411] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-21 17:42:49.414] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2017-11-21 17:42:49.423] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 17:42:49.424] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2017-11-21 17:42:49.426] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 17:42:49.427] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 17:42:49.435] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=9 
+[2017-11-21 17:44:11.212] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 17:44:26.155] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:44:26.162] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 17:44:26.191] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (9,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 17:44:43.911] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-21 17:44:43.913] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2017-11-21 17:44:43.918] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2017-11-21 17:44:43.920] [DEBUG] database - SELECT * FROM `news`  WHERE `id`="262" 
+[2017-11-21 17:44:43.922] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-21 17:44:43.922] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("发布新闻详情:262","/api/news/publish/262","127.0.0.1","admin","2017-11-21 05:44:43")
+[2017-11-21 17:44:43.937] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=20 
+[2017-11-21 17:44:43.944] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-21 17:44:43.951] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-21 17:44:43.951] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("发布失败：新闻类型不存在或已被删除","/api/news/publish/262","127.0.0.1","admin","2017-11-21 05:44:43")
+[2017-11-21 17:45:17.744] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 17:45:49.387] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=NaN 
+[2017-11-21 17:45:49.394] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/news.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-11-21 17:46:22.164] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-21 17:46:24.004] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:46:24.010] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 17:46:24.044] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (9,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 17:46:25.203] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2017-11-21 17:46:25.204] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2017-11-21 17:46:30.471] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 17:46:30.472] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:46:30.512] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (9,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 17:46:41.989] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:46:41.990] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 165,15
+[2017-11-21 17:46:42.000] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (5,7,9)  order by `id` ASC
+[2017-11-21 17:50:12.936] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 17:50:12.936] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 17:50:12.970] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (9,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 17:50:14.872] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 17:55:43.034] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:02:15.897] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 18:02:16.047] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:02:16.055] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:02:36.665] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:02:36.675] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:02:43.692] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:02:43.704] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:02:47.791] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:02:47.829] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:03:36.682] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:03:36.692] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:04:09.882] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:04:09.888] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:04:20.004] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:04:20.020] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:04:20.036] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-21 18:04:43.357] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:04:43.366] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:04:45.100] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:04:45.107] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:07:12.456] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:07:12.462] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:07:49.329] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:07:49.335] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:08:06.011] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:08:06.017] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:08:34.872] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:08:34.879] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:08:44.411] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:08:44.418] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:08:46.661] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:08:46.672] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:11:07.491] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:11:07.498] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:13:10.996] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:13:11.001] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:13:12.424] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:13:12.432] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:20:37.970] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:20:37.977] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:21:21.704] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:21:21.711] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:25:55.671] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:25:55.676] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:26:11.057] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:26:11.062] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:26:47.941] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:26:47.950] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:27:58.628] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:27:58.635] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:30:45.791] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:30:45.811] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:35:12.772] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:35:12.779] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:35:46.873] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:35:46.879] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:37:30.999] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:37:31.005] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:37:36.340] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:37:36.348] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:37:52.833] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:37:52.842] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:37:54.707] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:37:54.725] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:38:57.302] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 18:38:57.426] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:38:57.432] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:39:45.153] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:39:45.161] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:40:40.669] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:40:40.677] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:41:01.973] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:41:01.979] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:41:04.251] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:41:04.256] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:41:58.641] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:41:58.646] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:42:16.761] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:42:16.767] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:43:22.646] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:43:22.651] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:48:05.635] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:48:05.641] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:54:08.457] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:54:08.461] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:54:36.039] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:54:36.046] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:55:14.382] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:55:14.386] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:56:20.709] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:56:20.714] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:57:30.287] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:57:30.299] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:57:59.721] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:57:59.732] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 18:57:59.749] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-21 18:59:23.459] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 18:59:23.490] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 18:59:23.501] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-21 18:59:23.506] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 19:00:17.573] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:00:17.578] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 19:00:20.259] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:00:20.274] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=9 
+[2017-11-21 19:02:01.055] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 19:02:01.063] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:02:01.090] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=9 
+[2017-11-21 19:02:01.091] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-21 19:02:24.108] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:02:24.115] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=9 
+[2017-11-21 19:02:55.199] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:02:55.209] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:02:55.210] [DEBUG] database - UPDATE `news` SET `typeid`=3,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:02:55",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:07:14.225] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:07:14.238] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=3 
+[2017-11-21 19:07:16.047] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:07:16.055] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=3 
+[2017-11-21 19:07:20.844] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:07:20.862] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=3 
+[2017-11-21 19:07:25.170] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:07:25.175] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=3 
+[2017-11-21 19:07:29.917] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:07:29.924] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:07:29.924] [DEBUG] database - UPDATE `news` SET `typeid`=1,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:07:29",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:08:19.693] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:08:19.699] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=1 
+[2017-11-21 19:09:27.202] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:09:27.216] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:09:27.216] [DEBUG] database - UPDATE `news` SET `typeid`=0,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:09:27",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:09:28.344] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:09:28.351] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=0 
+[2017-11-21 19:10:27.715] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:10:27.737] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:10:27.737] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:10:27",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:10:29.109] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:10:29.120] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:10:33.568] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:10:33.573] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:10:34.919] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:10:34.927] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:10:39.185] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:10:39.193] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:10:39.193] [DEBUG] database - UPDATE `news` SET `typeid`=2,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdffasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:10:39",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:11:20.819] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:11:20.826] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:25:15.924] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:25:15.943] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:25:38.971] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:25:38.975] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:25:43.510] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:25:43.521] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:25:45.404] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:25:45.411] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:25:45.412] [DEBUG] database - UPDATE `news` SET `typeid`=1,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdffasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:25:45",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:26:09.486] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:26:09.491] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=1 
+[2017-11-21 19:26:14.093] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:26:14.101] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=1 
+[2017-11-21 19:26:16.554] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:26:16.560] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:26:16.560] [DEBUG] database - UPDATE `news` SET `typeid`=0,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdffasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:26:16",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:27:51.070] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:27:51.109] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=0 
+[2017-11-21 19:27:54.050] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:27:54.054] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=0 
+[2017-11-21 19:28:09.331] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:28:09.337] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:28:09.337] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdffasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:28:09",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:29:16.030] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:29:16.038] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:29:18.759] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:29:18.768] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:29:18.787] [DEBUG] database - UPDATE `news` SET `typeid`=2,`title`="test",`content`="&lt;p&gt;请输入内容testtestfasdfasdfasdfasdffasdfasdffasdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:29:18",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:29:37.944] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:29:37.955] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:29:39.359] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:29:39.381] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:29:39.381] [DEBUG] database - UPDATE `news` SET `typeid`=1,`title`="test",`content`="&lt;p&gt;请输入内容&lt;/p&gt;",`update_time`="2017-11-21 07:29:39",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:30:00.196] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:30:00.249] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=1 
+[2017-11-21 19:33:38.954] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:33:39.398] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:33:39.398] [DEBUG] database - UPDATE `news` SET `typeid`=0,`title`="test",`content`="&lt;p&gt;请输入内容&lt;/p&gt;",`update_time`="2017-11-21 07:33:38",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:33:39.670] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:33:39.956] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=0 
+[2017-11-21 19:33:59.116] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:33:59.784] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:33:59.784] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;请输入内容&lt;/p&gt;",`update_time`="2017-11-21 07:33:58",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:34:51.070] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:34:51.075] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:34:56.568] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:34:56.577] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:35:01.131] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:35:01.137] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:35:27.371] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:35:27.377] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:35:42.407] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:35:42.415] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:35:42.415] [DEBUG] database - UPDATE `news` SET `typeid`=2,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfa&lt;/p&gt;",`update_time`="2017-11-21 07:35:42",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:36:55.487] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:36:55.488] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:36:55.541] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (2,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:36:59.953] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:36:59.957] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:37:03.574] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:37:03.583] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:37:03.585] [DEBUG] database - UPDATE `news` SET `typeid`=1,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:37:03",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:37:03.884] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:37:03.885] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:37:03.933] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (1,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:37:42.035] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:37:42.036] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:37:42.068] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (1,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:37:46.264] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:37:46.278] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=1 
+[2017-11-21 19:37:48.101] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:37:48.109] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:37:48.110] [DEBUG] database - UPDATE `news` SET `typeid`=0,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:37:48",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:37:48.423] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:37:48.425] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:37:48.454] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (0,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:37:51.100] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:37:51.107] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=0 
+[2017-11-21 19:38:17.314] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:38:17.320] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:38:17.321] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:38:17",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:38:17.590] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:38:17.591] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:38:17.619] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:38:41.465] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:38:41.472] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:38:59.655] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:38:59.662] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:38:59.662] [DEBUG] database - UPDATE `news` SET `typeid`=2,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:38:59",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:38:59.967] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:38:59.968] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:38:59.998] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (2,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:39:09.762] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:39:09.768] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:40:27.550] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:40:27.564] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=2 
+[2017-11-21 19:40:35.199] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:40:35.206] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:40:35.206] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:40:35",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:40:35.478] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:40:35.485] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:40:35.528] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:40:37.488] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:40:37.494] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:41:09.649] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:41:09.655] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:41:29.454] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:41:29.460] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:41:29.461] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:41:29",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:41:29.753] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:41:29.755] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:41:29.794] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:41:31.728] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:41:31.733] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:42:50.507] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:42:50.514] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:42:54.212] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:42:54.218] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:42:54.219] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:42:54",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:42:54.552] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:42:54.557] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:42:54.611] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:42:56.601] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:42:56.607] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:42:58.430] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:42:58.435] [DEBUG] database - UPDATE `news` SET `typeid`=:typeid,`title`=":title",`content`=":content",`update_time`=":update_time",`author`=":author" WHERE `id`=263 
+[2017-11-21 19:42:58.436] [DEBUG] database - UPDATE `news` SET `typeid`=4,`title`="test",`content`="&lt;p&gt;asdfasdfasdfasdfaafsdfasdfasdf&lt;/p&gt;",`update_time`="2017-11-21 07:42:58",`author`="admin" WHERE `id`=263 
+[2017-11-21 19:42:58.738] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:42:58.738] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:42:58.784] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:43:00.904] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=263 
+[2017-11-21 19:43:00.909] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 
+[2017-11-21 19:43:13.658] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:43:13.659] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:43:13.697] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10,7)  order by `id` ASC
+[2017-11-21 19:51:33.013] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2017-11-21 19:51:33.021] [DEBUG] database - INSERT INTO `news` (`typeid`,`title`,`content`,`status`,`author`,`create_time`) VALUES (:typeid,":title",":content",:status,":author",":create_time")
+[2017-11-21 19:51:33.021] [DEBUG] database - INSERT INTO `news` (`typeid`,`title`,`content`,`status`,`author`,`create_time`) VALUES (4,"tttttt","&lt;p&gt;请输入内容tttttttttttttt&lt;/p&gt;",2,"admin","2017-11-21 07:51:32")
+[2017-11-21 19:51:33.324] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-21 19:51:33.332] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-21 19:51:33.379] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10)  order by `id` ASC
+[2017-11-21 19:56:35.165] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-21 19:56:35.167] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=264 
+[2017-11-21 19:56:35.168] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 19:56:35.169] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2017-11-21 19:56:35.169] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2017-11-21 19:56:35.170] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 19:56:35.180] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-21 19:56:35.183] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=4 

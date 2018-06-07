@@ -1,0 +1,166 @@
+[2018-04-19 10:52:20.210] [INFO] system - 正在监听 port 7071
+[2018-04-19 10:52:20.216] [INFO] system - 程序出现未捕获异常
+[2018-04-19 10:52:20.217] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 10:52:20.217] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-19 10:52:20.224] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 10:52:20.224] [INFO] system - 关闭连接
+[2018-04-19 10:52:20.225] [INFO] system - 程序出现未捕获异常
+[2018-04-19 10:52:20.226] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 10:52:20.226] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-19 10:52:20.226] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 10:52:20.227] [INFO] system - 关闭连接
+[2018-04-19 10:52:20.228] [INFO] system - 正在监听 port 7071
+[2018-04-19 10:52:20.228] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:25:41.980] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:25:41.986] [INFO] system - 程序出现未捕获异常
+[2018-04-19 15:25:41.986] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 15:25:41.986] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-19 15:25:41.994] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 15:25:41.994] [INFO] system - 关闭连接
+[2018-04-19 15:25:41.995] [INFO] system - 程序出现未捕获异常
+[2018-04-19 15:25:41.996] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 15:25:41.996] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-19 15:25:41.996] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 15:25:41.996] [INFO] system - 关闭连接
+[2018-04-19 15:25:41.998] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:25:41.998] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:28:26.799] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:28:26.805] [INFO] system - 程序出现未捕获异常
+[2018-04-19 15:28:26.806] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 15:28:26.806] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-19 15:28:26.814] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 15:28:26.814] [INFO] system - 关闭连接
+[2018-04-19 15:28:26.815] [INFO] system - 程序出现未捕获异常
+[2018-04-19 15:28:26.815] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 15:28:26.816] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-19 15:28:26.816] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 15:28:26.817] [INFO] system - 关闭连接
+[2018-04-19 15:28:26.818] [INFO] system - 正在监听 port 7071
+[2018-04-19 15:28:26.819] [INFO] system - 正在监听 port 7071
+[2018-04-19 16:06:46.371] [ERROR] system - { Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:951:18)
+    at exports.lists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/components.controller.js:84:20)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' } undefined
+[2018-04-19 16:37:50.770] [ERROR] system - { Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:951:18)
+    at exports.lists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/components.controller.js:84:20)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' } undefined
+[2018-04-19 19:26:08.887] [INFO] system - 正在监听 port 7071
+[2018-04-19 19:26:08.892] [INFO] system - 程序出现未捕获异常
+[2018-04-19 19:26:08.894] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 19:26:08.894] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-19 19:26:08.904] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 19:26:08.904] [INFO] system - 关闭连接
+[2018-04-19 19:26:08.906] [INFO] system - 程序出现未捕获异常
+[2018-04-19 19:26:08.906] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-19 19:26:08.906] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-19 19:26:08.907] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-19 19:26:08.907] [INFO] system - 关闭连接
+[2018-04-19 19:26:08.909] [INFO] system - 正在监听 port 7071
+[2018-04-19 19:26:08.909] [INFO] system - 正在监听 port 7071

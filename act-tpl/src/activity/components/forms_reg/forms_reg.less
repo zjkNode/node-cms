@@ -1,0 +1,75 @@
+@import "../../static/css/fonts/fonts.css";
+.regFormWrap{
+  width: 100%;
+  font-size: 14px;
+  background-size: contain;
+  overflow:hidden;
+  .formContent{
+    margin: 30px auto;
+    width: 90%; 
+    &.space{
+        border:none;
+        height: auto;
+        p{
+            margin-bottom:40px;
+        }
+    }
+    p{
+        border: 1px solid #b2b2b2;
+        font-size: 14px;
+        margin-top: -1px;
+        position: relative;
+        background-color:#fff;
+    }
+    &.radius{
+        p:first-child{
+            border-radius:20px 20px 0 0;;
+        }
+        p:last-child{
+            border-radius: 0 0 20px 20px
+        }
+    }
+    &.radius.space{
+        p{ border-radius:20px;overflow:hidden;}
+    }
+    input{
+        display: inline-block;
+        vertical-align: middle;
+        color: #333;
+        border: none;
+        height: 110px;
+        width:75%;
+    }
+    .btnCode{
+        position:absolute;
+        height: 110px;
+        width: 300px;
+        right:0;top:0;
+        border-left:1px solid #b2b2b2;
+        background: transparent;
+        &:focus{
+            outline: none;
+        }
+
+        &[disabled]{
+            color: #dedede !important;
+        }
+    }
+    .icon{
+        width: 20%;
+        font-size: 30px;
+        line-height: 110px;
+    }
+  }
+  .formBottom{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 25px;
+    .btn{
+        max-width: 100%;
+        display:inline-block;
+    }
+  }
+
+}

@@ -1,0 +1,7 @@
+[2017-12-01 10:02:41.056] [WARN] access - GET /api/act/lists?keys=&pageSize=15&pageIndex=1
+[2017-12-01 10:02:56.811] [INFO] access - GET /api/act/16
+[2017-12-01 10:03:06.452] [INFO] access - POST /api/act/upload
+[2017-12-01 13:31:13.529] [WARN] access - GET /api/config/lists?keys=&pageSize=15&pageIndex=1
+[2017-12-01 13:31:15.325] [WARN] access - GET /api/menu/listsTree
+[2017-12-01 13:31:15.335] [WARN] access - GET /api/menu/lists?keys=
+[2017-12-01 13:31:15.365] [WARN] access - GET /api/menu/listsTree

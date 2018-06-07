@@ -1,0 +1,186 @@
+[2018-04-23 17:34:00.942] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-04-23 17:34:00.963] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-04-23 17:34:00.969] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-04-23 17:34:00.975] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-04-23 17:34:00.992] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-23 17:34:01.005] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-23 17:34:01.006] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-04-23 05:34:00")
+[2018-04-23 17:34:01.165] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-23 17:34:05.756] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:34:05.759] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:34:05.772] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:34:21.403] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 17:34:21.404] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 17:34:21.443] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:34:21.444] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 17:34:22.723] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:34:22.724] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:34:22.728] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:35:16.496] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 17:35:16.498] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 17:35:16.528] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:35:16.529] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 17:35:18.974] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:35:18.976] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:35:18.982] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:35:34.309] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:35:34.311] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:35:34.317] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:53:24.850] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:53:24.851] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:53:24.865] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:58:57.173] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:58:57.183] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:58:57.201] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 17:59:08.984] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 17:59:08.985] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 17:59:08.990] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:03:03.464] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:03:03.465] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:03:03.472] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:03:06.017] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:03:06.017] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:03:06.021] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:03:08.129] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:03:08.129] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:03:08.134] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:05:36.962] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:05:36.963] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:05:36.970] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:22:36.915] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:22:36.919] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:22:36.932] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:22:42.766] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:22:42.767] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:22:42.772] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:25:37.739] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:25:37.739] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:25:37.744] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:26:10.524] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:26:10.525] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:26:10.530] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:26:48.536] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:26:48.538] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:26:48.542] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:27:14.444] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:27:14.445] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:27:14.448] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:31:47.187] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:31:47.190] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:31:47.195] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:33:37.697] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:33:37.704] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:33:37.712] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:33:53.712] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:33:53.713] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:33:53.717] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:34:35.382] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:34:35.382] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:34:35.387] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:34:41.909] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:34:41.910] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:34:41.916] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:34:44.454] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:34:44.454] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:34:44.459] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 18:34:46.548] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 18:34:46.549] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 18:34:46.553] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:00:21.067] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:00:21.070] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:00:21.075] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:00:37.391] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-04-23 19:00:37.413] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-04-23 19:00:37.414] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-04-23 19:00:37.420] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-04-23 19:00:37.427] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-23 19:00:37.437] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-23 19:00:37.438] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-04-23 07:00:37")
+[2018-04-23 19:00:41.551] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:00:41.551] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:00:41.557] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:01:01.943] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:01:01.944] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:01:01.949] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:07:43.970] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:07:43.971] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:07:43.975] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:07:46.588] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:07:46.589] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:07:46.593] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:07:47.338] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:07:47.338] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:07:47.344] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:07:47.864] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:07:47.865] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:07:47.870] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:07:48.486] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:07:48.486] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:07:48.492] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:21:58.850] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:21:58.852] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:21:58.862] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:21:59.671] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:21:59.673] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:21:59.675] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:23:29.715] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:23:29.715] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:23:29.731] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:23:29.732] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:24:04.352] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:24:04.356] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:24:04.394] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:24:04.396] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:32:24.020] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:32:24.028] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:32:24.169] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:32:24.169] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:33:38.970] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:33:38.971] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:33:38.991] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:33:38.992] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:34:06.146] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-04-23 19:34:06.146] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:34:06.190] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (1,4,20,19,18,16,8)  order by `id` ASC
+[2018-04-23 19:34:38.052] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:34:38.053] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:34:38.057] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:34:43.070] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:34:43.071] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:34:43.088] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:34:43.088] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:35:49.172] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:35:49.173] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:35:49.263] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:35:49.264] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:36:24.926] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-04-23 19:36:24.933] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-04-23 19:36:24.934] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-04-23 19:36:24.939] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-04-23 19:36:24.943] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-23 19:36:24.953] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-23 19:36:24.953] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-04-23 07:36:24")
+[2018-04-23 19:36:32.902] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:36:32.902] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:36:32.907] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:36:38.643] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:36:38.644] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:36:38.664] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:36:38.665] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:37:08.318] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:37:08.319] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:37:08.323] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:39:15.659] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:39:15.660] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=5 
+[2018-04-23 19:39:15.685] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:39:15.686] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:40:45.478] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:40:45.478] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:40:45.482] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-04-23 19:40:55.968] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:40:55.969] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2018-04-23 19:40:55.993] [DEBUG] database - SELECT * FROM `contracts_vm`  order by `id` DESC LIMIT 0,15
+[2018-04-23 19:40:55.994] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_vm`
+[2018-04-23 19:41:06.898] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-04-23 19:41:06.899] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-04-23 19:41:06.903] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15

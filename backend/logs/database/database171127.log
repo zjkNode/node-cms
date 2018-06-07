@@ -1,0 +1,20 @@
+[2017-11-27 16:27:01.874] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-27 16:27:01.944] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-27 16:27:01.971] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-11-27 16:27:01.990] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-11-27 16:27:02.024] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-27 16:27:02.054] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-27 16:27:02.057] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-11-27 04:27:02")
+[2017-11-27 16:27:02.175] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-27 16:27:04.964] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-27 16:27:04.965] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-27 16:27:07.651] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:34:29.003] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:37:31.018] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:39:22.908] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:40:11.057] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:41:01.510] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:41:50.414] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:42:43.129] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:49:11.972] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 
+[2017-11-27 16:49:33.520] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=5 

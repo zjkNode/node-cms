@@ -1,0 +1,39 @@
+[2018-01-16 10:56:39.152] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-01-16 10:56:39.176] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-01-16 10:56:39.182] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-01-16 10:56:39.189] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-01-16 10:56:39.204] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-16 10:56:39.224] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-16 10:56:39.225] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-01-16 10:56:39")
+[2018-01-16 10:56:39.288] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-16 10:56:44.490] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-16 10:56:44.492] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-16 10:56:47.349] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-16 10:56:53.195] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2018-01-16 16:10:46.682] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2018-01-16 16:12:06.802] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-16 16:12:06.803] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-16 16:12:10.425] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=79 
+[2018-01-16 16:14:30.674] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=79 
+[2018-01-16 16:41:33.619] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-16 16:50:30.422] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2018-01-16 17:01:14.941] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-16 17:01:19.551] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:01:53.457] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:03:01.198] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:03:23.715] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:05:34.021] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:06:03.352] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:52:31.944] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-16 17:52:38.812] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 17:52:51.038] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-16 17:52:51.057] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`cover`=":cover",`parts`=":parts",`desc`=":desc",`update_time`=":update_time" WHERE `id`=39 
+[2018-01-16 17:52:51.058] [DEBUG] database - UPDATE `act_tpl` SET `name`="注册模板",`code`="reg",`cover`="true",`parts`="forms",`desc`="",`update_time`="2018-01-16 05:52:51" WHERE `id`=39 
+[2018-01-16 17:52:51.310] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-16 17:53:01.043] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:00:31.574] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:04:15.308] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:06:19.065] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:07:59.601] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:09:41.689] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-16 18:10:11.761] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 

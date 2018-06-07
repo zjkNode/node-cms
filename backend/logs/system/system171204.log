@@ -1,0 +1,123 @@
+[2017-12-04 18:05:36.769] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:05:40.394] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:05:46.393] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:08:25.872] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:08:26.888] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:08:43.857] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:09:34.415] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:09:55.431] [INFO] system - 正在监听 port 7071
+[2017-12-04 18:09:56.100] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:04:44.257] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:10:27.922] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:10:55.047] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:11:06.126] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:12:05.273] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:12:29.326] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:12:30.349] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:12:53.750] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:12:53.761] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:12:53.762] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:12:53.762] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:12:53.768] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:12:53.768] [INFO] system - 关闭连接
+[2017-12-04 19:12:53.770] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:15.791] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:15.799] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:13:15.800] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:13:15.800] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:15.806] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:13:15.806] [INFO] system - 关闭连接
+[2017-12-04 19:13:15.808] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:21.542] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:21.551] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:13:21.552] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:13:21.552] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:21.557] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:13:21.557] [INFO] system - 关闭连接
+[2017-12-04 19:13:21.559] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:27.468] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:13:27.475] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:13:27.475] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:13:27.475] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:27.481] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:13:27.481] [INFO] system - 关闭连接
+[2017-12-04 19:13:27.483] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:14:13.673] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:14:40.083] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:37:16.698] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:37:31.724] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:37:58.821] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:40:10.946] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:40:25.215] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:40:55.325] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:43:46.938] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:45:58.023] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:46:39.100] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:48:36.694] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:48:36.703] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:48:36.704] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:48:36.704] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.stat (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:48:36.710] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:48:36.710] [INFO] system - 关闭连接
+[2017-12-04 19:48:36.713] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:49:12.636] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:49:12.644] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:49:12.644] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:49:12.645] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.exists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+[2017-12-04 19:49:12.650] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:49:12.650] [INFO] system - 关闭连接
+[2017-12-04 19:49:12.653] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:49:21.550] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:49:21.555] [INFO] system - 程序出现未捕获异常
+[2017-12-04 19:49:21.556] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-04 19:49:21.556] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.exists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+[2017-12-04 19:49:21.561] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-04 19:49:21.561] [INFO] system - 关闭连接
+[2017-12-04 19:49:21.563] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:50:54.913] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:50:55.933] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:51:07.907] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:51:23.926] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:51:47.006] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:52:10.107] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:53:31.600] [INFO] system - 正在监听 port 7071
+[2017-12-04 19:53:52.380] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:00:55.177] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:01:04.179] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:07:31.484] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:13:36.788] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:15:06.062] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:15:57.056] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:00.931] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:01.978] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:16.282] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:42.063] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:45.096] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:16:54.130] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:17:23.199] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:17:24.264] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:17:37.224] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:17:38.263] [INFO] system - 正在监听 port 7071
+[2017-12-04 20:17:45.409] [INFO] system - 正在监听 port 7071

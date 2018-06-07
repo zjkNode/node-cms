@@ -1,0 +1,33 @@
+[2018-03-23 11:16:21.105] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/config.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }

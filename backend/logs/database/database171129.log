@@ -1,0 +1,50 @@
+[2017-11-29 10:16:53.337] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-29 16:47:05.831] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 16:47:05.833] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 16:47:17.307] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=6 
+[2017-11-29 16:59:21.064] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 16:59:21.066] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 16:59:27.512] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:00:08.784] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-29 17:00:08.798] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`template`=":template",`update_time`=":update_time" WHERE `id`="3" 
+[2017-11-29 17:00:08.799] [DEBUG] database - UPDATE `act_tpl` SET `name`="fans",`code`="fans",`parts`="images_0,buttons_1,footers_2",`desc`="",`template`="activity/fans/20171129/tpl_fans.html",`update_time`="2017-11-29 05:00:08" WHERE `id`="3" 
+[2017-11-29 17:00:09.101] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 17:00:09.103] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:00:13.475] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:06:07.484] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-29 17:10:34.605] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:11:40.457] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-29 17:11:40.458] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:11:41.313] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:11:41.314] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 17:11:44.639] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:12:08.263] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 17:12:08.267] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:12:11.844] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:24:00.504] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:24:05.860] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-29 17:24:05.885] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 17:26:22.277] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-29 17:26:22.288] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`parts`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":parts",:user_id,":create_time",":publish_time")
+[2017-11-29 17:26:22.289] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`parts`,`user_id`,`create_time`,`publish_time`) VALUES ("9月粉丝节","act9","http://local_activity.jiandanjiekuan.com/pages/act9/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/act9/img/bg_1511947465138.jpg&quot;},&quot;activityCode&quot;:&quot;6f644543f0b74dab8309bd0bf2b60e76&quot;,&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/act9/img/tit_1511947472554.png&quot;,&quot;http://local_activity.jiandanjiekuan.com/pages/act9/img/time_1511947476035.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/act9/img/btn_1511947482005.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;}},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;300px&quot;,&quot;background-color&quot;:&quot;&quot;}}},&quot;footers_2&quot;:{&quot;footers&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;300px&quot;,&quot;color&quot;:&quot;red&quot;,&quot;background-color&quot;:&quot;&quot;},&quot;txt&quot;:{&quot;line1&quot;:{&quot;content&quot;:&quot;1、测试方案&quot;,&quot;style&quot;:{&quot;font-size&quot;:&quot;18px&quot;}},&quot;line2&quot;:{&quot;content&quot;:&quot;2、测试方案&quot;,&quot;style&quot;:{&quot;font-size&quot;:&quot;18px&quot;}},&quot;line3&quot;:{&quot;content&quot;:&quot;3、测试方案&quot;,&quot;style&quot;:{&quot;font-size&quot;:&quot;18px&quot;}}}}}}",2,"activity/fans/20171129/tpl_fans.html","images_0,buttons_1,footers_2",1,"2017-11-29 05:26:22","2017-11-29 17:26:22")
+[2017-11-29 17:26:22.614] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-29 17:26:22.622] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:27:34.167] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=10 
+[2017-11-29 17:27:42.358] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-29 17:27:42.362] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:28:50.859] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=10 
+[2017-11-29 17:28:53.797] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-29 17:29:39.429] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-29 17:32:19.194] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 17:32:19.196] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 17:32:28.971] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=3 
+[2017-11-29 19:07:18.586] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 19:07:18.589] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 19:07:23.121] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=1 
+[2017-11-29 19:18:46.498] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-29 19:18:46.517] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=1 
+[2017-11-29 19:18:54.424] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-29 19:18:54.427] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-29 19:18:57.559] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=1 
+[2017-11-29 19:22:40.343] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-29 19:22:40.344] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15

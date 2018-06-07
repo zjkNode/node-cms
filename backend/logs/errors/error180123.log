@@ -1,0 +1,539 @@
+[2018-01-23 10:43:22.014] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:217:5)
+    at Object.exports.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:43:24)
+    at exports.draft (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:82:20)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-23 10:43:22.025] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:85:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:219:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:358:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:399:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:398:13
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-23 10:43:22.032] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:113:21)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-01-23 10:43:32.030] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/logs.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:84:28
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:219:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:358:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-23 10:43:34.510] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:217:5)
+    at Object.exports.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:43:24)
+    at exports.draft (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:82:20)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-23 10:43:34.513] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:85:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:219:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:358:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:399:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:398:13
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-23 10:43:34.517] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:113:21)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-01-23 10:43:44.518] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/logs.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:84:28
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:219:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:358:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-23 10:43:49.759] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:217:5)
+    at Object.exports.update (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:43:24)
+    at exports.draft (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:82:20)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-23 10:43:49.762] [ERROR] system - error in domain { TypeError: Cannot read property 'substring' of undefined
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/logs.service.js:15:19)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:84:28
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:219:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:358:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:399:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:398:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-23 10:43:54.166] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-23 10:43:54.171] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-01-23 10:44:12.310] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-23 10:44:12.314] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-01-23 11:33:50.219] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:33:58.021] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:34:05.822] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:34:13.614] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:34:24.479] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:34:32.316] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 11:34:40.116] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2018-01-23 14:48:21.811] [ERROR] system - { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/alerts_vcode/alerts_vcode.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/alerts_vcode/alerts_vcode.html)
+  Error: template not found: activity/components/_partials/_alert.html
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:33:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:226:32
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19) name: 'Template render error' } undefined
+[2018-01-23 14:49:28.374] [ERROR] system - { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/alerts_vcode/alerts_vcode.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/alerts_vcode/alerts_vcode.html)
+  Error: template not found: activity/components/_partials/_alert.html
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:33:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:226:32
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19) name: 'Template render error' } undefined

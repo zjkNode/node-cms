@@ -1,0 +1,18 @@
+[2018-05-18 10:50:36.708] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2018-05-18 10:50:36.720] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-18 10:50:36.720] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-18 10:50:36.734] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2018-05-18 11:38:50.539] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-18 11:44:54.225] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-18 11:44:54.232] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-18 11:45:03.920] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-18 11:52:44.457] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-18 11:52:51.734] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-05-18 11:52:51.742] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-18 11:53:00.043] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-18 11:53:07.913] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-18 11:53:07.925] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-18 11:57:21.129] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-18 15:49:26.999] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-05-18 20:59:33.918] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2018-05-18 20:59:34.009] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 

@@ -1,0 +1,14 @@
+<div class='scratchWrap' style="{{item.wrap.style | styleFn}}" data-key="{{ itemKey }}">
+    <div class="sbox" style="{{item.box.style | styleFn}}">
+        <img class="smask" src="{{ item.mask.img }}" style="{{item.mask.style | styleFn}}">
+        {% for prize in item.prizes %}
+        	<div class="sprize" style="{{item.content.style | styleFn}}">
+        	{% set btnItem = item.buttons.items[loop.index0] %}
+        	{% if btnItem %}
+				{% include "../_partials/_button.html" ignore missing %}
+			{% endif %}
+    		</div>
+		{% endfor %}
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.eraser.js"></script>

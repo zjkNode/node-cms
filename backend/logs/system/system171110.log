@@ -1,0 +1,894 @@
+[2017-11-10 09:53:25.905] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:06:59.038] [ERROR] system - { Error: request entity too large
+    at readStream (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/raw-body/index.js:196:17)
+    at getRawBody (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/raw-body/index.js:106:12)
+    at read (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/body-parser/lib/read.js:76:3)
+    at urlencodedParser (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/body-parser/lib/types/urlencoded.js:115:5)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/body-parser/lib/types/json.js:112:7)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/log4js/lib/connect-logger.js:266:14
+  expected: 148973,
+  length: 148973,
+  limit: 102400,
+  message: 'request entity too large',
+  status: 413,
+  statusCode: 413,
+  type: 'entity.too.large' } undefined
+[2017-11-10 10:23:45.399] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:23:47.353] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:23:55.663] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:25:41.006] [ERROR] system - Error: template not found: templates/contracts.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:171:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:111:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-10 10:28:05.732] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:29:06.946] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:34:10.217] [INFO] system - 正在监听 port 7071
+[2017-11-10 10:36:26.532] [INFO] system - 正在监听 port 7071
+[2017-11-10 11:09:35.751] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:09:35.756] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:09:35.763] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:09:35.767] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:04.315] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:04.319] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:04.327] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:04.331] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:27.444] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:27.447] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:27.453] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:27.458] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:44.873] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:44.877] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:44.887] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:44.893] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:45.231] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:45.234] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:10:45.242] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:10:45.246] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:04.390] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:04.394] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:04.406] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:04.410] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:27.455] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:27.458] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:27.465] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:27.468] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:44.835] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:44.839] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:44.847] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:44.852] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:45.205] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:45.208] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 11:12:45.277] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 11:12:45.280] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 15:02:38.016] [ERROR] system - error in domain { ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:44:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/user.service.js:19:10
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 15:02:54.557] [INFO] system - 正在监听 port 7071
+[2017-11-10 15:02:57.172] [INFO] system - 正在监听 port 7071
+[2017-11-10 15:04:42.485] [INFO] system - 正在监听 port 7071
+[2017-11-10 15:04:43.480] [INFO] system - 正在监听 port 7071
+[2017-11-10 15:55:27.759] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 15:55:27.763] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 15:55:27.797] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 15:55:27.802] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 15:57:27.756] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 15:57:27.761] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 15:57:27.774] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 15:57:27.778] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 16:37:45.831] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/contracts.controller.js:84:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/contracts.service.js:38:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 16:37:45.834] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-10 16:37:45.844] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-10 16:37:45.847] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)

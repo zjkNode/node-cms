@@ -1,0 +1,1091 @@
+[2017-12-07 17:31:35.144] [INFO] system - 正在监听 port 7071
+[2017-12-07 17:32:43.181] [INFO] system - 正在监听 port 7071
+[2017-12-07 17:33:41.329] [INFO] system - 正在监听 port 7071
+[2017-12-07 17:45:02.423] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:28:13.691] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:29:35.380] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, scandir '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:951:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:125:28
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 18:32:13.433] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:09.610] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:20.252] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:21.259] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:23.280] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:48.319] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:33:54.424] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, access '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.accessSync (fs.js:248:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:125:19
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'access',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 18:34:08.064] [ERROR] system - { Error: ENOENT: no such file or directory, access '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.accessSync (fs.js:248:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:125:19
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:115:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'access',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/' } undefined
+[2017-12-07 18:34:15.122] [ERROR] system - { Error: ENOENT: no such file or directory, access '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.accessSync (fs.js:248:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:125:19
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:115:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'access',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/' } undefined
+[2017-12-07 18:34:37.549] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:34:48.570] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:35:05.606] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:35:07.728] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:35:12.080] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, access '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.accessSync (fs.js:248:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:126:19
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'access',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 18:35:12.258] [ERROR] system - { Error: ENOENT: no such file or directory, access '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/'
+    at Error (native)
+    at Object.fs.accessSync (fs.js:248:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:126:19
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:115:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'access',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/' } undefined
+[2017-12-07 18:36:11.910] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:36:13.840] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:36:31.939] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:36:32.944] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:36:33.894] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:37:03.023] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:37:56.204] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:38:03.197] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:38:14.223] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:38:44.362] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:38:51.335] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:38:52.435] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:39:06.361] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:39:31.512] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:39:39.534] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:39:46.583] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:39:50.530] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:40:13.600] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:40:14.636] [INFO] system - 正在监听 port 7071
+[2017-12-07 18:40:42.673] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:00:18.310] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:00:35.482] [ERROR] system - error in domain { ReferenceError: fileName is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:168:56
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:01:03.737] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:01:31.768] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:01:33.734] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:01:34.692] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:01:43.899] [ERROR] system - error in domain { TypeError: item.isDirectory is not a function
+    at files.filter (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:128:33)
+    at Array.filter (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:127:34
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:02:07.880] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:02:30.001] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:02:38.064] [ERROR] system - error in domain { TypeError: item.isDirectory is not a function
+    at files.filter (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:129:33)
+    at Array.filter (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:127:34
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:03:48.541] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:03:56.738] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, stat '1'
+    at Error (native)
+    at Object.fs.statSync (fs.js:987:18)
+    at files.filter (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:128:35)
+    at Array.filter (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:127:34
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:06:48.091] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:06:53.929] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:06:58.174] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, stat '1'
+    at Error (native)
+    at Object.fs.statSync (fs.js:987:18)
+    at files.filter (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:129:35)
+    at Array.filter (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:128:34
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:07:25.855] [ERROR] system - { Error: ENOENT: no such file or directory, stat '1'
+    at Error (native)
+    at Object.fs.statSync (fs.js:987:18)
+    at files.filter (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:129:35)
+    at Array.filter (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:128:34
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:115:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5) errno: -2, code: 'ENOENT', syscall: 'stat', path: '1' } undefined
+[2017-12-07 19:10:02.512] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:10:07.491] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:10:43.644] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:03.603] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:06.631] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:07.625] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:08.626] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:09.623] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:11:12.638] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:12:06.854] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:12:12.024] [ERROR] system - error in domain { TypeError: Path must be a string. Received 2
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:143:54
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:13:44.504] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:16:47.100] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:17:08.790] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:17:41.946] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:18:17.873] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:18:18.892] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:19:21.216] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:19:25.243] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:20:14.520] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:20:26.500] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:20:39.460] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:21:20.685] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:21:38.680] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:21:40.697] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:22:05.781] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:22:06.855] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:22:50.996] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:22:54.009] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:24:51.402] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:25:11.416] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:25:12.376] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:25:47.497] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:26:29.657] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:26:30.635] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:28:32.486] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:36:35.168] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:36:39.782] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:36:45.750] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:37:20.932] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:37:29.841] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:37:30.907] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:37:31.941] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:37:36.909] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:38:05.001] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:38:28.150] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:38:50.136] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:39:24.328] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:39:38.346] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:39:40.330] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:39:43.420] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:17.520] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:20.506] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:38.547] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:42.466] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:44.503] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:46.472] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:40:56.536] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:41:08.641] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:41:18.646] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:41:26.285] [ERROR] system - error in domain { TypeError: Cannot read property 'components' of undefined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:142:52
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:42:15.844] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:42:53.953] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:43:27.113] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:43:35.109] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:43:42.069] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:43:43.065] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:43:53.455] [ERROR] system - error in domain { ReferenceError: cleanCss is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:144:17
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:44:26.602] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:44:38.671] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:44:43.301] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:44:46.178] [ERROR] system - error in domain { ReferenceError: rebaseTo is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:155:30
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:44:46.202] [ERROR] system - error in domain { Error: EISDIR: illegal operation on a directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/5/'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:150:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at fromArray (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:61:10)
+    at doReadSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:37:12)
+    at readSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:24:10)
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/5/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:44:46.206] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-07 19:45:15.370] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:45:22.092] [ERROR] system - error in domain { Error: EISDIR: illegal operation on a directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:155:16
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:45:22.114] [ERROR] system - error in domain { Error: EISDIR: illegal operation on a directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:150:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at fromArray (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:61:10)
+    at doReadSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:37:12)
+    at readSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:24:10)
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:45:22.117] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-07 19:46:51.530] [ERROR] system - { Error: EISDIR: illegal operation on a directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/1/'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:155:16
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:117:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/1/' } undefined
+[2017-12-07 19:46:51.534] [ERROR] system - error in domain { Error: EISDIR: illegal operation on a directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/1/'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:150:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at fromArray (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:61:10)
+    at doReadSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:37:12)
+    at readSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:24:10)
+  errno: -21,
+  code: 'EISDIR',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/1/',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 19:47:51.250] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:47:52.887] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:47:53.992] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:48:04.912] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:48:05.966] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:50:10.333] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:51:23.950] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:51:28.571] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:12.166] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:17.800] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:20.723] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:21.781] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:32.843] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:48.778] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:50.772] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:51.863] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:57.778] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:52:59.877] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:54:22.181] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:59:04.480] [INFO] system - 正在监听 port 7071
+[2017-12-07 19:59:06.116] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:01:04.556] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:01:05.550] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:02:25.966] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:03:46.504] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:03:51.154] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:07:28.958] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:07:29.935] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:08:48.971] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:08:50.136] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:08:51.402] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:08:55.974] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7//min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:153:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7//min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:09:01.227] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7//min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:153:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7//min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:09:24.327] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:09:25.306] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:09:31.457] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:153:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/7/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:10:45.906] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:15:10.688] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:15:19.716] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:16:31.773] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:16:41.757] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:17:45.880] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:18:07.858] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:18:09.258] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:18:25.081] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:157:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:19:42.193] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:19:58.313] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:20:00.529] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:159:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:20:21.631] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:20:30.144] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:159:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:21:26.761] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:21:36.547] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:159:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:23:15.184] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:23:20.504] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:160:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:25:55.803] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:26:00.214] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:161:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:27:19.158] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:27:53.896] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:27:54.903] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:28:06.619] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:161:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:29:47.625] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:29:54.758] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:161:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+    at inlineLocalStylesheet (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:318:12)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/aaa/6/min.css',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-07 20:30:34.538] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:30:35.424] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:30:51.672] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:31:10.672] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:31:11.741] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:32:11.378] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:02.381] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:09.963] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:11.019] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:11.982] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:21.144] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:35.074] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:33:44.598] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:34:17.260] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:34:22.242] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:34:23.227] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:35:02.330] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:35:15.318] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:35:23.084] [INFO] system - 正在监听 port 7071
+[2017-12-07 20:35:24.080] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:49:28.060] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:49:45.038] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:49:52.829] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:51:56.204] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:52:02.062] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:52:03.108] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:52:29.156] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:52:37.166] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:52:42.123] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:55:27.149] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:56:07.352] [INFO] system - 正在监听 port 7071
+[2017-12-07 21:58:38.841] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:03:26.719] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:03:30.424] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:04:34.619] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:06:57.603] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:08:10.742] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:09:06.602] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:10:47.868] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:10:48.916] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:11:14.964] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:11:18.970] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:11:23.970] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:20:18.673] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:23:52.313] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:24:23.375] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:28:15.533] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:28:54.518] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:28:56.293] [INFO] system - 正在监听 port 7071
+[2017-12-07 22:29:27.531] [INFO] system - 正在监听 port 7071

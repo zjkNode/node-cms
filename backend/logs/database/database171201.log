@@ -1,0 +1,7 @@
+[2017-12-01 10:02:41.027] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-01 10:02:41.029] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-01 10:02:56.789] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=16 
+[2017-12-01 13:31:13.509] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-12-01 13:31:13.512] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-12-01 13:31:15.297] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-01 13:31:15.314] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC

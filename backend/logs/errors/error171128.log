@@ -1,0 +1,1462 @@
+[2017-11-28 17:23:48.940] [ERROR] system - TypeError: Cannot read property 'substring' of undefined
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:208:27)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2017-11-28 17:26:41.605] [ERROR] system - TypeError: Cannot read property 'substring' of undefined
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:208:22)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2017-11-28 17:27:21.322] [ERROR] system - TypeError: Cannot read property 'substring' of undefined
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:208:22)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2017-11-28 17:27:48.542] [ERROR] system - error in domain { TypeError: content.replace is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:221:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:29:54.360] [ERROR] system - error in domain { TypeError: content.replace is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:221:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:30:40.385] [ERROR] system - error in domain { TypeError: Cannot create property '_locals' on string '{"title":"简单借款","style":{"background-color":"","background-repeat":"no-repeat","background-image":""},"images_0":{"image_path":[]},"buttons_1":{"image_path":[],"button":{"usages":"","style":{"width":"","height":""}},"wrap":{"style":{"height":"","background-color":""}}}}'
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:962:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:221:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.916] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.939] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:36:26.959] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.964] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:36:26.965] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.968] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:36:26.969] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.974] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:36:26.975] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:36:26.977] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:37:19.873] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:37:19.896] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:37:19.916] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:37:19.920] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:37:19.928] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:37:19.932] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:37:19.934] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:37:19.937] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:37:19.937] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:37:19.941] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:38:09.027] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:38:09.051] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:38:09.076] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:38:09.080] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:38:09.081] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:38:09.085] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:38:09.086] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:38:09.089] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:38:09.092] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:38:09.097] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:41:07.539] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:41:07.562] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:41:07.586] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:41:07.590] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:41:07.593] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:41:07.596] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:41:07.596] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:41:07.599] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:41:07.605] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:41:07.609] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:43:24.496] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:43:24.528] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:43:24.560] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:43:24.564] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:43:24.565] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:43:24.569] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:43:24.570] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:43:24.575] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:43:24.582] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:43:24.585] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:45:12.261] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:45:12.280] [ERROR] system - TypeError: Cannot read property 'pids' of undefined
+    at async.auto.cTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:420:27)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at async.auto.newsType (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:404:4)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.allLists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:92:16)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13) undefined
+[2017-11-28 17:45:12.299] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:45:12.305] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:45:12.315] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.pNewsTypes (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:407:41)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:392:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:45:12.319] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:45:12.321] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:104:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:45:12.324] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:45:12.325] [ERROR] system - error in domain { TypeError: Cannot read property 'pids' of undefined
+    at async.auto.newsData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:430:38)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:397:5
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:142:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/news/type.service.js:20:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 17:45:12.329] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-11-28 17:50:04.256] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:53:33.943] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:54:16.744] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:56:10.640] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:58:24.974] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:59:19.760] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 17:59:48.353] [ERROR] system - Error: template not found: SUCCESS.html
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:207:31)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:210:13)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:253:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at NunjucksView.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:285:15)
+    at tryRender (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:971:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13) undefined
+[2017-11-28 18:01:06.950] [ERROR] system - error in domain { TypeError: res.renderString is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 18:02:26.013] [ERROR] system - error in domain { TypeError: res.renderString is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 18:06:26.140] [ERROR] system - error in domain { TypeError: res.renderString is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 18:07:15.605] [ERROR] system - error in domain { TypeError: res.renderString is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-28 18:10:47.498] [ERROR] system - error in domain { TypeError: res.renderString is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:222:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }

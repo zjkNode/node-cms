@@ -1,0 +1,702 @@
+[2018-01-18 14:04:40.627] [INFO] system - 正在监听 port 7071
+[2018-01-18 14:19:23.352] [INFO] system - 正在监听 port 7071
+[2018-01-18 14:57:08.846] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:14:25.108] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:14:46.215] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:16:25.710] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:18:20.075] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:19:10.088] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:19:12.942] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:19:14.044] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:20:29.154] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:21:20.950] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:21:25.665] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:21:29.431] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:229:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:22:50.751] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:23:44.884] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:23:45.885] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:23:52.271] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:229:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:24:14.012] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:24:24.050] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:24:28.562] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:229:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:24:50.082] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:25:55.459] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:27:47.567] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:27:48.599] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:27:52.444] [ERROR] system - error in domain { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Error: filter not found: comFilter
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:33:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:226:32
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+  name: 'Template render error',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:28:21.788] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:29:03.911] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:30:01.163] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:30:21.471] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:30:37.039] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:30:49.065] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:31:08.302] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:31:10.303] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:31:23.818] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:31:33.809] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:32:05.776] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:32:55.177] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:33:07.383] [ERROR] system - error in domain { TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-18 15:34:39.384] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:35:11.871] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:228:26
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2018-01-18 15:37:25.007] [ERROR] system - TypeError: Cannot read property 'replace' of null
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:168:30
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:120:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3) undefined
+[2018-01-18 15:38:36.776] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:42:38.118] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:43:07.086] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:44:07.492] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:45:26.742] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:45:38.712] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:45:42.289] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:45:47.461] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:47:36.762] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:47:37.780] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:47:38.851] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:49:06.096] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:50:42.829] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:09.024] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:17.039] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:47.452] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:50.196] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:51.174] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:51:55.956] [INFO] system - 正在监听 port 7071
+[2018-01-18 15:52:02.950] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:00:25.280] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:00:26.905] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:00:28.934] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:00:33.895] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:05:18.494] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:06:03.637] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:07:28.667] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:15:16.660] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:15:23.509] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:17:13.265] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:17:22.286] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:17:56.409] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:18:37.147] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:19:43.735] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:20:39.869] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:20:41.546] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:23:26.442] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:24:32.797] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:26:03.972] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:29:53.694] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:48:32.099] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:52:43.032] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:52:44.695] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:52:46.689] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:54:04.968] [INFO] system - 正在监听 port 7071
+[2018-01-18 16:54:06.921] [INFO] system - 正在监听 port 7071
+[2018-01-18 17:33:35.978] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-01-18 17:33:45.986] [ERROR] system - { Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true } undefined
+[2018-01-18 17:33:55.991] [ERROR] system - { Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:424:8)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true } undefined
+[2018-01-18 17:34:05.993] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:424:8)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-01-18 17:34:15.998] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-01-18 17:34:26.003] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined
+[2018-01-18 17:34:38.825] [ERROR] system - { Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true } undefined
+[2018-01-18 17:34:48.827] [ERROR] system - { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:164:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:129:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:424:8)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 } undefined

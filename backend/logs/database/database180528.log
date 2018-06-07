@@ -1,0 +1,157 @@
+[2018-05-28 10:35:13.672] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 10:35:13.720] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 10:35:13.728] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 10:54:48.281] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 10:54:48.283] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:08:34.501] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:08:34.519] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:09:35.010] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:09:35.018] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:09:59.891] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:09:59.899] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:10:58.634] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:10:58.642] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:12:24.198] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:12:24.208] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:16:35.377] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:16:35.382] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 11:20:09.552] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 11:20:09.556] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 12:00:10.572] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 12:00:10.705] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-28 12:00:11.202] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-28 13:47:27.895] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 13:47:27.898] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 13:47:27.908] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 13:47:30.529] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 13:55:40.554] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 13:55:40.573] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 13:56:56.025] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 13:56:56.044] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:00:16.543] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:00:16.562] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:07:14.188] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:07:14.222] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:10:09.468] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2018-05-28 14:10:09.471] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2018-05-28 14:10:10.434] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-28 14:10:10.434] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-28 14:11:24.853] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 14:11:24.865] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 14:11:24.872] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 14:11:46.750] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:11:46.789] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:13:24.585] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:13:24.608] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:14:06.866] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:14:06.887] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:23:26.657] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:23:26.696] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:24:01.049] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:24:01.099] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:24:40.949] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:24:41.007] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:28:10.713] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:28:10.731] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:28:38.849] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:28:38.874] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:29:23.794] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:29:23.824] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:32:13.508] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:32:13.535] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:33:28.340] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:33:28.367] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:37:47.472] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:37:47.497] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:52:43.952] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:52:43.972] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:55:14.988] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:55:15.018] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 14:58:28.211] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 14:58:28.231] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 15:01:47.657] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-28 15:01:47.691] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-28 15:01:47.709] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-28 15:01:47.720] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-28 15:01:47.733] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-28 15:01:47.746] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-28 15:01:47.747] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-28 03:01:47")
+[2018-05-28 15:01:50.762] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 15:01:50.762] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 15:01:50.774] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 15:03:27.508] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 15:03:27.538] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 15:05:41.954] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-28 15:05:41.985] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-28 15:05:41.995] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-28 15:05:42.006] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-28 15:05:42.020] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-28 15:05:42.033] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-28 15:05:42.033] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-28 03:05:42")
+[2018-05-28 15:05:46.332] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 15:05:46.334] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 15:05:46.344] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 17:47:17.539] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2018-05-28 17:47:17.545] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-28 17:59:56.332] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 17:59:56.332] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 17:59:56.363] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 18:01:06.046] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-28 18:01:06.075] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-28 18:01:06.081] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-28 18:01:06.092] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-28 18:01:06.114] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-28 18:01:06.127] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-28 18:01:06.128] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-28 06:01:06")
+[2018-05-28 18:01:06.235] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:01:10.032] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 18:01:10.034] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 18:01:10.045] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 18:01:15.353] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:01:21.865] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js timeId参数验证失败
+[2018-05-28 18:02:30.271] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2018-05-28 18:02:30.273] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2018-05-28 18:03:25.923] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 18:03:25.925] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 18:03:25.941] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 18:03:28.120] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:03:33.541] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js timeId参数验证失败
+[2018-05-28 18:03:33.547] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-28 18:03:33.558] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-28 18:03:33.559] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("上传出错！","/api/news/ueditor?action=upload","127.0.0.1","admin","2018-05-28 06:03:33")
+[2018-05-28 18:19:59.903] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:20:18.268] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:20:18.291] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:21:02.900] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:21:02.922] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:22:03.531] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:22:03.550] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:23:56.110] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:23:56.137] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:42:00.685] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:42:00.702] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:47:43.050] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:47:43.071] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:52:40.524] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-28 18:52:40.562] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-05-28 18:59:10.645] [DEBUG] database - SHOW COLUMNS FROM `news`
+[2018-05-28 18:59:10.653] [DEBUG] database - INSERT INTO `news` (`typeid`,`title`,`content`,`status`,`author`,`publish_time`,`create_time`) VALUES (:typeid,":title",":content",:status,":author",":publish_time",":create_time")
+[2018-05-28 18:59:10.654] [DEBUG] database - INSERT INTO `news` (`typeid`,`title`,`content`,`status`,`author`,`publish_time`,`create_time`) VALUES (14,"test","&lt;p&gt;请输入&lt;img src=&quot;http://localhost:7071/temp/news/1527505149413.png&quot; title=&quot;&quot; alt=&quot;&quot;/&gt;内容&lt;/p&gt;",2,"admin","2018-05-28 12:00:00","2018-05-28 06:59:10")
+[2018-05-28 18:59:11.029] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 18:59:11.037] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 18:59:11.045] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 18:59:13.463] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-28 18:59:13.464] [DEBUG] database - SELECT `news_seo`.* FROM `news_seo` left join `news_type` on `news_type`.`id` = `news_seo`.`typeid` WHERE `news_type`.`code`="news"  order by `news_seo`.`id` DESC
+[2018-05-28 18:59:13.469] [DEBUG] database - SELECT * FROM `news`  WHERE `id`="313" 
+[2018-05-28 18:59:22.343] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=313 
+[2018-05-28 18:59:22.349] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=14 
+[2018-05-28 19:20:46.708] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2018-05-28 19:20:46.710] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2018-05-28 19:20:46.720] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 19:20:51.560] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-05-28 19:20:51.560] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-05-28 19:20:51.573] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (14,4,1)  order by `id` ASC
+[2018-05-28 19:20:54.317] [DEBUG] database - SELECT `news_seo`.* FROM `news_seo` left join `news_type` on `news_type`.`id` = `news_seo`.`typeid` WHERE `news_type`.`code`="news"  order by `news_seo`.`id` DESC
+[2018-05-28 19:20:54.325] [DEBUG] database - SELECT * FROM `news`  WHERE `id`="313" 
+[2018-05-28 19:34:44.677] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-28 19:34:44.680] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15

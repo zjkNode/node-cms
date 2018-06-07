@@ -1,0 +1,43 @@
+{
+  "name": "cms-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "cross-env NODE_ENV=dev node ./src/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ali-oss": "^4.11.4",
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.3",
+    "domain": "0.0.1",
+    "express": "^4.15.3",
+    "express-hbs": "^1.0.4",
+    "express-mysql-session": "^1.2.2",
+    "express-session": "^1.15.4",
+    "express-validator": "^3.2.1",
+    "lodash": "^4.17.4",
+    "log4js": "^2.3.0",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0",
+    "node-rsa": "^0.4.2",
+    "node-schedule": "^1.2.3",
+    "nunjucks": "^3.0.1",
+    "path": "^0.12.7",
+    "require-all": "^2.2.0",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "clean-css": "^4.1.9",
+    "cross-env": "^5.1.5",
+    "formidable": "^1.1.1",
+    "moment": "^2.18.1",
+    "uglify-js": "^2.8.29",
+    "unzip2": "^0.2.5"
+  }
+}

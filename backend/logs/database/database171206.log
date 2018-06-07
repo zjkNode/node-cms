@@ -1,0 +1,35 @@
+[2017-12-06 11:38:40.688] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-06 11:39:32.165] [DEBUG] database - SELECT count(*) as tmp_count FROM `act` WHERE components like 'images,%' or components like '%,images,%' or components like '%,images'
+[2017-12-06 11:39:32.166] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE parts like 'images,%' or parts like '%,images,%' or parts like '%,images'
+[2017-12-06 11:40:05.536] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE parts like 'images,%' or parts like '%,images,%' or parts like '%,images'
+[2017-12-06 11:40:05.538] [DEBUG] database - SELECT count(*) as tmp_count FROM `act` WHERE components like 'images,%' or components like '%,images,%' or components like '%,images'
+[2017-12-06 11:40:16.920] [DEBUG] database - SELECT count(*) as tmp_count FROM `act` WHERE components like 'images,%' or components like '%,images,%' or components like '%,images'
+[2017-12-06 11:40:16.922] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE parts like 'images,%' or parts like '%,images,%' or parts like '%,images'
+[2017-12-06 11:40:32.580] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-06 11:40:32.581] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-06 13:46:02.092] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-06 13:46:05.773] [DEBUG] database - SELECT count(*) as tmp_count FROM `act` WHERE components like 'images,%' or components like '%,images,%' or components like '%,images'
+[2017-12-06 13:46:05.779] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE parts like 'images,%' or parts like '%,images,%' or parts like '%,images'
+[2017-12-06 14:34:52.436] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:34:52.440] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:34:53.946] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-06 14:34:53.947] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:34:54.576] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:34:54.577] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:35:11.631] [DEBUG] database - SELECT count(*) as tmp_count FROM `act` WHERE components like 'registers,%' or components like '%,registers,%' or components like '%,registers'
+[2017-12-06 14:35:11.634] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE parts like 'registers,%' or parts like '%,registers,%' or parts like '%,registers'
+[2017-12-06 14:50:37.374] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:50:37.376] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:59:39.080] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-06 14:59:49.042] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:59:49.047] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:59:51.345] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-06 14:59:51.347] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:59:52.261] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:59:52.263] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 14:59:55.933] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 14:59:55.934] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-06 15:01:11.066] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-06 15:01:11.067] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-06 15:01:13.499] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-06 15:01:13.500] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15

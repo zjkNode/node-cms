@@ -1,0 +1,2257 @@
+[2018-04-24 10:05:11.466] [INFO] system - 正在监听 port 7071
+[2018-04-24 10:05:11.471] [INFO] system - 程序出现未捕获异常
+[2018-04-24 10:05:11.471] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 10:05:11.472] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 10:05:11.479] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 10:05:11.479] [INFO] system - 关闭连接
+[2018-04-24 10:05:11.480] [INFO] system - 程序出现未捕获异常
+[2018-04-24 10:05:11.480] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 10:05:11.481] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 10:05:11.482] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 10:05:11.482] [INFO] system - 关闭连接
+[2018-04-24 10:05:11.484] [INFO] system - 正在监听 port 7071
+[2018-04-24 10:05:11.484] [INFO] system - 正在监听 port 7071
+[2018-04-24 10:59:00.514] [ERROR] system - error in domain { ReferenceError: err is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:25:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:16:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:192:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:374:9
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 11:09:28.137] [INFO] system - 正在监听 port 7071
+[2018-04-24 11:09:28.142] [INFO] system - 程序出现未捕获异常
+[2018-04-24 11:09:28.143] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 11:09:28.143] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 11:09:28.150] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 11:09:28.150] [INFO] system - 关闭连接
+[2018-04-24 11:09:28.151] [INFO] system - 程序出现未捕获异常
+[2018-04-24 11:09:28.151] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 11:09:28.152] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 11:09:28.152] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 11:09:28.153] [INFO] system - 关闭连接
+[2018-04-24 11:09:28.154] [INFO] system - 正在监听 port 7071
+[2018-04-24 11:09:28.154] [INFO] system - 正在监听 port 7071
+[2018-04-24 11:17:27.464] [INFO] system - 正在监听 port 7071
+[2018-04-24 11:17:27.473] [INFO] system - 程序出现未捕获异常
+[2018-04-24 11:17:27.474] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 11:17:27.475] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 11:17:27.484] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 11:17:27.484] [INFO] system - 关闭连接
+[2018-04-24 11:17:27.486] [INFO] system - 程序出现未捕获异常
+[2018-04-24 11:17:27.486] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 11:17:27.486] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 11:17:27.487] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 11:17:27.487] [INFO] system - 关闭连接
+[2018-04-24 11:17:27.490] [INFO] system - 正在监听 port 7071
+[2018-04-24 11:17:27.490] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:13:43.414] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:13:43.420] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:13:43.421] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:13:43.421] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 16:13:43.428] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:13:43.428] [INFO] system - 关闭连接
+[2018-04-24 16:13:43.429] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:13:43.429] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:13:43.430] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 16:13:43.430] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:13:43.431] [INFO] system - 关闭连接
+[2018-04-24 16:13:43.432] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:13:43.432] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:20:57.608] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:20:57.618] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:20:57.620] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:20:57.620] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 16:20:57.631] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:20:57.631] [INFO] system - 关闭连接
+[2018-04-24 16:20:57.634] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:20:57.634] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:20:57.634] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 16:20:57.635] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:20:57.635] [INFO] system - 关闭连接
+[2018-04-24 16:20:57.638] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:20:57.638] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:25:04.269] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:25:04.276] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:25:04.277] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:25:04.277] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 16:25:04.288] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:25:04.288] [INFO] system - 关闭连接
+[2018-04-24 16:25:04.291] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:25:04.291] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:25:04.291] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 16:25:04.293] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:25:04.293] [INFO] system - 关闭连接
+[2018-04-24 16:25:04.296] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:25:04.296] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:27:34.865] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:27:34.873] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:27:34.874] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:27:34.875] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 16:27:34.884] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:27:34.884] [INFO] system - 关闭连接
+[2018-04-24 16:27:34.886] [INFO] system - 程序出现未捕获异常
+[2018-04-24 16:27:34.886] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 16:27:34.886] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 16:27:34.887] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 16:27:34.888] [INFO] system - 关闭连接
+[2018-04-24 16:27:34.890] [INFO] system - 正在监听 port 7071
+[2018-04-24 16:27:34.891] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:53.231] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:53.237] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:54:53.238] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:54:53.238] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:54:53.248] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:54:53.248] [INFO] system - 关闭连接
+[2018-04-24 17:54:53.249] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:54:53.250] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:54:53.250] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:54:53.251] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:54:53.251] [INFO] system - 关闭连接
+[2018-04-24 17:54:53.253] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:53.253] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:57.965] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:57.970] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:54:57.971] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:54:57.971] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:54:57.980] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:54:57.980] [INFO] system - 关闭连接
+[2018-04-24 17:54:57.981] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:54:57.982] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:54:57.982] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:54:57.982] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:54:57.983] [INFO] system - 关闭连接
+[2018-04-24 17:54:57.984] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:54:57.985] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:49.147] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:49.154] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:57:49.154] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:57:49.155] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:57:49.164] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:57:49.165] [INFO] system - 关闭连接
+[2018-04-24 17:57:49.166] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:57:49.166] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:57:49.166] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:57:49.167] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:57:49.168] [INFO] system - 关闭连接
+[2018-04-24 17:57:49.171] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:49.171] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:59.095] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:59.101] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:57:59.101] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:57:59.102] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:57:59.110] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:57:59.110] [INFO] system - 关闭连接
+[2018-04-24 17:57:59.112] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:57:59.112] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:57:59.112] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:57:59.113] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:57:59.113] [INFO] system - 关闭连接
+[2018-04-24 17:57:59.115] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:57:59.115] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:05.124] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:05.130] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:05.131] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:05.132] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:58:05.143] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:05.143] [INFO] system - 关闭连接
+[2018-04-24 17:58:05.145] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:05.145] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:05.145] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:58:05.147] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:05.147] [INFO] system - 关闭连接
+[2018-04-24 17:58:05.149] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:05.149] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:24.034] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:24.038] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:24.039] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:24.039] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:58:24.046] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:24.046] [INFO] system - 关闭连接
+[2018-04-24 17:58:24.047] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:24.048] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:24.048] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:58:24.049] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:24.049] [INFO] system - 关闭连接
+[2018-04-24 17:58:24.050] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:24.050] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:27.127] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:27.134] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:27.135] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:27.135] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:58:27.144] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:27.144] [INFO] system - 关闭连接
+[2018-04-24 17:58:27.146] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:27.146] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:27.146] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:58:27.147] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:27.147] [INFO] system - 关闭连接
+[2018-04-24 17:58:27.149] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:27.149] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:36.052] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:36.057] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:36.057] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:36.058] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:58:36.065] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:36.065] [INFO] system - 关闭连接
+[2018-04-24 17:58:36.066] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:36.066] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:36.066] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:58:36.067] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:36.067] [INFO] system - 关闭连接
+[2018-04-24 17:58:36.069] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:36.069] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:45.126] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:45.133] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:45.134] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:45.134] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:58:45.144] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:45.145] [INFO] system - 关闭连接
+[2018-04-24 17:58:45.147] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:58:45.147] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:58:45.147] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:58:45.148] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:58:45.148] [INFO] system - 关闭连接
+[2018-04-24 17:58:45.151] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:58:45.151] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:07.970] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:07.975] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:07.976] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:07.976] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:07.983] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:07.983] [INFO] system - 关闭连接
+[2018-04-24 17:59:07.984] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:07.984] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:07.984] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:07.985] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:07.985] [INFO] system - 关闭连接
+[2018-04-24 17:59:07.987] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:07.987] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:09.121] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:09.126] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:09.127] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:09.127] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:09.134] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:09.134] [INFO] system - 关闭连接
+[2018-04-24 17:59:09.135] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:09.135] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:09.135] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:09.136] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:09.136] [INFO] system - 关闭连接
+[2018-04-24 17:59:09.138] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:09.138] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:14.223] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:14.230] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:14.230] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:14.231] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:14.240] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:14.240] [INFO] system - 关闭连接
+[2018-04-24 17:59:14.242] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:14.242] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:14.242] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:14.243] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:14.243] [INFO] system - 关闭连接
+[2018-04-24 17:59:14.246] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:14.246] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:45.188] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:45.192] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:45.193] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:45.193] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:45.201] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:45.201] [INFO] system - 关闭连接
+[2018-04-24 17:59:45.202] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:45.203] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:45.203] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:45.204] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:45.204] [INFO] system - 关闭连接
+[2018-04-24 17:59:45.206] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:45.206] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:46.194] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:46.200] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:46.201] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:46.201] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:46.210] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:46.210] [INFO] system - 关闭连接
+[2018-04-24 17:59:46.212] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:46.212] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:46.212] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:46.213] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:46.213] [INFO] system - 关闭连接
+[2018-04-24 17:59:46.216] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:46.216] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:53.300] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:53.307] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:53.308] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:53.308] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 17:59:53.319] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:53.319] [INFO] system - 关闭连接
+[2018-04-24 17:59:53.321] [INFO] system - 程序出现未捕获异常
+[2018-04-24 17:59:53.321] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 17:59:53.321] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 17:59:53.323] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 17:59:53.323] [INFO] system - 关闭连接
+[2018-04-24 17:59:53.325] [INFO] system - 正在监听 port 7071
+[2018-04-24 17:59:53.325] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:04.249] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:04.255] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:04.256] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:04.256] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:00:04.268] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:04.268] [INFO] system - 关闭连接
+[2018-04-24 18:00:04.269] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:04.269] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:04.270] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:00:04.271] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:04.271] [INFO] system - 关闭连接
+[2018-04-24 18:00:04.273] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:04.273] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:05.275] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:05.281] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:05.282] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:05.282] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:00:05.291] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:05.292] [INFO] system - 关闭连接
+[2018-04-24 18:00:05.293] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:05.293] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:05.294] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:00:05.295] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:05.295] [INFO] system - 关闭连接
+[2018-04-24 18:00:05.297] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:05.297] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:29.298] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:29.303] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:29.304] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:29.305] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:00:29.314] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:29.314] [INFO] system - 关闭连接
+[2018-04-24 18:00:29.316] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:29.316] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:29.316] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:00:29.317] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:29.318] [INFO] system - 关闭连接
+[2018-04-24 18:00:29.319] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:29.320] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:43.340] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:43.346] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:43.347] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:43.347] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:00:43.357] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:43.357] [INFO] system - 关闭连接
+[2018-04-24 18:00:43.358] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:00:43.358] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:00:43.358] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:00:43.359] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:00:43.360] [INFO] system - 关闭连接
+[2018-04-24 18:00:43.361] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:00:43.362] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:31.392] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:31.397] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:31.397] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:31.398] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:01:31.407] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:31.407] [INFO] system - 关闭连接
+[2018-04-24 18:01:31.412] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:31.412] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:31.412] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:01:31.413] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:31.414] [INFO] system - 关闭连接
+[2018-04-24 18:01:31.415] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:31.416] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:52.503] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:52.509] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:52.510] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:52.510] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:01:52.519] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:52.519] [INFO] system - 关闭连接
+[2018-04-24 18:01:52.521] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:52.521] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:52.521] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:01:52.522] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:52.522] [INFO] system - 关闭连接
+[2018-04-24 18:01:52.524] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:52.524] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:54.513] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:54.519] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:54.520] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:54.520] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:01:54.529] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:54.529] [INFO] system - 关闭连接
+[2018-04-24 18:01:54.531] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:01:54.531] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:01:54.531] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:01:54.532] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:01:54.532] [INFO] system - 关闭连接
+[2018-04-24 18:01:54.534] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:01:54.535] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:13.522] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:13.529] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:13.530] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:13.530] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:13.540] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:13.540] [INFO] system - 关闭连接
+[2018-04-24 18:02:13.542] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:13.542] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:13.542] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:13.543] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:13.543] [INFO] system - 关闭连接
+[2018-04-24 18:02:13.545] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:13.546] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:23.598] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:23.604] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:23.605] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:23.605] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:23.611] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:23.612] [INFO] system - 关闭连接
+[2018-04-24 18:02:23.613] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:23.613] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:23.613] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:23.614] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:23.614] [INFO] system - 关闭连接
+[2018-04-24 18:02:23.616] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:23.616] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:26.567] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:26.574] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:26.575] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:26.575] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:26.584] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:26.584] [INFO] system - 关闭连接
+[2018-04-24 18:02:26.586] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:26.586] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:26.586] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:26.587] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:26.587] [INFO] system - 关闭连接
+[2018-04-24 18:02:26.589] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:26.589] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:33.669] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:33.678] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:33.679] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:33.679] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:33.691] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:33.691] [INFO] system - 关闭连接
+[2018-04-24 18:02:33.693] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:33.693] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:33.693] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:33.694] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:33.694] [INFO] system - 关闭连接
+[2018-04-24 18:02:33.697] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:33.697] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:43.594] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:43.601] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:43.602] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:43.602] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:43.612] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:43.612] [INFO] system - 关闭连接
+[2018-04-24 18:02:43.613] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:43.614] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:43.614] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:43.615] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:43.615] [INFO] system - 关闭连接
+[2018-04-24 18:02:43.618] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:43.618] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:48.713] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:48.719] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:48.720] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:48.720] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:02:48.731] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:48.731] [INFO] system - 关闭连接
+[2018-04-24 18:02:48.733] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:02:48.734] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:02:48.734] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:02:48.735] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:02:48.735] [INFO] system - 关闭连接
+[2018-04-24 18:02:48.737] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:02:48.737] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:03.696] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:03.702] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:03.703] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:03.703] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:03.712] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:03.712] [INFO] system - 关闭连接
+[2018-04-24 18:03:03.713] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:03.714] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:03.714] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:03.715] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:03.715] [INFO] system - 关闭连接
+[2018-04-24 18:03:03.716] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:03.716] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:06.670] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:06.677] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:06.678] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:06.678] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:06.691] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:06.691] [INFO] system - 关闭连接
+[2018-04-24 18:03:06.693] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:06.693] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:06.693] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:06.694] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:06.694] [INFO] system - 关闭连接
+[2018-04-24 18:03:06.696] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:06.712] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:17.695] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:17.704] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:17.705] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:17.706] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:17.716] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:17.716] [INFO] system - 关闭连接
+[2018-04-24 18:03:17.718] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:17.718] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:17.718] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:17.719] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:17.719] [INFO] system - 关闭连接
+[2018-04-24 18:03:17.721] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:17.721] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:20.705] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:20.712] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:20.713] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:20.713] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:20.722] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:20.722] [INFO] system - 关闭连接
+[2018-04-24 18:03:20.724] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:20.724] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:20.724] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:20.725] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:20.726] [INFO] system - 关闭连接
+[2018-04-24 18:03:20.728] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:20.728] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:27.747] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:27.752] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:27.753] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:27.753] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:27.761] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:27.761] [INFO] system - 关闭连接
+[2018-04-24 18:03:27.762] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:27.762] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:27.763] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:27.763] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:27.764] [INFO] system - 关闭连接
+[2018-04-24 18:03:27.765] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:27.765] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:33.751] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:33.758] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:33.759] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:33.759] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:33.768] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:33.768] [INFO] system - 关闭连接
+[2018-04-24 18:03:33.769] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:33.770] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:33.770] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:33.771] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:33.771] [INFO] system - 关闭连接
+[2018-04-24 18:03:33.773] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:33.774] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:49.685] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:49.690] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:49.691] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:49.691] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:03:49.701] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:49.701] [INFO] system - 关闭连接
+[2018-04-24 18:03:49.702] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:03:49.703] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:03:49.703] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:03:49.704] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:03:49.704] [INFO] system - 关闭连接
+[2018-04-24 18:03:49.706] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:03:49.706] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:06:09.891] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:06:09.898] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:06:09.898] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:06:09.899] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:06:09.906] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:06:09.906] [INFO] system - 关闭连接
+[2018-04-24 18:06:09.908] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:06:09.908] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:06:09.908] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:06:09.909] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:06:09.909] [INFO] system - 关闭连接
+[2018-04-24 18:06:09.910] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:06:09.911] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:47:31.148] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:47:31.154] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:47:31.155] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:47:31.155] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 18:47:31.165] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:47:31.165] [INFO] system - 关闭连接
+[2018-04-24 18:47:31.167] [INFO] system - 程序出现未捕获异常
+[2018-04-24 18:47:31.167] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 18:47:31.167] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 18:47:31.177] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 18:47:31.178] [INFO] system - 关闭连接
+[2018-04-24 18:47:31.179] [INFO] system - 正在监听 port 7071
+[2018-04-24 18:47:31.179] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:11:51.342] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:11:51.350] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:11:51.352] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:11:51.352] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 19:11:51.365] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:11:51.365] [INFO] system - 关闭连接
+[2018-04-24 19:11:51.367] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:11:51.368] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:11:51.368] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 19:11:51.369] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:11:51.369] [INFO] system - 关闭连接
+[2018-04-24 19:11:51.372] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:11:51.372] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:38.800] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:38.807] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:13:38.808] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:13:38.808] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 19:13:38.817] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:13:38.817] [INFO] system - 关闭连接
+[2018-04-24 19:13:38.818] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:13:38.818] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:13:38.819] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 19:13:38.819] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:13:38.819] [INFO] system - 关闭连接
+[2018-04-24 19:13:38.821] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:38.822] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:44.805] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:44.813] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:13:44.814] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:13:44.814] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 19:13:44.825] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:13:44.825] [INFO] system - 关闭连接
+[2018-04-24 19:13:44.827] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:13:44.828] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:13:44.828] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 19:13:44.830] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:13:44.830] [INFO] system - 关闭连接
+[2018-04-24 19:13:44.832] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:13:44.832] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:14:12.634] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:14:12.640] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:14:12.641] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:14:12.641] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 19:14:12.649] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:14:12.649] [INFO] system - 关闭连接
+[2018-04-24 19:14:12.659] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:14:12.659] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:14:12.659] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 19:14:12.660] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:14:12.660] [INFO] system - 关闭连接
+[2018-04-24 19:14:12.663] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:14:12.663] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:16:52.309] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:16:52.316] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:16:52.317] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:16:52.317] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 19:16:52.329] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:16:52.329] [INFO] system - 关闭连接
+[2018-04-24 19:16:52.331] [INFO] system - 程序出现未捕获异常
+[2018-04-24 19:16:52.331] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 19:16:52.331] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 19:16:52.349] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 19:16:52.349] [INFO] system - 关闭连接
+[2018-04-24 19:16:52.351] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:16:52.351] [INFO] system - 正在监听 port 7071
+[2018-04-24 19:54:06.694] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js 参数验证失败
+[2018-04-24 20:01:37.740] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:37.779] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:37.783] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:37.786] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:38.829] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:38.833] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:38.839] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:38.842] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:40.029] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:40.032] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:40.044] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:40.078] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:40.780] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:40.784] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:01:40.790] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:01:40.794] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:37.768] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:37.772] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:37.777] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:37.780] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:38.818] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:38.820] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:38.826] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:38.828] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:40.018] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:40.022] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:40.027] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:40.031] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:40.766] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:40.769] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:03:40.775] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:03:40.778] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:04:03.035] [INFO] system - 正在监听 port 7071
+[2018-04-24 20:04:03.041] [INFO] system - 程序出现未捕获异常
+[2018-04-24 20:04:03.042] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 20:04:03.042] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-24 20:04:03.049] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 20:04:03.050] [INFO] system - 关闭连接
+[2018-04-24 20:04:03.051] [INFO] system - 程序出现未捕获异常
+[2018-04-24 20:04:03.051] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-24 20:04:03.051] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-24 20:04:03.052] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-24 20:04:03.052] [INFO] system - 关闭连接
+[2018-04-24 20:04:03.054] [INFO] system - 正在监听 port 7071
+[2018-04-24 20:04:03.054] [INFO] system - 正在监听 port 7071
+[2018-04-24 20:04:13.617] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:04:13.624] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:04:13.631] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:04:13.634] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:04:16.034] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:120:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/contracts/vm.controller.js:114:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/contracts/vm.service.js:35:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:04:16.038] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:04:16.043] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-24 20:04:16.048] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-24 20:17:28.465] [INFO] system - 正在监听 port 7071

@@ -1,0 +1,555 @@
+[2018-03-22 14:30:36.342] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:31:44.925] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:31:57.962] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:33:41.355] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:33:52.420] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:35:54.753] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:35:55.841] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:36:56.087] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:41:47.214] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:42:07.058] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:43:40.296] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:44:13.441] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:47:39.230] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:47:48.222] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:49:01.467] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:49:02.464] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:49:03.538] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:49:12.546] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:50:16.790] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:57:20.623] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:57:23.248] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:57:34.261] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:57:47.271] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:57:57.327] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:58:18.458] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:58:20.450] [INFO] system - 正在监听 port 7071
+[2018-03-22 14:58:24.458] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:12:06.459] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:12:28.491] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:12:30.092] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:19:22.655] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:19:24.669] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:19:30.728] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:19:31.675] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:20:04.842] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:20:05.844] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:20:08.798] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:53:08.999] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:53:23.347] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:53:44.059] [ERROR] system - error in domain { TypeError: OSS is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:198:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:53:45.447] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:54:06.470] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:54:14.470] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:54:16.470] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:54:24.276] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:198:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:54:25.548] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:54:48.586] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:55:06.602] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:55:26.696] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:55:27.677] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:03.797] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:04.801] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:05.823] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:23.698] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:28.959] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:56:45.659] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:56:47.014] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:57:22.923] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:57:24.924] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:57:25.911] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:58:02.277] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:58:06.089] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:58:08.107] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:58:12.730] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:58:14.292] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:58:16.275] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:58:17.298] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:02.480] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:05.437] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:14.462] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:15.480] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:20.495] [INFO] system - 正在监听 port 7071
+[2018-03-22 15:59:24.205] [ERROR] system - error in domain { ReferenceError: prefixObj is not defined
+    at OSSClient.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:21:32)
+    at fs.readdirSync.forEach.fileName (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:478:19)
+    at Array.forEach (native)
+    at walk (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:471:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:205:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:59:25.493] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:05.416] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:06.413] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:07.441] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:08.941] [ERROR] system - error in domain { TypeError: OSSClient.OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:201:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:00:10.596] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:20.674] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:24.664] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:30.800] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:201:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:00:31.704] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:32.734] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:54.794] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:00:57.845] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:05.824] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:18.924] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:23.851] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:27.907] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:32.713] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:34.773] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:40.704] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:41.710] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:43.692] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:45.724] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:48.697] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:01:49.936] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:01:52.163] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:01:54.030] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:02:15.064] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:02:16.039] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:02:18.055] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:02:31.090] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:02:36.150] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:03:29.223] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:03:49.333] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:04:38.520] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:04:48.609] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:05:30.724] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:08:38.340] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:08:53.339] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:10:33.666] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:10:34.739] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:10:35.785] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:10:54.355] [ERROR] system - error in domain { ReferenceError: err is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:485:12
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at Glob.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:151:7)
+    at emitOne (events.js:96:13)
+    at Glob.emit (events.js:188:7)
+    at Glob._finish (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:197:8)
+    at done (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:182:14)
+    at Glob._processGlobStar2 (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:637:12)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:626:10
+    at RES (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/inflight/inflight.js:31:16)
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at lstatcb_ (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:519:7)
+    at RES (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/inflight/inflight.js:31:16)
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:10:54.379] [ERROR] system - error in domain { Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:230:32
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:216:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:48:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:238:20
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:10:54.384] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-03-22 16:10:55.815] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:11:16.848] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:11:17.911] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:11:24.910] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:12:16.004] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:12:59.165] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:00.218] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:04.217] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:05.212] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:18.236] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:19.221] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:26.296] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:42.281] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:43.251] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:45.264] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:13:48.348] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:10.318] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:13.258] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:22.276] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:24.404] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:36.405] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:43.430] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:47.474] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:14:53.463] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:15:05.561] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:15:40.623] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:16:44.798] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:16:45.813] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:17:02.952] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:23:18.250] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:23:20.307] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:23:54.355] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:03.405] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:04.359] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:23.591] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:43.510] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:45.557] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:24:48.505] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:00.657] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:10.718] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:24.761] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:29.774] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:32.781] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:25:58.766] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:07.821] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:08.795] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:10.807] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:12.901] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:16.891] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:18.845] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:26:39.967] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:31:17.191] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:31:45.928] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:32:33.031] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:35:25.615] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:39:45.888] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:40:07.934] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:42:30.472] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:43:12.254] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:43:46.362] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:43:50.258] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:44:51.060] [ERROR] system - error in domain { ReferenceError: dir is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:205:37
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:196:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:44:52.491] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:45:37.619] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:45:38.657] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:45:41.762] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:56:25.843] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:56:26.924] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:56:27.937] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:56:34.993] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:18.061] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:36.063] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:37.081] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:38.096] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:41.087] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:57:42.130] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:58:04.246] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:58:27.196] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:58:29.219] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:59:05.336] [INFO] system - 正在监听 port 7071
+[2018-03-22 16:59:45.530] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:00:39.692] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:15:26.150] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:17:10.845] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:09.217] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:10.819] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:11.915] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:29.931] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:37.932] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:38.961] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:29:46.064] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:30:17.163] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:33:25.791] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:33:26.836] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:33:49.004] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:34:16.953] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:34:56.128] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:55:01.366] [INFO] system - 正在监听 port 7071
+[2018-03-22 17:55:02.996] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:27:44.999] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:27:52.944] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:28:28.063] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:28:36.177] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:29:00.176] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:29:02.215] [INFO] system - 正在监听 port 7071
+[2018-03-22 18:29:39.330] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:00:46.072] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:17:13.844] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/config.controller.js 参数验证失败
+[2018-03-22 20:17:31.784] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/config.controller.js 参数验证失败
+[2018-03-22 20:18:13.166] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:18:32.145] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:18:50.727] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:18:51.768] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:18:52.756] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:25:38.479] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:25:40.033] [INFO] system - 正在监听 port 7071
+[2018-03-22 20:25:41.093] [INFO] system - 正在监听 port 7071

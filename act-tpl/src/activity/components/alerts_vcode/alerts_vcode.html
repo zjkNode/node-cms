@@ -1,0 +1,12 @@
+{% extends "activity/components/_partials/_alert.html" %}
+
+{% block alertContent %}
+	{% set itemStyle = item.content.wrap.style %}
+	<div class="vcodeWrap">
+        <h3>请输入图片验证码</h3>
+        <p style="border-color: {{ itemStyle['border-color'] }}">
+            <input type="text" placeholder="请输入验证码" class="vcode"/>
+            <img src="" style="border-color: {{ itemStyle['border-color'] }}" class="code" />
+        </p>
+    </div>
+{% endblock %}

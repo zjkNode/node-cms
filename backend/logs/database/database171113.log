@@ -1,0 +1,14 @@
+[2017-11-13 10:19:49.889] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-13 10:19:49.986] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-13 10:19:50.047] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-11-13 10:19:50.109] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-11-13 10:19:50.182] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-13 10:19:50.252] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-13 10:19:50.253] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-11-13 10:19:50")
+[2017-11-13 10:19:50.431] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-13 10:19:53.382] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-13 10:19:53.382] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-13 10:20:01.435] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-13 10:20:01.436] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-13 10:20:02.854] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-13 10:20:02.854] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

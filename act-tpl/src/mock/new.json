@@ -1,0 +1,97 @@
+{
+    "title": "简单借款",
+    "style": {
+        "background-color": "",
+        "background-repeat": "no-repeat",
+        "background-image": ""
+    },
+    "components": [
+        {
+            "name": "images",
+            "image_path": [
+                "/temp/20180108140521/微信长图_1515391731242.gif"
+            ]
+        },
+        {
+            "name": "buttons",
+            "buttons": [
+                {
+                    "imageUrl": "/temp/20171128165634/tit_1511859499297.png",
+                    "usages": [
+                        "goAlerts"
+                    ],
+                    "href": "",
+                    "style": {
+                        "width": "800px",
+                        "height": "200px"
+                    },
+                    "responses": [],
+                    "uuid": "674ced1a4b5944538f41a6e31beabc0b"
+                }
+            ],
+            "wrap": {
+                "style": {
+                    "height": "350px",
+                    "background-image": "",
+                    "background-color": "pink"
+                }
+            }
+        },
+        {
+            "name": "alerts",
+            "wrap": {
+                "closeBtn": {
+                    "isShow": true,
+                    "image_path": [
+                        "/temp/20171128165634/tit_1511859499297.png"
+                    ]
+                },
+                "style": {
+                    "width": "801px",
+                    "height": "1105px",
+                    "background-color": "",
+                    "background-image": "/temp/20171128165634/tit_1511859499297.png",
+                    "background-repeat": "no-repeat",
+                    "border-radius": "6px"
+                }
+            },
+            "contents": {
+                "name": "_sample_alert",
+                "image_path": [
+                    "/temp/20171128165634/tit_1511859499297.png"
+                ],
+                "uuid": "efa0117327ee449abe7aff500006ce08"
+            },
+            "buttons": [
+                {
+                    "imageUrl": "/temp/20171128165634/tit_1511859499297.png",
+                    "usages": [
+                        "download"
+                    ],
+                    "href": "",
+                    "style": {
+                        "width": "300px",
+                        "height": "100px"
+                    },
+                    "responses": [],
+                    "uuid": "6726a9a4a8af4bb8b7d524ed52ce4a54"
+                },
+                {
+                    "imageUrl": "/temp/20171128165634/tit_1511859499297.png",
+                    "usages": [
+                        "goApp",
+                        "goAppIndex"
+                    ],
+                    "href": "",
+                    "style": {
+                        "width": "300px",
+                        "height": "100px"
+                    },
+                    "responses": [],
+                    "uuid": "002c592185ea41b98d933c9cb2985ab7"
+                }
+            ]
+        }
+    ],
+    "activityCode": "6dfdd97601d244d7977491a12d40c215"
+}

@@ -1,0 +1,13 @@
+[2018-04-25 11:38:42.461] [WARN] access - GET /api/user/userInfo
+[2018-04-25 11:38:42.467] [WARN] access - GET /api/menu/listsTree
+[2018-04-25 11:40:17.520] [WARN] access - GET /api/menu/listsTree
+[2018-04-25 11:40:17.526] [WARN] access - GET /api/menu/listsTree
+[2018-04-25 11:40:17.532] [INFO] access - GET /api/menu/lists?keys=
+[2018-04-25 11:40:23.201] [INFO] access - DELETE /api/menu/32
+[2018-04-25 11:40:23.256] [INFO] access - GET /api/menu/listsTree
+[2018-04-25 11:40:23.259] [INFO] access - GET /api/menu/listsTree
+[2018-04-25 11:40:23.264] [INFO] access - GET /api/menu/lists?keys=
+[2018-04-25 11:40:26.236] [INFO] access - DELETE /api/menu/31
+[2018-04-25 11:40:26.288] [INFO] access - GET /api/menu/listsTree
+[2018-04-25 11:40:26.293] [INFO] access - GET /api/menu/listsTree
+[2018-04-25 11:40:26.298] [INFO] access - GET /api/menu/lists?keys=

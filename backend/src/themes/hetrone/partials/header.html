@@ -1,0 +1,29 @@
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/static/css/header.css" />
+{% endblock %}
+<div class="header">
+  <div class="header-hetrone clearfix">
+    <a href="/"><img src="{{baseUrl}}/static/images/logo.jpg" class="header-hetrone-logo" alt="公司LOGO"/></a>
+    <!--<a href="/"><img src="/static/img/header/logo-white.png" class="logo-white" alt="公司LOGO"/></a>-->
+    <ul class="header-hetrone-nav clearfix" >
+      <li class="header-nav-list">
+        <a id="index" href="/">首页</a>
+      </li>
+      <li class="header-nav-list">
+        <a id="about" href="/about.html">关于我们</a>
+      </li>
+      <li class="header-nav-list">
+        <a id="products" href="/products.html">旗下产品</a>
+      </li>
+      <li class="header-nav-list">
+        <a id="information" href="/list/?code=news&pagenumber=1">媒体报道</a>
+      </li>
+      <li class="header-nav-list">
+        <a id="contactUs" href="/contactUs.html"> 联系我们</a>
+      </li>
+    </ul>
+  </div>
+</div>
+{% block js %}
+    <script type="text/javascript" src="{{baseUrl}}/static/js/header.js"></script>
+{% endblock %}

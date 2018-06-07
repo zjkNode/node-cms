@@ -1,0 +1,20 @@
+[2018-03-09 13:57:00.874] [ERROR] system - { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Error: filter not found: cssFilter
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:33:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:226:32
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19) name: 'Template render error' } undefined

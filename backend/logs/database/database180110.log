@@ -1,0 +1,199 @@
+[2018-01-10 10:22:33.700] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-10 14:27:03.640] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-10 14:27:06.964] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-10 14:27:28.294] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=38 
+[2018-01-10 14:29:16.908] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2018-01-10 14:29:16.915] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-01-10 14:29:16.931] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-10 14:29:16.954] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-10 14:29:16.955] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/tpl/","127.0.0.1","admin","2018-01-10 02:29:16")
+[2018-01-10 14:29:23.717] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-10 14:29:25.512] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=38 
+[2018-01-10 14:31:16.895] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2018-01-10 14:31:16.899] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-01-10 14:31:16.908] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-10 14:31:16.925] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-10 14:31:16.925] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/tpl/","127.0.0.1","admin","2018-01-10 02:31:16")
+[2018-01-10 14:41:43.820] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:41:43.830] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-01-10 14:41:43.831] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("","","2a3cd5b1b8cb449fb3e008360726f0c4","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;/temp/undefined/bak_1515565771625.jpg&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/undefined/header_1515565779812.jpg&quot;]},{&quot;name&quot;:&quot;forms&quot;,&quot;image_path&quot;:[],&quot;wrap&quot;:{&quot;value&quot;:&quot;havePadding&quot;,&quot;iconcolor&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;NaNpx&quot;},&quot;borderColor&quot;:&quot;&quot;},&quot;buttons&quot;:{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566040108.jpg&quot;,&quot;usages&quot;:[&quot;goBackEnd&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[{&quot;&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;2203427a89a14e778c0629f496b8b798&quot;}},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:true,&quot;image_path&quot;:[&quot;/temp/undefined/shut_1515566162420.png&quot;]},&quot;style&quot;:{&quot;width&quot;:&quot;801px&quot;,&quot;height&quot;:&quot;1105px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/undefined/registemiddle_1515566134359.jpg&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;border-radius&quot;:&quot;6px&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;_sample_alert&quot;,&quot;image_path&quot;:[&quot;/temp/undefined/regsuccess3_1515566340364.jpg&quot;],&quot;uuid&quot;:&quot;84a704a7deed4232873282aab6a2f7ba&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566222772.jpg&quot;,&quot;usages&quot;:[&quot;goBackEnd&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;400px&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[{&quot;201&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;a465763947a14e9091424506dcc40c9e&quot;},{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566385068.jpg&quot;,&quot;usages&quot;:[&quot;download&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;400px&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;2bbd083c209944d4bc1b3ee3b44e7f30&quot;}]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;e25d91e706684c9ba319002b8b0d7472&quot;},&quot;buttons&quot;:[]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;8def34f13f85459f87342188f0cef7ba&quot;},&quot;buttons&quot;:[]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;801px&quot;,&quot;height&quot;:&quot;1105px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/undefined/registesuccess_1515566464293.jpg&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;6px&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;_sample_alert&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;720e96503a774273817fda9441147908&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566486453.jpg&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;32ae187e4db14263b2907acdadd3d1f7&quot;}]}],&quot;activityCode&quot;:&quot;2a3cd5b1b8cb449fb3e008360726f0c4&quot;}",1,"images,forms,alerts,alerts,alerts,alerts",1,"2018-01-10 02:41:43")
+[2018-01-10 14:41:44.163] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:41:44.170] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:41:46.198] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=77 
+[2018-01-10 14:42:21.918] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-10 14:44:03.076] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:44:03.077] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:44:04.963] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=77 
+[2018-01-10 14:44:18.237] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:44:18.251] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=77 
+[2018-01-10 14:44:18.251] [DEBUG] database - UPDATE `act` SET `name`="demoTest",`code`="demotest",`activity_code`="2a3cd5b1b8cb449fb3e008360726f0c4",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;/temp/undefined/bak_1515565771625.jpg&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/undefined/header_1515565779812.jpg&quot;]},{&quot;name&quot;:&quot;forms&quot;,&quot;image_path&quot;:[],&quot;wrap&quot;:{&quot;value&quot;:&quot;havePadding&quot;,&quot;iconcolor&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;NaNpx&quot;},&quot;borderColor&quot;:&quot;&quot;},&quot;buttons&quot;:{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;2d45d8e5c63e4c82975359be2ee50382&quot;}},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:true,&quot;image_path&quot;:[&quot;/temp/undefined/shut_1515566162420.png&quot;]},&quot;style&quot;:{&quot;width&quot;:&quot;801px&quot;,&quot;height&quot;:&quot;1105px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/undefined/registemiddle_1515566134359.jpg&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;border-radius&quot;:&quot;6px&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;_sample_alert&quot;,&quot;image_path&quot;:[&quot;/temp/undefined/regsuccess3_1515566340364.jpg&quot;],&quot;uuid&quot;:&quot;84a704a7deed4232873282aab6a2f7ba&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566222772.jpg&quot;,&quot;usages&quot;:[&quot;goBackEnd&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;400px&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[{&quot;201&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;a465763947a14e9091424506dcc40c9e&quot;},{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566385068.jpg&quot;,&quot;usages&quot;:[&quot;download&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;400px&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;2bbd083c209944d4bc1b3ee3b44e7f30&quot;}]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;e25d91e706684c9ba319002b8b0d7472&quot;},&quot;buttons&quot;:[]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;8def34f13f85459f87342188f0cef7ba&quot;},&quot;buttons&quot;:[]},{&quot;name&quot;:&quot;alerts&quot;,&quot;wrap&quot;:{&quot;closeBtn&quot;:{&quot;isShow&quot;:false,&quot;image_path&quot;:[]},&quot;style&quot;:{&quot;width&quot;:&quot;801px&quot;,&quot;height&quot;:&quot;1105px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/undefined/registesuccess_1515566464293.jpg&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;6px&quot;}},&quot;contents&quot;:{&quot;name&quot;:&quot;_sample_alert&quot;,&quot;image_path&quot;:[],&quot;uuid&quot;:&quot;720e96503a774273817fda9441147908&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/undefined/btnbak_1515566486453.jpg&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;150px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;32ae187e4db14263b2907acdadd3d1f7&quot;}]}],&quot;activityCode&quot;:&quot;2a3cd5b1b8cb449fb3e008360726f0c4&quot;}",`url`="",`components`="images,forms,alerts,alerts,alerts,alerts",`uuser_id`=1,`status`=CASE WHEN `status` = 1 THEN 1 ELSE 3 END,`update_time`="2018-01-10 02:44:18" WHERE `id`=77 
+[2018-01-10 14:44:18.525] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:44:18.525] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:44:20.279] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=77 
+[2018-01-10 14:47:39.105] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-10 14:48:17.095] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:48:17.111] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:48:18.500] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=77 
+[2018-01-10 14:49:18.190] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:49:18.192] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:49:37.717] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=77 
+[2018-01-10 14:49:37.726] [DEBUG] database - DELETE FROM `act` WHERE `id`=77 
+[2018-01-10 14:49:37.782] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:49:37.783] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:49:40.500] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=68 
+[2018-01-10 14:49:40.507] [DEBUG] database - DELETE FROM `act` WHERE `id`=68 
+[2018-01-10 14:49:40.536] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:49:40.537] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:50:47.283] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=61 
+[2018-01-10 14:50:47.294] [DEBUG] database - DELETE FROM `act` WHERE `id`=61 
+[2018-01-10 14:50:47.322] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:50:47.329] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:50:49.685] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=60 
+[2018-01-10 14:50:49.711] [DEBUG] database - DELETE FROM `act` WHERE `id`=60 
+[2018-01-10 14:50:49.765] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:50:49.766] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:50:52.513] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=58 
+[2018-01-10 14:50:52.523] [DEBUG] database - DELETE FROM `act` WHERE `id`=58 
+[2018-01-10 14:50:52.556] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:50:52.558] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:50:56.370] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:50:56.371] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:00.899] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=26 
+[2018-01-10 14:51:00.938] [DEBUG] database - DELETE FROM `act` WHERE `id`=26 
+[2018-01-10 14:51:01.030] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:01.032] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:03.236] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=25 
+[2018-01-10 14:51:03.253] [DEBUG] database - DELETE FROM `act` WHERE `id`=25 
+[2018-01-10 14:51:03.294] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:03.296] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:06.063] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2018-01-10 14:51:06.073] [DEBUG] database - DELETE FROM `act` WHERE `id`=40 
+[2018-01-10 14:51:06.105] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:06.109] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:08.728] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=38 
+[2018-01-10 14:51:08.739] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:08.752] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=38 
+[2018-01-10 14:51:08.753] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=38 
+[2018-01-10 14:51:08.789] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:08.790] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:11.299] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=38 
+[2018-01-10 14:51:11.310] [DEBUG] database - DELETE FROM `act` WHERE `id`=38 
+[2018-01-10 14:51:11.343] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:11.345] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:13.697] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=36 
+[2018-01-10 14:51:13.706] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:13.717] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=36 
+[2018-01-10 14:51:13.718] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=36 
+[2018-01-10 14:51:13.748] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:13.750] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:16.057] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=36 
+[2018-01-10 14:51:16.077] [DEBUG] database - DELETE FROM `act` WHERE `id`=36 
+[2018-01-10 14:51:16.131] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:16.132] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:20.965] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=28 
+[2018-01-10 14:51:20.972] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:20.983] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=28 
+[2018-01-10 14:51:20.984] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=28 
+[2018-01-10 14:51:21.008] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:21.009] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:23.465] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=28 
+[2018-01-10 14:51:23.476] [DEBUG] database - DELETE FROM `act` WHERE `id`=28 
+[2018-01-10 14:51:23.518] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:23.521] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:25.675] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=39 
+[2018-01-10 14:51:25.685] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:25.699] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=39 
+[2018-01-10 14:51:25.700] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=39 
+[2018-01-10 14:51:25.802] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:25.812] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:27.930] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=39 
+[2018-01-10 14:51:27.939] [DEBUG] database - DELETE FROM `act` WHERE `id`=39 
+[2018-01-10 14:51:27.971] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:27.971] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 15,15
+[2018-01-10 14:51:28.011] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:28.013] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:51:32.656] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=57 
+[2018-01-10 14:51:32.665] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:32.679] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=57 
+[2018-01-10 14:51:32.680] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=57 
+[2018-01-10 14:51:32.727] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:32.729] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:51:35.390] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=57 
+[2018-01-10 14:51:35.405] [DEBUG] database - DELETE FROM `act` WHERE `id`=57 
+[2018-01-10 14:51:35.438] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:35.441] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:51:40.271] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=42 
+[2018-01-10 14:51:40.280] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-10 14:51:40.297] [DEBUG] database - UPDATE `act` SET `status`=:status WHERE `id`=42 
+[2018-01-10 14:51:40.298] [DEBUG] database - UPDATE `act` SET `status`=4 WHERE `id`=42 
+[2018-01-10 14:51:40.346] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:40.346] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-10 14:51:44.454] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=42 
+[2018-01-10 14:51:44.465] [DEBUG] database - DELETE FROM `act` WHERE `id`=42 
+[2018-01-10 14:51:44.509] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-10 14:51:44.511] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

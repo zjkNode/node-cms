@@ -1,0 +1,4 @@
+[2018-05-11 10:45:41.048] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-11 10:45:41.074] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-11 16:46:01.637] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-11 16:46:01.657] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 

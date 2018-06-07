@@ -1,0 +1,191 @@
+[2018-05-08 10:55:54.027] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 10:55:54.047] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 13:47:38.449] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 13:47:38.460] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 13:47:43.411] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 13:47:43.421] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 13:51:05.478] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 13:51:05.505] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 13:54:44.727] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-05-08 13:55:43.653] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 13:55:43.666] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:28:39.246] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-08 14:28:42.939] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:28:42.945] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:29:31.377] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-08 14:29:33.487] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:29:33.492] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:30:09.446] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:30:09.454] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:31:07.984] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:31:07.991] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:32:00.338] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:32:00.344] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 14:33:03.480] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 14:33:03.484] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:19:46.821] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:19:46.831] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:24:33.231] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:24:33.237] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:25:04.833] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:25:04.840] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:40:09.037] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:40:09.043] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:45:05.179] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:45:05.198] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:48:29.386] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:48:29.393] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:49:31.278] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:49:31.286] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:50:16.005] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-05-08 16:51:15.661] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:51:15.693] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 16:51:23.450] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-05-08 16:59:46.893] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 16:59:46.899] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:01:25.908] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:01:25.913] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:01:34.266] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-05-08 17:02:37.533] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-08 17:02:37.546] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:02:37.550] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:04:01.897] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:04:01.902] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:05:50.601] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:05:50.611] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:17:05.441] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:17:05.456] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:19:54.295] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:19:54.301] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:22:32.189] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:22:32.196] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:23:09.393] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:23:09.399] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:23:41.692] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:23:41.700] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:31:39.264] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:31:39.285] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:38:02.229] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:38:02.234] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:38:16.738] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:38:16.745] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:41:17.709] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:41:17.715] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 17:45:38.439] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 17:45:38.449] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:04:24.499] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:04:24.526] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:07:30.865] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:07:30.869] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:07:45.117] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:07:45.157] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:11:42.858] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:11:42.863] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:12:34.504] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:12:34.509] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:13:44.731] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:13:44.737] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:14:26.815] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:14:26.825] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:15:58.812] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-08 18:16:00.577] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:16:00.583] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:16:03.784] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-08 18:17:13.883] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:17:13.892] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:18:02.127] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:18:02.134] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:18:43.919] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:18:43.929] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:19:28.060] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:19:28.113] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:23:09.194] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:23:09.205] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:23:56.097] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:23:56.103] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:24:10.260] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:24:10.290] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:24:59.254] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:24:59.262] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:26:31.590] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:26:31.598] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:27:33.609] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:27:33.615] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:28:15.772] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:28:15.786] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:29:05.808] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:29:05.820] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:39:03.598] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:39:03.610] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:39:43.770] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:39:43.777] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:42:20.089] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:42:20.093] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:44:30.036] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:44:30.042] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:44:59.093] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:44:59.098] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:46:55.041] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:46:55.046] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:48:55.154] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:48:55.158] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:54:38.777] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:54:38.797] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 18:56:15.479] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 18:56:15.487] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 19:00:40.522] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 19:00:40.528] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 19:06:37.372] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 19:06:37.383] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:35:55.219] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:35:55.225] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:36:23.204] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:36:23.215] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:37:28.257] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:37:28.263] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:37:52.738] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:37:52.748] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:38:30.921] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:38:30.942] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:41:53.792] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:41:53.814] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:42:41.663] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:42:41.681] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:44:45.676] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:44:45.680] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:47:38.044] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:47:38.050] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:48:13.412] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:48:13.418] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 20:58:51.780] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 20:58:51.797] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:00:28.507] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:00:28.512] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:03:32.725] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:03:32.730] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:04:08.249] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:04:08.253] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:06:27.690] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:06:27.696] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:06:51.318] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:06:51.322] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:09:46.775] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:09:46.778] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:10:09.412] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:10:09.420] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:10:41.163] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:10:41.170] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:10:49.384] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:10:49.390] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:14:53.494] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:14:53.501] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:18:23.293] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:18:23.298] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:19:05.970] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:19:05.977] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:19:23.866] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:19:23.872] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:21:20.037] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:21:20.043] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-08 21:22:52.187] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-08 21:22:52.195] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

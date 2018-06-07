@@ -1,0 +1,60 @@
+[2017-12-11 15:49:11.837] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-11 15:50:01.612] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-11 15:50:01.800] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-12-11 15:50:01.806] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-12-11 15:50:57.525] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 15:50:57.527] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 15:51:03.847] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-11 15:51:32.369] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-11 15:51:32.397] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-12-11 15:51:32.411] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`cover`=":cover",`update_time`=":update_time" WHERE `id`="16" 
+[2017-12-11 15:51:32.412] [DEBUG] database - UPDATE `act_tpl` SET `name`="zjk test",`code`="tplzjk",`parts`="images,buttons,images,buttons",`desc`="",`cover`="/images/act_tpl_image/1512978692388.jpg",`update_time`="2017-12-11 03:51:32" WHERE `id`="16" 
+[2017-12-11 15:51:32.673] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 15:51:32.674] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 15:51:36.321] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-11 16:26:17.893] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-11 16:26:47.788] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-11 16:26:47.798] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time",":publish_time")
+[2017-12-11 16:26:47.799] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES ("test","test","864439e82a6b422cb840436fb4287a82","http://local_activity.jiandanjiekuan.com/pages/test/1/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/1/img/pic1_1512978975617.jpg&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/1/img/button1_1512978983769.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;}},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;200px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;red&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/1/img/pic1_1512978975617.jpg&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/1/img/button1_1512978983769.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;}},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;200px&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;red&quot;}}}],&quot;activityCode&quot;:&quot;864439e82a6b422cb840436fb4287a82&quot;}",2,"images,buttons,images,buttons",1,"2017-12-11 04:26:47","2017-12-11 16:26:47")
+[2017-12-11 16:26:48.146] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-11 16:26:48.152] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-11 16:27:01.675] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=47 
+[2017-12-11 17:21:49.684] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-11 17:21:49.685] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:21:51.577] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-11 17:21:52.509] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 17:21:52.510] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:22:01.359] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-11 17:22:14.737] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 17:22:14.739] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:22:19.448] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-11 17:23:53.335] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-11 17:51:41.829] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-11 17:51:41.831] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:51:44.769] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 17:51:44.770] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:52:16.247] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-11 17:52:16.263] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-12-11 17:52:16.274] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2017-12-11 17:52:16.275] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("button测试","btn","/images/act_tpl_image/1512985936259.png","buttons","",1,0,"2017-12-11 05:52:16")
+[2017-12-11 17:52:16.542] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-11 17:52:16.543] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-11 17:52:21.609] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 18:29:21.231] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 18:30:57.303] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 18:31:19.943] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 18:32:34.805] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 18:43:11.646] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:06:20.867] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:07:11.126] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:08:13.941] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:18:03.829] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:29:38.723] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:33:59.596] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:34:15.840] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:34:24.046] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 19:47:29.250] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 20:12:05.487] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 20:13:47.577] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 20:16:02.534] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 
+[2017-12-11 20:17:32.020] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=23 

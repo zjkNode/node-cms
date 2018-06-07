@@ -1,0 +1,15 @@
+[2017-11-24 11:41:35.070] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=1 
+[2017-11-24 11:42:07.775] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-24 11:42:07.794] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=1 
+[2017-11-24 11:48:24.900] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-24 11:48:24.904] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-24 11:48:24.965] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8,10)  order by `id` ASC
+[2017-11-24 11:48:36.260] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-24 11:48:36.587] [DEBUG] database - SELECT * FROM `news`  WHERE `id`=262 
+[2017-11-24 11:48:36.678] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id`=20 
+[2017-11-24 11:48:46.681] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-24 11:48:46.682] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-24 11:49:14.725] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-24 11:49:14.726] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-24 11:49:16.678] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-24 11:49:16.683] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15

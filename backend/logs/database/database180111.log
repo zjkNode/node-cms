@@ -1,0 +1,225 @@
+[2018-01-11 10:38:37.444] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-11 10:38:37.470] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-11 10:38:37.474] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-11 10:41:17.314] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 10:41:44.592] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 10:43:02.042] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-11 10:43:02.093] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-01-11 10:43:02.094] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("注册模板","reg","/images/act_tpl_image/1515638582004.png","images,forms,images,shares,alerts,alerts","",1,0,"2018-01-11 10:43:02")
+[2018-01-11 10:43:02.446] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 10:43:06.979] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:08:06.134] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:08:33.168] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:09:56.517] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:10:26.239] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:11:11.203] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:11:33.071] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:12:04.943] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:12:42.475] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:17:30.561] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:17:30.903] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:23:01.159] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:25:03.180] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:25:38.432] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:26:10.706] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:30:58.562] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:31:39.844] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:32:32.781] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:33:09.515] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:33:10.896] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:33:41.169] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:39:37.501] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:45:30.798] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:45:42.571] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:58:22.338] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 11:58:49.727] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 12:00:01.604] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 12:06:48.786] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 12:09:15.609] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 12:09:24.219] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:28:03.107] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:33:50.707] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:34:46.803] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:44:51.083] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:47:19.234] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:47:41.285] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:48:40.964] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:49:30.849] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 13:50:27.743] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:05:57.880] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:07:23.596] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:09:59.392] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:10:29.254] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:11:39.780] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:11:53.458] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:13:04.386] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:14:06.833] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:15:12.015] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:18:17.337] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 14:19:02.621] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 15:38:52.033] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 15:44:38.587] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 15:44:57.900] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-11 15:44:57.905] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-11 15:45:00.756] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 15:45:02.052] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 16:23:19.656] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 16:32:59.832] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:06:27.566] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:22:56.124] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:32:16.850] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:38:15.887] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:40:15.625] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:43:41.472] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:44:13.847] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:44:32.595] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:44:57.664] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:48:41.369] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:50:17.786] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:50:33.600] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:51:03.830] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 17:52:25.465] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:08:18.870] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:08:47.980] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:30:41.641] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:34:50.837] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:34:53.009] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2018-01-11 18:34:53.012] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-01-11 18:34:53.026] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-11 18:34:53.043] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-11 18:34:53.044] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/tpl/","127.0.0.1","admin","2018-01-11 06:34:53")
+[2018-01-11 18:35:00.284] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:35:02.597] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2018-01-11 18:35:02.601] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-01-11 18:35:02.610] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-11 18:35:02.630] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-11 18:35:02.630] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/tpl/","127.0.0.1","admin","2018-01-11 06:35:02")
+[2018-01-11 18:35:27.555] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:35:32.925] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:38:01.582] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:38:44.419] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:39:17.729] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:40:00.100] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:58:32.387] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:59:25.361] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 18:59:56.444] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:00:26.550] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:00:51.583] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:10:17.568] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:20:00.567] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:26:01.167] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:48:31.946] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 19:48:42.985] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-11 19:48:44.478] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:52:20.788] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:53:26.433] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:53:54.053] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 19:58:14.470] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 20:06:46.334] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2018-01-11 20:06:46.340] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-01-11 20:06:46.347] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-11 20:06:46.368] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-11 20:06:46.369] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/tpl/","127.0.0.1","admin","2018-01-11 08:06:46")
+[2018-01-11 20:09:01.596] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 20:09:30.964] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 20:11:25.725] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-11 20:13:07.666] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 

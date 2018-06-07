@@ -1,0 +1,22 @@
+<div class="regFormWrap" style="{{item.wrap.style | styleFn}}">
+    <div class="formContent {{ 'space' if item.content.space }} {{'radius' if item.content.radius }}" style="{{item.content.style | styleFn}}">
+        <p style="{{item.input.style | styleFn}}">
+            <i class="icon icon-shouji" style="{{item.icon.style | styleFn}}"></i>
+            <input type="tel" placeholder="请输入手机号码" class="tel"/>
+        </p>
+        <p style="{{item.input.style | styleFn}}">
+            <i class="icon icon-code" style="{{item.icon.style | styleFn}}"></i>
+            <input type="tel" placeholder="请输入验证码" class="code"/>
+            <button class="btnCode" style="{{item.btnCode.style | styleFn}}" data-key="{{ itemKey +'-btnCode' }}">获取验证码</button>
+        </p>
+    </div>
+    <div class="formBottom">
+       <ul class="{{ 'flex' if item.buttons.orientH else '' }}">
+        {% for btnItem in item.buttons.items %}
+            <li>
+            {% include "../_partials/_button.html" ignore missing %}
+            </li>
+        {% endfor %}
+    </ul>
+    </div>
+</div>

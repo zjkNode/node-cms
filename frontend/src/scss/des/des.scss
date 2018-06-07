@@ -1,0 +1,43 @@
+@import "../base";
+.strategy, .requirement, .introduction{
+    .ask{
+        color: #999999;
+        padding-top: .266667rem;
+        padding-left: .4rem;
+        font-size: .32rem;
+        font-weight: normal;
+    }
+    .answer{
+        background: #fff;
+        margin-top: .266667rem;
+        padding: .533333rem .4rem;
+        border-bottom: solid 1px $borderColor;
+        h3.title{
+            @include flexbox(left, center);
+            margin-bottom: .533333rem;
+            font-weight: normal;
+            font-size: .4rem;
+            img{
+                display: block;
+                height: .453333rem;
+                width: .453333rem;
+                float:left;
+            }
+            span{
+                height: .453333rem;
+                line-height: .453333rem;
+                display: block;
+                padding-left: .16rem;
+                float:left;
+            }
+        };
+        .item{
+            font-size: .346667rem;
+            li{
+                line-height: .666667rem;
+                text-align: justify;
+            }
+        }
+        
+    }
+}

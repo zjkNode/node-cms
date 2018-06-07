@@ -1,0 +1,97 @@
+[2017-10-31 10:11:32.755] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:14:30.793] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:14:54.060] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:15:16.372] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:15:39.127] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="zjk@jdjk.com" 
+[2017-10-31 10:16:25.420] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:17:07.131] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:18:53.275] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:19:02.797] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:19:48.408] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:20:17.569] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:20:26.423] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:20:55.856] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:20:55.873] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-31 10:20:55.879] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-31 10:20:55.893] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-31 10:20:55.910] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-31 10:20:55.926] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-31 10:20:55.927] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-31 10:20:55")
+[2017-10-31 10:20:56.003] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-31 10:21:32.876] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-31 10:21:32.888] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-31 10:21:32.890] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-31 10:21:32.894] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-31 10:21:32.901] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-31 10:21:32.909] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-31 10:21:32.909] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-31 10:21:32")
+[2017-10-31 13:30:06.795] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-31 13:31:54.365] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-10-31 13:32:00.166] [DEBUG] database - UPDATE :tbname SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM :tbname WHERE id = :id) as b),
+													     CONCAT(':pids',',',':id')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM :tbname 
+												WHERE id = :id or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM :tbname WHERE id = :id),'%') 
+											) a
+										)
+[2017-10-31 13:32:00.167] [DEBUG] database - UPDATE menus SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM menus WHERE id = 24) as b),
+													     CONCAT('23',',','24')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM menus 
+												WHERE id = 24 or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM menus WHERE id = 24),'%') 
+											) a
+										)
+[2017-10-31 13:32:00.175] [DEBUG] database - SHOW COLUMNS FROM `menus`
+[2017-10-31 13:32:00.183] [DEBUG] database - UPDATE `menus` SET `name`=":name",`alink`=":alink",`pid`=:pid,`pids`=":pids",`sort`=:sort,`status`=:status WHERE `id`=24 
+[2017-10-31 13:32:00.184] [DEBUG] database - UPDATE `menus` SET `name`="活动组件",`alink`="/act/module/lists",`pid`=23,`pids`="23",`sort`=1,`status`=2 WHERE `id`=24 
+[2017-10-31 13:32:00.200] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-31 13:32:00.206] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-31 13:32:00.206] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("更新成功","/api/menu/24","127.0.0.1","admin","2017-10-31 01:32:00")
+[2017-10-31 13:32:00.221] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-31 13:32:00.239] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-10-31 13:32:48.207] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:32:48.213] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:32:48.214] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-10-31 13:32:48.222] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:32:48.230] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,31,32,33,34)  order by `id` ASC
+[2017-10-31 13:33:06.582] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-10-31 13:33:29.112] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:29.116] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:29.117] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-10-31 13:33:29.129] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:29.140] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,31,32,33,34)  order by `id` ASC
+[2017-10-31 13:33:46.887] [DEBUG] database - SELECT * FROM `rule`  WHERE `path`="/act/module/lists" 
+[2017-10-31 13:33:46.892] [DEBUG] database - UPDATE :tbname SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM :tbname WHERE id = :id) as b),
+													     CONCAT(':pids',',',':id')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM :tbname 
+												WHERE id = :id or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM :tbname WHERE id = :id),'%') 
+											) a
+										)
+[2017-10-31 13:33:46.892] [DEBUG] database - UPDATE rule SET pids = REPLACE(pids, 
+													     (SELECT cpids from (SELECT CONCAT(pids,',',id) as cpids FROM rule WHERE id = 32) as b),
+													     CONCAT('31',',','32')) 
+										WHERE id in(
+											SELECT a.id from (
+												SELECT * FROM rule 
+												WHERE id = 32 or pids LIKE CONCAT((SELECT CASE pids WHEN '0' THEN id ELSE CONCAT(pids,',',id) END 
+												FROM rule WHERE id = 32),'%') 
+											) a
+										)
+[2017-10-31 13:33:46.900] [DEBUG] database - SHOW COLUMNS FROM `rule`
+[2017-10-31 13:33:46.908] [DEBUG] database - UPDATE `rule` SET `name`=":name",`path`=":path",`pids`=":pids",`pid`=:pid,`status`=:status,`update_time`=":update_time" WHERE `id`=32 
+[2017-10-31 13:33:46.908] [DEBUG] database - UPDATE `rule` SET `name`="活动组件",`path`="/act/module/lists",`pids`="31",`pid`=31,`status`=2,`update_time`="2017-10-31 01:33:46" WHERE `id`=32 
+[2017-10-31 13:33:46.946] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:46.952] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-10-31 13:33:46.953] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:46.961] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-10-31 13:33:46.966] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,31,32,33,34)  order by `id` ASC

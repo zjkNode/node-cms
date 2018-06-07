@@ -1,0 +1,370 @@
+[2018-03-22 15:53:44.059] [ERROR] system - error in domain { TypeError: OSS is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:198:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:54:24.276] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:198:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:56:45.659] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:193:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:58:12.730] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:58:16.275] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 15:59:24.205] [ERROR] system - error in domain { ReferenceError: prefixObj is not defined
+    at OSSClient.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:21:32)
+    at fs.readdirSync.forEach.fileName (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:478:19)
+    at Array.forEach (native)
+    at walk (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:471:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:205:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:00:08.941] [ERROR] system - error in domain { TypeError: OSSClient.OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:201:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:00:30.800] [ERROR] system - error in domain { TypeError: OSSClient is not a constructor
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:201:29
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:01:48.697] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:01:52.163] [ERROR] system - error in domain { ReferenceError: OSSClient is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:200:25
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:194:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:10:54.355] [ERROR] system - error in domain { ReferenceError: err is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:485:12
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at Glob.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:151:7)
+    at emitOne (events.js:96:13)
+    at Glob.emit (events.js:188:7)
+    at Glob._finish (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:197:8)
+    at done (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:182:14)
+    at Glob._processGlobStar2 (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:637:12)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:626:10
+    at RES (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/inflight/inflight.js:31:16)
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at lstatcb_ (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/glob/glob.js:519:7)
+    at RES (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/inflight/inflight.js:31:16)
+    at f (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/once/once.js:25:25)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:10:54.379] [ERROR] system - error in domain { Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:230:32
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:216:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:48:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:238:20
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 16:10:54.384] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:256:15)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-03-22 16:44:51.060] [ERROR] system - error in domain { ReferenceError: dir is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:205:37
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:196:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/clean.js:109:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:64
+    at loadOriginalSources (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/load-original-sources.js:26:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:26:14
+    at applySourceMaps (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/apply-source-maps.js:34:5)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:25:12)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at Object.callback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:324:14)
+    at doInlineImports (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:200:25)
+    at inline (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:178:10)
+    at fromStyles (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/clean-css/lib/reader/read-sources.js:151:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-22 20:09:14.381] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/config.service.js { Error: ER_NO_SUCH_TABLE: Table 'cms_system.act_config' doesn't exist
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Ping.onOperationComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:110:5)
+    at bound (domain.js:280:14)
+    at Ping.runBound [as _callback] (domain.js:293:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+[2018-03-22 20:17:13.844] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/config.controller.js 参数验证失败
+[2018-03-22 20:17:31.784] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/config.controller.js 参数验证失败

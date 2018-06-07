@@ -1,0 +1,12 @@
+<div class='rollWrap' style="{{item.wrap.style | styleFn}}">
+    <div class="rbox" style="{{item.box.style | styleFn}}">
+        <div class="rcontent" style="{{item.content.style | styleFn}}" data-orient="{{ item.content.orient }}">
+        	{% if item.content.orient == 'orientH' %}
+            	{{ item.content.text | replace('\\u0001',' ')}}
+            {% else %}
+				<p>{{ item.content.text | replace('\\u0001','</p><p>') | safe}}</p>
+            {% endif %}
+        </div>
+        <div class="rbottom"></div>
+    </div>
+</div>

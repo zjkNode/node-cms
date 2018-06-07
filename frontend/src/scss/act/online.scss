@@ -1,0 +1,84 @@
+@import "../base";
+.patsCol{
+        width: 375px;
+        height: 667px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border:2px solid #bfcbd9;
+        // background-size:contain;
+        > div{
+            border-bottom: 1px dashed #bfcbd9;
+            // &:last-child{border:none;}
+        }
+
+        &::-webkit-scrollbar{  
+            width:1px;  
+            height:4px;
+            position: absolute;
+            right: -4px;
+        }  
+        &::-webkit-scrollbar-track{  
+            background: #f6f6f6;  
+            border-radius:2px;  
+        }  
+        &::-webkit-scrollbar-thumb{  
+            background: #aaa;  
+            border-radius:2px; 
+        }  
+        &::-webkit-scrollbar-thumb:hover{  
+            background: #747474;  
+        }  
+        &::-webkit-scrollbar-corner{  
+            background: #f6f6f6;  
+        }  
+    }
+    .alerts_mask{
+        width: 375px;
+        height: 667px;
+        background: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left:0;
+        z-index: 999;
+    }
+    .patsCol_hidden{
+        width: 375px;
+        height: auto;
+        overflow: hidden;
+        box-sizing:border-box;
+        border:1px dashed #bfcbd9;
+        border-top:0;
+        text-align: center;
+        cursor: pointer;
+        &:empty{
+            border:none;
+        }
+        li{
+            position:relative;
+            border-bottom:1px dashed #bfcbd9;
+            border-right: 1px dashed #bfcbd9;
+            margin-bottom:-1px;
+            margin-right: -1px;
+            width:93px;
+            height: 30px;
+            line-height: 1;
+            overflow:hidden;
+            word-wrap:break-word;
+            float:left;
+            &:hover .masker, &.selected .masker{
+                display:block;
+            }
+
+            .masker{
+                cursor:pointer;
+                background: rgba(0, 0, 0, 0.4);
+                position:absolute;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                display:none;
+            }
+        }
+    }

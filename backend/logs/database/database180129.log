@@ -1,0 +1,41 @@
+[2018-01-29 09:45:26.499] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 10:52:22.061] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-29 10:52:22.074] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 10:52:46.248] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 10:59:27.077] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 11:07:08.126] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 11:08:04.683] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 11:37:53.076] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 11:41:51.430] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-29 11:41:51.432] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-29 11:41:52.280] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 11:42:09.471] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-29 11:42:09.486] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-29 11:42:09.496] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-01-29 11:42:09.497] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("button","button","/images/act_tpl_image/1517197329483.png","buttons","",1,0,"2018-01-29 11:42:09")
+[2018-01-29 11:42:09.732] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 11:42:11.792] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 11:43:18.270] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 11:43:21.588] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-29 11:43:21.594] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-29 11:43:23.617] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=91 
+[2018-01-29 11:43:29.285] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-29 11:43:29.286] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-29 11:43:32.184] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=91 
+[2018-01-29 11:43:32.189] [DEBUG] database - DELETE FROM `act` WHERE `id`=91 
+[2018-01-29 11:43:32.214] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-29 11:43:32.214] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-29 11:43:34.000] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 11:49:31.695] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 11:49:33.624] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 11:49:51.797] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 11:52:40.683] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 13:12:09.819] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 13:13:10.608] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-29 13:18:12.118] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-29 13:18:12.124] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-29 13:18:13.487] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-29 13:18:15.549] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 13:19:05.776] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 17:59:37.995] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=50 
+[2018-01-29 18:00:48.755] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC

@@ -1,0 +1,15 @@
+[2018-01-30 13:46:55.594] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-01-30 13:46:55.603] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-01-30 13:46:55.662] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8)  order by `id` ASC
+[2018-01-30 13:46:58.280] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-01-30 19:08:13.743] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-01-30 19:08:13.837] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-01-30 19:08:13.866] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-01-30 19:08:13.910] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-01-30 19:08:13.983] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-30 19:08:14.054] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-30 19:08:14.054] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-01-30 07:08:13")
+[2018-01-30 19:08:14.262] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-30 19:08:17.752] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-30 19:08:19.897] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=51 
+[2018-01-30 19:08:28.043] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC

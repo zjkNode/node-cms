@@ -1,0 +1,29 @@
+[2017-12-04 19:12:53.762] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:15.800] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:21.552] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:13:27.475] [FATAL] system - TypeError: "callback" argument must be a function
+    at makeCallback (fs.js:119:11)
+    at Object.fs.symlink (fs.js:1034:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:21:7)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:48:36.704] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.stat (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2017-12-04 19:49:12.645] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.exists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)
+[2017-12-04 19:49:21.556] [FATAL] system - TypeError: Cannot read property 'isDirectory' of undefined
+    at fs.exists (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:10)
+    at FSReqWrap.cb [as oncomplete] (fs.js:257:19)

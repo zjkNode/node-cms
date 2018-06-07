@@ -1,0 +1,18 @@
+[2018-04-25 11:38:42.436] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:17.471] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:17.494] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:17.495] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-04-25 11:40:23.187] [DEBUG] database - DELETE FROM `menus` WHERE `id`=32 
+[2018-04-25 11:40:23.196] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-25 11:40:23.208] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-25 11:40:23.208] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("删除菜单成功","/api/menu/32","127.0.0.1","admin","2018-04-25 11:40:23")
+[2018-04-25 11:40:23.225] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:23.235] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:23.244] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-04-25 11:40:26.219] [DEBUG] database - DELETE FROM `menus` WHERE `id`=31 
+[2018-04-25 11:40:26.230] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-04-25 11:40:26.237] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-04-25 11:40:26.237] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("删除菜单成功","/api/menu/31","127.0.0.1","admin","2018-04-25 11:40:26")
+[2018-04-25 11:40:26.269] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:26.275] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-25 11:40:26.281] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC

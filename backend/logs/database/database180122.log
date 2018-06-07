@@ -1,0 +1,182 @@
+[2018-01-22 11:04:22.896] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-22 11:31:11.837] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2018-01-22 11:31:11.838] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2018-01-22 11:31:23.479] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 11:31:23.480] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 14:55:40.836] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-22 16:11:18.395] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-22 16:15:16.263] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:15:16.266] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:15:17.348] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:15:25.105] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:15:25.106] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:15:27.042] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:15:29.792] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-22 16:15:49.209] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:18:27.513] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:18:40.451] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=43 
+[2018-01-22 16:18:52.064] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=43 
+[2018-01-22 16:37:44.504] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=43 
+[2018-01-22 16:39:13.531] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:39:16.772] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:39:19.443] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:39:20.187] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:39:20.193] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:39:21.188] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:39:22.193] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:39:22.194] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:39:23.415] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:39:27.009] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:44:49.014] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:47:10.401] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:47:13.644] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:47:17.101] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 16:49:21.038] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 16:49:21.097] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 16:49:24.342] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 16:49:45.505] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:49:46.814] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:49:46.820] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:49:50.417] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:49:50.417] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:49:51.157] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:49:54.265] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:49:55.660] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 16:49:55.661] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 16:49:56.708] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 16:52:59.046] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 16:58:36.648] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 17:05:15.173] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 17:05:15.832] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 17:05:17.537] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 17:05:20.062] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 17:05:30.550] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:05:31.925] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:05:31.930] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:05:33.332] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:05:42.636] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 17:20:07.794] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-22 17:20:12.234] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:20:13.590] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:20:13.595] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:20:15.378] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:20:36.176] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:20:36.178] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:20:37.078] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:20:40.511] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-22 17:20:44.026] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-22 17:20:44.041] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`update_time`=":update_time" WHERE `id`=42 
+[2018-01-22 17:20:44.043] [DEBUG] database - UPDATE `act_tpl` SET `name`="alert",`code`="alert",`parts`="alerts,alerts",`desc`="",`update_time`="2018-01-22 05:20:44" WHERE `id`=42 
+[2018-01-22 17:20:44.294] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:20:47.320] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-22 17:21:50.198] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:21:50.199] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:22:06.387] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:22:06.388] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:22:09.132] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 17:22:16.697] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 17:22:20.101] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 17:22:22.502] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-22 17:24:46.015] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:24:47.092] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:24:47.098] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:24:53.688] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-22 17:25:23.778] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:26:45.250] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-01-22 17:26:45.268] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-01-22 17:26:45.274] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-01-22 17:26:45.282] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-01-22 17:26:45.291] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-22 17:26:45.312] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-22 17:26:45.313] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-01-22 05:26:45")
+[2018-01-22 17:26:45.366] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-22 17:26:48.334] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:26:48.337] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:26:50.438] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=82 
+[2018-01-22 17:32:49.311] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admiin@jdjk.com" 
+[2018-01-22 17:32:49.324] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-22 17:32:49.334] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-22 17:32:49.335] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("{&quot;user&quot;:{&quot;code&quot;:&quot;NOT_EXIST_USER&quot;,&quot;msg&quot;:&quot;用户名不存在&quot;}}","/api/signin","127.0.0.1","","2018-01-22 05:32:49")
+[2018-01-22 17:33:04.261] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-01-22 17:33:04.277] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-01-22 17:33:04.283] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-01-22 17:33:04.288] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-01-22 17:33:04.297] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-22 17:33:04.309] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-22 17:33:04.309] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-01-22 05:33:04")
+[2018-01-22 17:33:11.224] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 17:33:11.225] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 17:38:58.228] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:39:01.401] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-22 17:39:06.248] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:39:09.121] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-22 17:40:43.187] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:53:14.018] [DEBUG] database - DELETE FROM `act_tpl` WHERE `id`=43 
+[2018-01-22 17:53:14.046] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:53:16.120] [DEBUG] database - DELETE FROM `act_tpl` WHERE `id`=42 
+[2018-01-22 17:53:16.141] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:53:17.679] [DEBUG] database - DELETE FROM `act_tpl` WHERE `id`=41 
+[2018-01-22 17:53:17.699] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:53:19.556] [DEBUG] database - DELETE FROM `act_tpl` WHERE `id`=40 
+[2018-01-22 17:53:19.579] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:56:38.798] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-22 17:56:38.821] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-01-22 17:56:38.821] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("注册拉新模板","reg","/images/act_tpl_image/1516614998786.png","images,forms,images,alerts,alerts,alerts","",1,0,"2018-01-22 05:56:38")
+[2018-01-22 17:56:39.102] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 17:56:41.382] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=45 
+[2018-01-22 18:15:08.016] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-22 18:15:08.031] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-01-22 18:15:08.031] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("注册拉新","act2","d22b4b65a30543e0bd0217073c740cb8","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#704be5&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/tit_min_1516615050184.png&quot;]},{&quot;name&quot;:&quot;forms&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;height&quot;:&quot;1000px&quot;}},&quot;content&quot;:{&quot;space&quot;:true,&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;&quot;}},&quot;icon&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;}},&quot;btnCode&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;,&quot;border-color&quot;:&quot;&quot;},&quot;alert&quot;:&quot;&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn0_1516615171480.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;b714ec2d26ab4609acb294ffe251c430&quot;}]},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/steps_min_1516615188528.png&quot;]},{&quot;name&quot;:&quot;alerts_vcode&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;800px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615258346.png&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615351786.png&quot;},&quot;content&quot;:{&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;800px&quot;,&quot;padding-top&quot;:&quot;500px&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;#d5d5d5&quot;}},&quot;uuid&quot;:&quot;1d300671e70c407899d484364ca08681&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615437233.png&quot;,&quot;usages&quot;:[&quot;goResponse&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[{&quot;1002&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;cc4ead3fbb3342aebf836ded821d68ad&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615573680.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615590790.png&quot;},&quot;content&quot;:{&quot;image_path&quot;:[&quot;/temp/20180122175641/msg_success_1516615597547.png&quot;],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;300px&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;500px&quot;}},&quot;uuid&quot;:&quot;6b28ec82352749ac950f849f60f30209&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615631469.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e688982df73d49629bcf7690128fbf95&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:false,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615686916.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;&quot;},&quot;content&quot;:{&quot;image_path&quot;:[&quot;/temp/20180122175641/msg_fail_1516615695582.png&quot;],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;400px&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;400px&quot;}},&quot;uuid&quot;:&quot;d39cdf0d9159461bb3328f816e5bc306&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615716578.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppIndex&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e51f22fd61294286bbffce36d5a03ef0&quot;}]}],&quot;activityCode&quot;:&quot;d22b4b65a30543e0bd0217073c740cb8&quot;}",1,"images,forms,images,alerts,alerts,alerts",1,"2018-01-22 06:15:08")
+[2018-01-22 18:15:08.314] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 18:15:08.319] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 18:15:10.976] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:29:46.828] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:31:55.362] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:33:36.041] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:34:01.338] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:34:38.410] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:35:25.995] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:36:05.679] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:36:41.327] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:43:23.108] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 18:46:37.401] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:09:23.679] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-22 19:09:23.694] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=83 
+[2018-01-22 19:09:23.695] [DEBUG] database - UPDATE `act` SET `name`="注册拉新",`code`="act2",`activity_code`="d22b4b65a30543e0bd0217073c740cb8",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#704be5&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/tit_min_1516615050184.png&quot;]},{&quot;name&quot;:&quot;forms&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;height&quot;:&quot;1000px&quot;}},&quot;content&quot;:{&quot;space&quot;:true,&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;&quot;}},&quot;icon&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;}},&quot;btnCode&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;,&quot;border-color&quot;:&quot;&quot;},&quot;alert&quot;:&quot;&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;126d381343cf45a4b419bfbbb2053282&quot;}]},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/steps_min_1516615188528.png&quot;]},{&quot;name&quot;:&quot;alerts_vcode&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;800px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615258346.png&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615351786.png&quot;},&quot;content&quot;:{&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;&quot;}},&quot;uuid&quot;:&quot;872e0223a97d4b699ee803909f9da4c3&quot;,&quot;type&quot;:&quot;vcode&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615437233.png&quot;,&quot;usages&quot;:[&quot;goResponse&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[{&quot;1002&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;cc4ead3fbb3342aebf836ded821d68ad&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615573680.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615590790.png&quot;},&quot;content&quot;:{&quot;image_path&quot;:[],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;&quot;}},&quot;uuid&quot;:&quot;5a1f576b35734c66bb58af56f9fb9fba&quot;,&quot;type&quot;:&quot;img&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615631469.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e688982df73d49629bcf7690128fbf95&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:false,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615686916.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;&quot;},&quot;content&quot;:{&quot;image_path&quot;:[],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;&quot;}},&quot;uuid&quot;:&quot;a6d1f46e33c449dd9a0d891650463ebf&quot;,&quot;type&quot;:&quot;img&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615716578.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppIndex&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;900px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e51f22fd61294286bbffce36d5a03ef0&quot;}]}],&quot;activityCode&quot;:&quot;d22b4b65a30543e0bd0217073c740cb8&quot;}",`url`="",`components`="images,forms,images,alerts,alerts,alerts",`uuser_id`=1,`status`=CASE WHEN `status` = 1 THEN 1 ELSE 3 END,`update_time`="2018-01-22 07:09:23" WHERE `id`=83 
+[2018-01-22 19:09:24.013] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 19:09:24.019] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 19:09:26.250] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:09:47.014] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:10:19.301] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:10:46.805] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:17:05.086] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:17:53.076] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:18:18.945] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:19:18.865] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:21:50.252] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-01-22 19:21:50.264] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=83 
+[2018-01-22 19:21:50.264] [DEBUG] database - UPDATE `act` SET `name`="注册拉新",`code`="act2",`activity_code`="d22b4b65a30543e0bd0217073c740cb8",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#704be5&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/tit_min_1516615050184.png&quot;]},{&quot;name&quot;:&quot;forms&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;height&quot;:&quot;1000px&quot;}},&quot;content&quot;:{&quot;space&quot;:true,&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;&quot;}},&quot;icon&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;}},&quot;btnCode&quot;:{&quot;style&quot;:{&quot;color&quot;:&quot;#4c5b61&quot;,&quot;border-color&quot;:&quot;&quot;},&quot;alert&quot;:&quot;&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e3e6dd55c7b341148d3e9f5afa629bcd&quot;}]},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180122175641/steps_min_1516615188528.png&quot;]},{&quot;name&quot;:&quot;alerts_vcode&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;800px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615258346.png&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615351786.png&quot;},&quot;content&quot;:{&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;600px&quot;,&quot;padding-top&quot;:&quot;400px&quot;}},&quot;input&quot;:{&quot;style&quot;:{&quot;border-color&quot;:&quot;#d5d5d5&quot;}},&quot;uuid&quot;:&quot;872e0223a97d4b699ee803909f9da4c3&quot;,&quot;type&quot;:&quot;vcode&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615437233.png&quot;,&quot;usages&quot;:[&quot;goResponse&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[{&quot;1002&quot;:&quot;this.handle&quot;}],&quot;uuid&quot;:&quot;cc4ead3fbb3342aebf836ded821d68ad&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:true,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615573680.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;/temp/20180122175641/close_1516615590790.png&quot;},&quot;content&quot;:{&quot;image_path&quot;:[&quot;/temp/20180122191918/msg_success_1516620034091.png&quot;],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;300px&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;500px&quot;}},&quot;uuid&quot;:&quot;5a1f576b35734c66bb58af56f9fb9fba&quot;,&quot;type&quot;:&quot;img&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615631469.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e688982df73d49629bcf7690128fbf95&quot;}]},{&quot;name&quot;:&quot;alerts_img&quot;,&quot;wrap&quot;:{&quot;radius&quot;:false,&quot;style&quot;:{&quot;width&quot;:&quot;980px&quot;,&quot;height&quot;:&quot;980px&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;/temp/20180122175641/msgbox_1516615686916.png&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;border-radius&quot;:&quot;&quot;}},&quot;closeBtn&quot;:{&quot;imgUrl&quot;:&quot;&quot;},&quot;content&quot;:{&quot;image_path&quot;:[&quot;/temp/20180122191918/msg_fail_1516620094369.png&quot;],&quot;wrap&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;300px&quot;,&quot;height&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;400px&quot;}},&quot;uuid&quot;:&quot;a6d1f46e33c449dd9a0d891650463ebf&quot;,&quot;type&quot;:&quot;img&quot;},&quot;buttons&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180122175641/btn_1516615716578.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppIndex&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;e51f22fd61294286bbffce36d5a03ef0&quot;}]}],&quot;activityCode&quot;:&quot;d22b4b65a30543e0bd0217073c740cb8&quot;}",`url`="",`components`="images,forms,images,alerts,alerts,alerts",`uuser_id`=1,`status`=CASE WHEN `status` = 1 THEN 1 ELSE 3 END,`update_time`="2018-01-22 07:21:50" WHERE `id`=83 
+[2018-01-22 19:21:50.600] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 19:21:50.604] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 19:21:52.593] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:31:16.335] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:31:25.798] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:31:26.145] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:31:26.721] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:31:45.339] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:32:48.792] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:34:34.559] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 19:37:19.047] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=83 
+[2018-01-22 20:23:51.424] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-01-22 20:23:51.457] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-01-22 20:23:51.496] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-01-22 20:23:51.602] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-01-22 20:23:51.617] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-01-22 20:23:51.653] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-01-22 20:23:51.653] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-01-22 08:23:51")
+[2018-01-22 20:24:13.021] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 20:24:31.453] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=44 
+[2018-01-22 20:24:35.957] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-22 20:24:37.245] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-22 20:24:37.246] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-22 20:24:39.019] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC

@@ -1,0 +1,236 @@
+[2017-11-16 11:28:54.736] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 11:28:54.740] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 11:29:21.089] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-16 11:29:21.099] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":template",":parts",":desc",":status",:count,":create_time")
+[2017-11-16 11:29:21.099] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("zjk","zjk","activity/zjk/20171116/tpl1.html","images_0,buttons_1","","1",0,"2017-11-16 11:29:21")
+[2017-11-16 11:29:21.382] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 11:29:21.383] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 11:29:26.445] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 11:30:01.064] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 11:30:01.075] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-16 11:30:01.077] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("zjktest","zjktest","https://activity.jiandanjiekuan.com/pages/zjktest/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;https://activity.jiandanjiekuan.com/pages/zjktest/img/card_1510802985819.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;https://activity.jiandanjiekuan.com/pages/zjktest/img/logo_1510802991876.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;https://activity.jiandanjiekuan.com/pages/zjktest/img/logo_1510802997430.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"activity/zjk/20171116/tpl1.html","1","2017-11-16 11:30:00","2017-11-16 11:30:00")
+[2017-11-16 11:30:01.414] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 11:30:01.416] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:21:00.571] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-16 14:21:00.850] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-16 14:21:00.857] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:21:21.847] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2017-11-16 14:21:21.861] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="6" 
+[2017-11-16 14:21:21.862] [DEBUG] database - UPDATE `config` SET `name`="活动访问域名",`key`="actDomain",`value`="http://local_activity.jiandanjiekuan.com/pages",`status`=1,`update_time`="2017-11-16 02:21:21" WHERE `id`="6" 
+[2017-11-16 14:21:21.897] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-16 14:21:21.898] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:22:01.058] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:22:01.059] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:22:55.872] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=1 
+[2017-11-16 14:23:22.924] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 14:23:22.929] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:23:26.121] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:23:26.121] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:23:32.680] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:25:48.498] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-16 14:25:48.501] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:27:57.753] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:27:57.756] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:28:00.317] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:28:00.327] [DEBUG] database - DELETE FROM `act` WHERE `id`="1" 
+[2017-11-16 14:28:00.354] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:28:00.355] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:28:55.613] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:28:55.615] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 14:28:57.897] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 14:29:34.045] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:29:34.120] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 14:29:34.129] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-16 14:29:34.130] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("test","test","http://local_activity.jiandanjiekuan.com/pages/test/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/test/img/card_1510813760558.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/img/logo_1510813766427.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/test/img/logo_1510813770739.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"activity/zjk/20171116/tpl1.html","1","2017-11-16 02:29:34","2017-11-16 14:29:34")
+[2017-11-16 14:29:34.438] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:29:34.438] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:38:33.015] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:39:36.813] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:40:12.705] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:45:11.844] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:45:45.487] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:45:59.714] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:45:59.727] [DEBUG] database - DELETE FROM `act` WHERE `id`="2" 
+[2017-11-16 14:45:59.778] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:45:59.787] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:48:59.169] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 14:48:59.171] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:49:04.927] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 14:49:52.657] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 14:49:52.729] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 14:49:52.738] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-16 14:49:52.740] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("ttt","ttt","http://local_activity.jiandanjiekuan.com/pages/ttt/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/card_1510814980565.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/logo_1510814985271.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/logo_1510814989706.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"activity/zjk/20171116/tpl1.html","1","2017-11-16 02:49:52","2017-11-16 14:49:52")
+[2017-11-16 14:49:53.031] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 14:49:53.040] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 14:49:54.983] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=3 
+[2017-11-16 14:50:51.974] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-16 14:50:51.985] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=3 
+[2017-11-16 15:02:50.906] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:02:50.908] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:02:52.030] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:02:52.032] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:02:58.193] [DEBUG] database - DELETE FROM `act` WHERE `id`="3" 
+[2017-11-16 15:02:58.254] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:02:58.255] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:03:07.139] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:03:07.142] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:03:09.088] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 15:04:21.243] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 15:04:21.252] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":user_id",":create_time",":publish_time")
+[2017-11-16 15:04:21.253] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("aaa","aaa","http://local_activity.jiandanjiekuan.com/pages/aaa/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/img/card_1510815797706.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/img/logo_1510815803107.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/img/logo_1510815809423.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"activity/zjk/20171116/tpl1.html","1","2017-11-16 03:04:21","2017-11-16 15:04:21")
+[2017-11-16 15:05:12.183] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=NaN 
+[2017-11-16 15:05:12.190] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-11-16 15:05:12.213] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-16 15:05:12.229] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-16 15:05:12.230] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，新增模版失败","/api/act/publish","127.0.0.1","admin","2017-11-16 03:05:12")
+[2017-11-16 15:06:39.629] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-16 15:06:39.651] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:06:39.665] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:06:42.869] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 15:06:42.889] [DEBUG] database - DELETE FROM `act` WHERE `id`="4" 
+[2017-11-16 15:07:17.328] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 15:07:17.348] [DEBUG] database - DELETE FROM `act` WHERE `id`="4" 
+[2017-11-16 15:07:17.391] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:07:17.397] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:07:23.432] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:07:23.433] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:07:25.248] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 15:08:08.986] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 15:08:08.996] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`parts`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":parts",":template",":user_id",":create_time",":publish_time")
+[2017-11-16 15:08:08.997] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`parts`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("aaaa","aaaa","http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816069602.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816077964.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816084536.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"images_0,buttons_1","activity/zjk/20171116/tpl1.html","1","2017-11-16 03:08:08","2017-11-16 15:08:08")
+[2017-11-16 15:08:09.293] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:08:09.294] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:08:13.418] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=5 
+[2017-11-16 15:08:28.921] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:08:28.921] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:08:37.447] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:08:37.448] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:08:39.686] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 15:09:32.881] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-16 15:09:32.891] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`template`=":template",`parts`=":parts",`desc`=":desc",`update_time`=":update_time" WHERE `id`=2 
+[2017-11-16 15:09:32.892] [DEBUG] database - UPDATE `act_tpl` SET `name`="zjk",`code`="zjkzz",`template`="activity/zjk/20171116/tpl1.html",`parts`="images_0,buttons_1",`desc`="",`update_time`="2017-11-16 03:09:32" WHERE `id`=2 
+[2017-11-16 15:09:33.138] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:09:33.143] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:09:37.033] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:09:37.033] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:09:42.067] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=5 
+[2017-11-16 15:09:50.051] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 15:09:50.059] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=5 
+[2017-11-16 15:09:50.060] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 03:09:50",`publish_time`="2017-11-16 15:09:50",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816069602.jpg&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816077964.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816084536.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html" WHERE `id`=5 
+[2017-11-16 15:09:50.344] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:09:50.346] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:10:02.730] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:10:02.731] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:10:06.332] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 15:12:17.396] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-16 15:12:17.407] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`template`=":template",`parts`=":parts",`desc`=":desc",`update_time`=":update_time" WHERE `id`=2 
+[2017-11-16 15:12:17.408] [DEBUG] database - UPDATE `act_tpl` SET `name`="zjk",`code`="zjkzz",`template`="activity/zjk/20171116/tpl1.html",`parts`="images_0,buttons_1,buttons_2",`desc`="",`update_time`="2017-11-16 03:12:17" WHERE `id`=2 
+[2017-11-16 15:12:17.666] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 15:12:17.671] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 15:12:19.543] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 15:13:11.464] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 15:13:11.477] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`parts`,`template`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":parts",":template",":user_id",":create_time",":publish_time")
+[2017-11-16 15:13:11.478] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`parts`,`template`,`user_id`,`create_time`,`publish_time`) VALUES ("aaaa","aaaa","http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html","{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",2,"images_0,buttons_1,buttons_2","activity/zjk/20171116/tpl1.html","1","2017-11-16 03:13:11","2017-11-16 15:13:11")
+[2017-11-16 15:13:11.783] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 15:13:11.814] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:03:36.148] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 16:03:36.150] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:03:37.926] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 16:03:49.562] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:03:49.563] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 16:03:50.818] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:03:50.818] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:03:52.711] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:04:10.704] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 16:04:10.706] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:04:11.700] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:04:11.701] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:04:13.449] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=5 
+[2017-11-16 16:04:22.585] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:04:22.585] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 16:08:07.678] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:08:07.680] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:08:11.619] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:09:04.381] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 16:09:04.436] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:09:04.445] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:09:04.447] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:09:04",`publish_time`="2017-11-16 16:09:04",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html" WHERE `id`=6 
+[2017-11-16 16:09:04.749] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:09:04.755] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:09:59.362] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:10:02.907] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 16:10:02.960] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:10:02.973] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:10:02.974] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:10:02",`publish_time`="2017-11-16 16:10:02",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html" WHERE `id`=6 
+[2017-11-16 16:10:03.254] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:10:03.277] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:14:37.261] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:14:41.893] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 16:14:41.950] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:14:41.960] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:14:41.961] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:14:41",`publish_time`="2017-11-16 16:14:41",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html" WHERE `id`=6 
+[2017-11-16 16:14:42.247] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:14:42.254] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:14:58.106] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:15:00.329] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:15:00.336] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:15:00.337] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:15:00",`publish_time`="2017-11-16 16:15:00",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index.html" WHERE `id`=6 
+[2017-11-16 16:15:00.607] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:15:00.608] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:15:28.504] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:15:31.079] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 16:15:31.122] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:15:31.129] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:15:31.131] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:15:31",`publish_time`="2017-11-16 16:15:31",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index_2.html" WHERE `id`=6 
+[2017-11-16 16:15:31.426] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:15:31.433] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:15:52.630] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=6 
+[2017-11-16 16:15:54.713] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-16 16:15:54.755] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-16 16:15:54.761] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`parts`=":parts",`template`=":template",`user_id`=":user_id",`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data",`url`=":url" WHERE `id`=6 
+[2017-11-16 16:15:54.762] [DEBUG] database - UPDATE `act` SET `name`="aaaa",`code`="aaaa",`parts`="images_0,buttons_1,buttons_2",`template`="activity/zjk/20171116/tpl1.html",`user_id`="1",`status`=2,`update_time`="2017-11-16 04:15:54",`publish_time`="2017-11-16 16:15:54",`data`="{&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816364132.png&quot;},&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/card_1510816368975.jpg&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816384211.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}},&quot;buttons_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaaa/img/logo_1510816389298.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;download&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;80%&quot;}}}}",`url`="http://local_activity.jiandanjiekuan.com/pages/aaaa/index_1.html" WHERE `id`=6 
+[2017-11-16 16:15:55.050] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:15:55.058] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:17:06.371] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-16 16:17:06.374] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-16 16:17:13.008] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE ( `name` like "%z%" OR `code` like "%z%" OR `desc` like "%z%" )
+[2017-11-16 16:17:13.009] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE ( `name` like "%z%" OR `code` like "%z%" OR `desc` like "%z%" ) order by `id` DESC LIMIT 0,15
+[2017-11-16 16:17:16.979] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE ( `name` like "%s%" OR `code` like "%s%" OR `desc` like "%s%" )
+[2017-11-16 16:17:16.979] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE ( `name` like "%s%" OR `code` like "%s%" OR `desc` like "%s%" ) order by `id` DESC LIMIT 0,15
+[2017-11-16 16:17:21.975] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl` WHERE ( `name` like "%z%" OR `code` like "%z%" OR `desc` like "%z%" )
+[2017-11-16 16:17:21.976] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE ( `name` like "%z%" OR `code` like "%z%" OR `desc` like "%z%" ) order by `id` DESC LIMIT 0,15
+[2017-11-16 16:17:33.730] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=2 
+[2017-11-16 16:17:41.098] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-16 16:17:41.098] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

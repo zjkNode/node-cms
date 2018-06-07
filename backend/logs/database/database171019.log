@@ -1,0 +1,1978 @@
+[2017-10-19 10:06:44.444] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:06:44.468] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:08:06.372] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:08:06.396] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:10:45.260] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:10:45.283] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:11:50.834] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:11:50.857] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:14:20.997] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:14:21.022] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:16:20.953] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:16:20.966] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:22:29.387] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:22:29.412] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:25:26.724] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:25:26.747] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:25:39.417] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:25:39.428] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:26:37.572] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:26:37.585] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:27:14.618] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:27:14.642] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:29:14.580] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:29:14.592] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:31:14.599] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:31:14.612] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:31:59.555] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:31:59.580] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:32:22.398] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:32:22.419] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:33:59.505] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:33:59.515] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:10.383] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:10.412] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:18.074] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:18.085] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:51.131] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:37:51.146] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:04.469] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:04.497] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:26.488] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:26.514] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:32.604] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:40:32.615] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:41:10.759] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:41:10.769] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:43:13.614] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:43:13.694] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:43:27.386] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:43:27.405] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:44:44.860] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:44:44.872] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:45:13.817] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:45:13.830] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:45:31.468] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:13:22)
+    at user (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:35:19)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1621:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at Object.auto (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1555:5)
+    at exports.signIn (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:33:9)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:45:31.485] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js { Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'cms_user'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at _getFields (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:356:5)
+    at Object.insert (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:166:5)
+    at Object.exports.log (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/logs.service.js:20:11)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:37:22
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+[2017-10-19 10:52:39.820] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 10:52:39.836] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 10:52:39.840] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 10:52:39.847] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 10:52:39.863] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 10:52:39.878] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 10:52:39.878] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 10:52:39")
+[2017-10-19 10:52:39.965] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-19 10:52:54.251] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-19 10:52:54.252] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-10-19 10:52:54.258] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-19 10:52:59.541] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 10:54:11.546] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 10:54:51.654] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 10:58:07.524] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 11:02:42.178] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 13:13:15.742] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:13:15.754] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:13:15.763] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:13:15.769] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:13:15.785] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:13:15.795] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:13:15.796] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:13:15")
+[2017-10-19 13:13:24.151] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-19 13:14:45.987] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:14:45.994] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:14:46.002] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:14:46.007] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:14:46.017] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:14:46.028] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:14:46.028] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:14:46")
+[2017-10-19 13:18:24.012] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:18:24.039] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:18:24.050] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:18:24.057] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:18:24.063] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:18:24.072] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:18:24.073] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:18:24")
+[2017-10-19 13:22:31.616] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:22:31.625] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:22:31.630] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:22:31.636] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:22:31.646] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:22:31.653] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:22:31.653] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:22:31")
+[2017-10-19 13:34:41.991] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:40:19.933] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:40:19.940] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:40:19.945] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:40:19.950] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:40:19.955] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:40:19.962] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:40:19.962] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:40:19")
+[2017-10-19 13:40:37.499] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:40:37.503] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:40:37.504] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:40:37.509] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:40:37.513] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:40:37.521] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:40:37.522] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:40:37")
+[2017-10-19 13:44:59.165] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:44:59.173] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:44:59.179] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:44:59.184] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:44:59.187] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:44:59.193] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:44:59.193] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:44:59")
+[2017-10-19 13:45:04.691] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 13:45:04.695] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 13:45:04.695] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 13:45:04.699] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 13:45:04.703] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 13:45:04.710] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 13:45:04.710] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 01:45:04")
+[2017-10-19 16:48:25.404] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-10-19 16:48:25.417] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=9 
+[2017-10-19 16:48:25.422] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=4 
+[2017-10-19 16:48:25.429] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,4)  order by `pids` ASC
+[2017-10-19 16:48:25.446] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-10-19 16:48:25.455] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-10-19 16:48:25.455] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-10-19 04:48:25")
+[2017-10-19 16:48:25.524] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-19 16:49:51.203] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-19 16:50:00.630] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-19 16:50:00.637] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-10-19 16:50:00.639] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-19 16:50:04.826] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 18:11:59.125] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-19 18:11:59.153] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-19 18:11:59.169] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-10-19 18:11:59.170] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-19 18:12:02.626] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 
+[2017-10-19 18:13:10.992] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-10-19 18:13:11.020] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:12.053] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:12.054] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-10-19 18:13:12.064] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-10-19 18:13:12.066] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:13.619] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-10-19 18:13:13.628] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:18.095] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:18.097] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-10-19 18:13:18.101] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:18.101] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-10-19 18:13:19.327] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-10-19 18:13:19.331] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:32.501] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:32.501] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-10-19 18:13:32.507] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:32.511] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-10-19 18:13:34.102] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:34.109] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-10-19 18:13:35.427] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:35.428] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-10-19 18:13:35.435] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:35.437] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-10-19 18:13:41.814] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-10-19 18:13:41.815] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-19 18:13:41.820] [DEBUG] database - SELECT * FROM `news`  order by `publish_time` DESC LIMIT 0,15
+[2017-10-19 18:13:55.083] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:55.083] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-10-19 18:13:55.088] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-10-19 18:13:55.088] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-10-19 18:14:09.183] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-19 18:14:09.183] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-10-19 18:14:09.188] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-10-19 18:14:10.076] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-10-19 18:14:10.077] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-19 18:14:10.081] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-19 18:14:12.411] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=23 

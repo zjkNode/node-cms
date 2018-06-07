@@ -1,0 +1,128 @@
+[2018-03-26 09:42:20.936] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 09:51:31.101] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-26 09:51:31.121] [DEBUG] database - UPDATE `act_config` SET `name`=":name",`domain`=":domain",`oss_code`=":oss_code",`publish_path`=":publish_path",`baidu_code`=":baidu_code",`download_urls`=":download_urls",`uuser_id`=:uuser_id,`update_time`=":update_time" WHERE `id`=5 
+[2018-03-26 09:51:31.121] [DEBUG] database - UPDATE `act_config` SET `name`="小小租",`domain`="http://activity.xiaoxiaozulin.com",`oss_code`="xxz",`publish_path`="/www/static_act",`baidu_code`="1111",`download_urls`="1111",`uuser_id`=1,`update_time`="2018-03-26 09:51:31" WHERE `id`=5 
+[2018-03-26 09:51:31.169] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 09:51:39.713] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-26 09:51:39.720] [DEBUG] database - UPDATE `act_config` SET `name`=":name",`domain`=":domain",`oss_code`=":oss_code",`publish_path`=":publish_path",`baidu_code`=":baidu_code",`download_urls`=":download_urls",`uuser_id`=:uuser_id,`update_time`=":update_time" WHERE `id`=2 
+[2018-03-26 09:51:39.721] [DEBUG] database - UPDATE `act_config` SET `name`="火山钱包",`domain`="http://activity.zhenggaofeng.com",`oss_code`="zgf",`publish_path`="/www/static_act",`baidu_code`="111",`download_urls`="111",`uuser_id`=1,`update_time`="2018-03-26 09:51:39" WHERE `id`=2 
+[2018-03-26 09:51:39.750] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 11:55:14.176] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 11:55:14.178] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 11:55:16.647] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 11:55:16.664] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 11:56:27.783] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 11:56:27.802] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 11:56:27.816] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:00:27.975] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 12:00:27.976] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 12:02:07.849] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:02:07.857] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:42:56.003] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 12:42:56.022] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:42:56.052] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:43:56.335] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-03-26 12:43:56.510] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-26 12:43:56.518] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`data`=":data",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=98 
+[2018-03-26 12:43:56.519] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="http://local-activity.zhenggaofeng.com/zgf/act1/1/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local-activity.zhenggaofeng.com/zgf/act1/1/img/1522039383402.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;http://local-activity.zhenggaofeng.com/zgf/act1/1/img/1522039397639.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local-activity.zhenggaofeng.com/zgf/act1/1/img/1522039429525.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",`activity_code`="16c4b69933394a71b5439b65fcdaa428",`user_id`=1,`status`=2,`update_time`="2018-03-26 12:43:56",`publish_time`="2018-03-26 12:43:56" WHERE `id`=98 
+[2018-03-26 12:44:00.908] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 12:44:00.927] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 12:44:00.929] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 12:44:03.528] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:44:03.540] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:44:43.291] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 12:44:43.312] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:44:43.315] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:45:12.635] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=2 
+[2018-03-26 12:45:12.806] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-26 12:45:12.814] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`data`=":data",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=98 
+[2018-03-26 12:45:12.815] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="http://local_activity.zhenggaofeng.com/zgf/act1/1/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/act1/1/img/1522039489829.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;http://local_activity.zhenggaofeng.com/zgf/act1/1/img/1522039499524.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;800px&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.zhenggaofeng.com/zgf/act1/1/img/1522039508482.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",`activity_code`="16c4b69933394a71b5439b65fcdaa428",`user_id`=1,`status`=2,`update_time`="2018-03-26 12:45:12",`publish_time`="2018-03-26 12:45:12" WHERE `id`=98 
+[2018-03-26 12:45:53.108] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 12:45:53.124] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 12:45:53.138] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 12:45:56.203] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:45:56.212] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:48:21.908] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:48:21.923] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:48:27.954] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:48:27.961] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 12:49:29.026] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 12:49:29.036] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 13:04:07.557] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 13:04:07.577] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 13:04:07.578] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 13:19:49.654] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 13:20:09.902] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 13:20:09.908] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 13:43:05.275] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-03-26 13:43:05.277] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-03-26 13:43:07.845] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 13:43:07.860] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-03-26 13:48:55.143] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 13:49:01.986] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 13:49:01.994] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 15:16:48.775] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 16:29:21.092] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 16:29:21.093] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 16:29:24.512] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 16:29:24.526] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 16:29:30.673] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 16:29:30.674] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 16:29:33.267] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 16:29:33.311] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 16:30:32.640] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 16:30:32.650] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 17:12:54.605] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 17:12:54.622] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 17:15:36.195] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 17:15:36.207] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 17:34:35.571] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 17:34:35.776] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 17:38:36.654] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 17:38:36.661] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:03:06.497] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:03:06.504] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:03:09.576] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:03:09.582] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:03:34.311] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:03:34.326] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:11:15.339] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:11:15.354] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:12:58.538] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:12:58.564] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:13:14.746] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:13:14.780] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:13:16.612] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:13:16.625] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:15:51.413] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:15:51.575] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:16:02.067] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:16:02.081] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:16:04.885] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:16:04.895] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:18:16.246] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-26 18:18:16.289] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:19:22.528] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-26 18:19:22.530] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-26 18:19:23.547] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-26 18:19:26.497] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:19:26.599] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:34:38.039] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-26 18:34:38.056] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:34:38.071] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:36:17.745] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:36:17.757] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:36:52.733] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:36:52.741] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:37:53.377] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:37:53.382] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:48:12.076] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:48:12.087] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:49:47.204] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:49:47.213] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:53:53.998] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:53:54.002] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 18:54:05.245] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 18:54:05.283] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-26 19:13:57.092] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=53 
+[2018-03-26 19:13:57.099] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

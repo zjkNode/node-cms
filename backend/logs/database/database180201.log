@@ -1,0 +1,6 @@
+[2018-02-01 11:56:09.359] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-02-01 11:56:09.378] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-02-01 11:56:16.455] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2018-02-01 11:56:16.456] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2018-02-01 11:56:24.685] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-02-01 11:56:24.686] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15

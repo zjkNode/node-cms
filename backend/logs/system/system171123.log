@@ -1,0 +1,94 @@
+[2017-11-23 11:34:25.504] [INFO] system - 正在监听 port 7071
+[2017-11-23 11:35:36.234] [ERROR] system - error in domain { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Error: template not found: partials/layout.html
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:37:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at child_process.exec (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:162:40)
+    at ChildProcess.exithandler (child_process.js:197:7)
+    at emitTwo (events.js:106:13)
+  name: 'Template render error',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-23 11:36:59.037] [ERROR] system - error in domain { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Error: template not found: partials/layout.html
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:37:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:195:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at child_process.exec (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:162:40)
+    at ChildProcess.exithandler (child_process.js:197:7)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Socket.<anonymous> (internal/child_process.js:334:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  name: 'Template render error',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-23 11:51:59.981] [ERROR] system - error in domain { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/zjkzz/20171123/tpl1.html)
+  Error: template not found: partials/layout.html
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:37:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:195:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at child_process.exec (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:162:40)
+    at ChildProcess.exithandler (child_process.js:197:7)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Socket.<anonymous> (internal/child_process.js:334:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  name: 'Template render error',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-23 11:52:12.100] [INFO] system - 正在监听 port 7071
+[2017-11-23 11:52:19.907] [INFO] system - 正在监听 port 7071
+[2017-11-23 11:55:57.304] [INFO] system - 正在监听 port 7071
+[2017-11-23 11:56:05.926] [INFO] system - 正在监听 port 7071
+[2017-11-23 11:56:37.419] [INFO] system - 正在监听 port 7071
+[2017-11-23 13:21:51.528] [INFO] system - 正在监听 port 7071
+[2017-11-23 13:30:45.493] [INFO] system - 正在监听 port 7071
+[2017-11-23 15:56:25.046] [INFO] system - 正在监听 port 7071
+[2017-11-23 16:00:54.298] [INFO] system - 正在监听 port 7071

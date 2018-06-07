@@ -1,0 +1,8 @@
+<div class='floatWrap {{ item.name }}' id="floats_{{loop.index0}}">
+    <div class="fcontent" style="{{item.content.style | styleFn}}">
+		
+    </div>
+    <div class="tpl" style="display: none;">
+    	<p>{{ item.content.text | replace('\\u0001','</p><p>') | safe}}</p>
+    </div>
+</div>

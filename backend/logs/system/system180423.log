@@ -1,0 +1,32 @@
+[2018-04-23 17:30:49.160] [INFO] system - 正在监听 port 7071
+[2018-04-23 17:33:54.438] [INFO] system - 正在监听 port 7071
+[2018-04-23 17:33:54.443] [INFO] system - 程序出现未捕获异常
+[2018-04-23 17:33:54.444] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-23 17:33:54.444] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:48:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-04-23 17:33:54.451] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-23 17:33:54.451] [INFO] system - 关闭连接
+[2018-04-23 17:33:54.452] [INFO] system - 程序出现未捕获异常
+[2018-04-23 17:33:54.452] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-04-23 17:33:54.452] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:27:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-04-23 17:33:54.453] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-04-23 17:33:54.453] [INFO] system - 关闭连接
+[2018-04-23 17:33:54.455] [INFO] system - 正在监听 port 7071
+[2018-04-23 17:33:54.455] [INFO] system - 正在监听 port 7071

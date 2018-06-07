@@ -1,0 +1,2 @@
+[2017-12-13 14:09:49.724] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-12-13 14:09:49.735] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15

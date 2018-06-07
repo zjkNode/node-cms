@@ -1,0 +1,99 @@
+@charset "utf-8";
+$base_font_size: 75;
+$borderColor:#e2e6e9;
+$fontColor: #4c5b61;
+$fontLight: #d5d5d5;
+$blue:#29a1ef;
+$grey:#999999;
+$yellow:#ffa11b;
+
+@function px_to_rem($px) {//可不用，在本地编辑器自动加载cssrem插件
+    @return $px / $base_font_size * 1rem;
+}
+@mixin flexbox($justify, $align) {
+    display: flex;//Flex布局默认就是首行左对齐
+    justify-content: $justify;//项目的对齐方式,水平方向上的对齐方式,flex-start 左对齐 | flex-end 右对齐 | center 居中 | space-between 两端对齐 项目间的间隔都相等 | space-around 项目两侧的间隔相等
+    align-items: $align;//交叉轴对齐方式,也就是垂直方向上的对齐方式,flex-start 交叉轴的起点对齐 | flex-end 交叉轴的终点对齐 | center 交叉轴的中点对齐 | baseline 第一行文字的基线对齐 | stretch 如果项目未设置高度或设为AUTO,将占满整个容器的高度;
+    //flex-direction: column;//主轴的方向,即项目的排列方向 row|row-reverse|column|column-reverse
+    //flex-wrap: nowrap 不换行 | wrap 换行 第一行在上方 | wrap-reverse 换行 第一行在下方;//是否在一条轴线上,是否换行
+    //flex-flow: <flex-direction> || <flex-wrap>;是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。
+    //align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+::placeholder{color:$fontLight; font-weight: normal; font-size: 14px;}
+::-webkit-input-placeholder  {color:$fontLight; font-weight: normal; font-size: 14px;}
+:-moz-placeholder {color:$fontLight; font-weight: normal; font-size: 14px;}
+::-moz-placeholder {color:$fontLight; font-weight: normal; font-size: 14px;}
+:-ms-input-placeholder {color:$fontLight; font-weight: normal; font-size: 14px;}
+
+
+// .coin:before{
+// 	content: "￥";
+//     margin-left: -.2rem;
+// }
+// h3.coin:before{
+// 	font-size:1.5rem;
+// }
+// .btn{
+// 	padding:.5rem 0;
+// 	background:$yellow;
+// 	border:1px solid $yellow;
+// 	font-size: 1rem;
+// 	color: #fff;
+// 	text-align: center;
+// 	line-height:1.5rem;
+// 	border-radius:1.5rem;
+// }
+// .btn.disabled{
+// 	background:#ccc;
+// 	border-color:#ccc;
+// }
+
+.flex{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;
+-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+
+.flex-center-v {display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;display: flex; flex-direction: column; 
+-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:center;justify-content:center;justify-content: center; }
+
+
+// .mint-msgbox-confirm{
+//     color: $blue;
+// }
+// .mint-msgbox{
+//     border-radius:6px;
+//     width: 70%;
+//     .mint-msgbox-header {
+//         padding: 20px 0 0;
+//         .mint-msgbox-title{
+//             font-size:1.1rem;
+//             font-weight:normal;
+//             color:#333;
+//         }
+//     }
+//     .mint-msgbox-content {
+//         padding:15px 0;
+//         display: table;
+//         width: 100%;
+//         min-height: 2.8rem;
+//         .mint-msgbox-message{
+//             padding:0 20px;
+//             display: table-cell;
+//             vertical-align: middle;
+//             font-size:0.9rem;
+//             line-height: 1.4rem;
+//             color:#999;
+//             .left{
+//                 text-align: left;
+//             }
+//         }
+//     }
+//     .mint-msgbox-btns button{
+//         padding:5px 0;
+//         color:$blue;
+//         font-size:1.1rem;
+//     }
+// }
+
+// .mint-toast{
+//     background:rgba(0,0,0,.6);
+// }
+

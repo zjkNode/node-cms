@@ -1,0 +1,147 @@
+[2018-05-21 11:47:13.611] [INFO] system - 正在监听 port 7071
+[2018-05-21 13:52:20.274] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-05-21 13:52:20.295] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-05-21 13:55:02.327] [ERROR] system - TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.add (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:47:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13) undefined
+[2018-05-21 13:56:14.564] [ERROR] system - TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.add (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:47:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13) undefined
+[2018-05-21 14:02:04.455] [ERROR] system - TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.add (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:47:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13) undefined
+[2018-05-21 14:05:49.482] [ERROR] system - TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:193:26)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:54:13
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at Object.waterfall (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5307:5)
+    at exports.add (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:47:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13) undefined
+[2018-05-21 17:32:09.867] [ERROR] system - { Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Ping.onOperationComplete [as _callback] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:101:12)
+    at Ping.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:398:18
+    at Array.forEach (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:397:13
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true } undefined

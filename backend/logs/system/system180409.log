@@ -1,0 +1,331 @@
+[2018-04-09 13:10:21.305] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:12:41.958] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/config.controller.js:65:36
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/config.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 13:12:41.962] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 13:12:41.968] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 13:12:41.973] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 13:52:49.508] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:54:30.665] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:54:47.761] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:57:51.058] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:58:00.191] [INFO] system - 正在监听 port 7071
+[2018-04-09 13:58:40.974] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:01:29.600] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:04:37.432] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:14:38.261] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:14:50.419] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:15:02.506] [INFO] system - 正在监听 port 7071
+[2018-04-09 14:15:13.571] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:15:33.377] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:45:49.182] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:46:40.262] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:46:41.219] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:48:36.609] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:48:37.592] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:52:05.752] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:55:39.087] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:55:44.160] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:56:35.090] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:56:39.106] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:57:23.220] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:57:24.220] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:58:01.338] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:59:00.559] [INFO] system - 正在监听 port 7071
+[2018-04-09 18:59:23.546] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:07:07.148] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:07:21.055] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:08:15.169] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:08:20.241] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:08:24.081] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:09:00.290] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:12:18.860] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:12:19.817] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:13:20.000] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:13:24.022] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:13:25.051] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:14:06.130] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:14:19.161] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:16:04.556] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:19:28.983] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:19:29.984] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:26:14.013] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:26:16.041] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:27:57.362] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:28:00.351] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:28:15.390] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:31:03.835] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:31:04.884] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:31:20.847] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:31:21.849] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:33:59.325] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:35:37.536] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:35:55.605] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:36:24.650] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:36:27.762] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:39:01.099] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:39:03.189] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:43:33.797] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:43:34.882] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:44:00.915] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:44:01.912] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:44:02.964] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:51:13.959] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:52:13.182] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:52:14.196] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:52:47.236] [INFO] system - 正在监听 port 7071
+[2018-04-09 19:54:14.539] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:05:29.701] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:08:09.019] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:08:15.082] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:09:14.040] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:09:16.042] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:13:45.716] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:14:07.855] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:15:13.950] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:15:14.954] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:18:39.478] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:18:42.465] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:19:55.679] [INFO] system - 正在监听 port 7071
+[2018-04-09 20:20:29.761] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:18:28.179] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:18:59.487] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:23:10.351] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:39:29.463] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:40:59.720] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:43:39.170] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:45:05.386] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:46:51.662] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:47:30.565] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:47:33.456] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:47:34.471] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:48:08.588] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:49:09.770] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:50:06.916] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:50:21.599] [ERROR] system - error in domain { ReferenceError: error is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:602:54
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:597:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 22:50:42.195] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:50:55.635] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:603:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:597:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 22:50:55.642] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 22:50:55.658] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 22:50:55.662] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 22:51:33.700] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:603:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:597:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:46:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:236:24
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:88:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 22:51:33.705] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 22:51:33.711] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-04-09 22:51:33.716] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2018-04-09 22:52:41.354] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:52:45.482] [INFO] system - 正在监听 port 7071
+[2018-04-09 22:52:52.470] [INFO] system - 正在监听 port 7071

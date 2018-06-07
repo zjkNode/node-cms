@@ -1,0 +1,64 @@
+[2017-12-11 15:49:56.158] [INFO] system - 正在监听 port 7071
+[2017-12-11 15:51:51.223] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_9f82c93b1fa19afbc144e4b2d5fc30ef'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_9f82c93b1fa19afbc144e4b2d5fc30ef',
+  domainEmitter: 
+   WriteStream {
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: true,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 64262,
+        writing: true,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: [Function],
+        writelen: 36952,
+        bufferedRequest: [Object],
+        lastBufferedRequest: [Object],
+        pendingcb: 3,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 2,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     domain: 
+      Domain {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        members: [] },
+     _events: { finish: [Object], open: [Object] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_9f82c93b1fa19afbc144e4b2d5fc30ef',
+     fd: null,
+     flags: 'w',
+     mode: 438,
+     start: undefined,
+     autoClose: true,
+     pos: undefined,
+     bytesWritten: 0,
+     destroyed: true },
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: false }
+[2017-12-11 15:54:00.531] [INFO] system - 正在监听 port 7071
+[2017-12-11 17:21:41.269] [INFO] system - 正在监听 port 7071

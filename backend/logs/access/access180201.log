@@ -1,0 +1,5 @@
+[2018-02-01 11:56:09.394] [WARN] access - GET /api/menu/listsTree
+[2018-02-01 11:56:09.402] [INFO] access - GET /api/menu/lists?keys=
+[2018-02-01 11:56:09.417] [WARN] access - GET /api/menu/listsTree
+[2018-02-01 11:56:16.469] [INFO] access - GET /api/logs/lists?keys=&pageSize=15&pageIndex=1
+[2018-02-01 11:56:24.701] [INFO] access - GET /api/config/lists?keys=&pageSize=15&pageIndex=1

@@ -1,0 +1,865 @@
+[2017-12-08 09:16:57.885] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:17:36.436] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:17:41.212] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:25:29.651] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:341:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:38:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:250:9
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:30:21.055] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:341:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:38:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:250:9
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:31:53.909] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:31:59.841] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:32:17.803] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:32:19.817] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:35:54.915] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:36:12.465] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:342:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:38:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:250:9
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:36:28.997] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:37:30.740] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:37:34.771] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:38:03.931] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:38:05.091] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:40:06.374] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:42:46.839] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:42:47.815] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:43:52.993] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:342:23
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:38:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:250:9
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:49:52.309] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:50:16.348] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:51:40.761] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:52:22.120] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:52:42.897] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:53:34.991] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:53:58.042] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:54:01.094] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:54:37.320] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, rename '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html.317'
+    at Error (native)
+    at Object.fs.renameSync (fs.js:809:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:281:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html.317',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:55:24.730] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:55:38.372] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:55:39.446] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:55:48.828] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, unlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html'
+    at Error (native)
+    at Object.fs.unlinkSync (fs.js:1089:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:282:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'unlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/bbb/2/index.html',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:56:20.558] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:56:30.768] [ERROR] system - error in domain { ReferenceError: actData is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:291:31
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:284:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:56:50.647] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:56:51.625] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:56:56.354] [ERROR] system - error in domain { ReferenceError: where is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:291:39
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:284:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:57:24.777] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:57:28.773] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:57:33.882] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:293:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:48:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:238:20
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 09:57:55.857] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:57:56.865] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:57:57.943] [INFO] system - 正在监听 port 7071
+[2017-12-08 09:58:13.587] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.releaseConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:157:10)
+    at Pool._removeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:277:8)
+    at Pool._purgeConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:258:8)
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:57:14)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Protocol.handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:363:14)
+    at PoolConnection.Connection._handleNetworkError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:428:18)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1276:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2017-12-08 09:58:21.555] [ERROR] system - { Error: connect ETIMEDOUT 172.16.51.30:3306
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Pool.js:202:8)
+    at MySQLStore.get (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:130:19)
+    at session (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/session.lib.js:12:5
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '172.16.51.30',
+  port: 3306,
+  fatal: true } undefined
+[2017-12-08 10:00:01.594] [ERROR] system - ReferenceError: bodyData is not defined
+    at exports.publish (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:112:30)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2017-12-08 10:00:35.756] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:01:23.635] [ERROR] system - { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:237:12
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:215:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js' } undefined
+[2017-12-08 10:03:50.155] [ERROR] system - { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:237:12
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:215:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js' } undefined
+[2017-12-08 10:07:47.168] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:07:53.007] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:07:59.173] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:238:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend//www/static_act/temp/undefined/min.js',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 10:08:33.129] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:08:35.966] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:08:37.952] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:09:33.074] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:09:34.083] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:09:35.110] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:09:47.265] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/temp/undefined/min.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:237:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:104:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/temp/undefined/min.js',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 10:10:31.832] [ERROR] system - { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/temp/20171208101029/min.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.writeFileSync (fs.js:1333:33)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:237:12
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:215:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_act/temp/20171208101029/min.js' } undefined
+[2017-12-08 10:23:00.441] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:23:33.170] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:24:00.195] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:24:13.072] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:24:14.252] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:24:36.384] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:25:36.495] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:25:38.514] [INFO] system - 正在监听 port 7071
+[2017-12-08 10:31:51.662] [ERROR] system - error in domain { Error: EPERM: operation not permitted, unlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image'
+    at Error (native)
+    at Object.fs.unlinkSync (fs.js:1089:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:227:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 10:32:33.402] [ERROR] system - error in domain { Error: EPERM: operation not permitted, unlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image'
+    at Error (native)
+    at Object.fs.unlinkSync (fs.js:1089:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:227:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 11:02:46.847] [INFO] system - 正在监听 port 7071
+[2017-12-08 11:56:48.903] [INFO] system - 正在监听 port 7071
+[2017-12-08 11:57:45.127] [INFO] system - 正在监听 port 7071
+[2017-12-08 11:57:51.100] [INFO] system - 正在监听 port 7071
+[2017-12-08 11:59:26.305] [INFO] system - 正在监听 port 7071
+[2017-12-08 11:59:34.362] [INFO] system - 正在监听 port 7071
+[2017-12-08 12:00:31.880] [INFO] system - 正在监听 port 7071
+[2017-12-08 12:00:38.714] [INFO] system - 正在监听 port 7071
+[2017-12-08 12:01:16.066] [ERROR] system - error in domain { Error: EPERM: operation not permitted, unlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image'
+    at Error (native)
+    at Object.fs.unlinkSync (fs.js:1089:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:227:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 13:23:36.052] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:24:59.229] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:25:09.571] [ERROR] system - ReferenceError: callback is not defined
+    at exports.delete (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:317:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:410:3)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12) undefined
+[2017-12-08 13:25:42.266] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:25:49.049] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:25:49.935] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:25:56.802] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:356:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:322:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 13:25:56.826] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-08 13:25:56.841] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 13:25:56.903] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-08 13:28:06.425] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:21.473] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:25.410] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:27.478] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:35.246] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:456:11)
+    at ServerResponse.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:89:18)
+    at writetop (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:296:22)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:351:16)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:356:40
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:322:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 13:28:35.276] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-08 13:28:35.289] [ERROR] system - error in domain { TypeError: First argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.end (_http_outgoing.js:555:11)
+    at ServerResponse.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/compression/index.js:107:21)
+    at writeend (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:261:22)
+    at ontouch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-session/index.js:348:11)
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/lib/index.js:247:17)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express-mysql-session/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 13:28:35.310] [ERROR] system - error in exception handler Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.json (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/response.js:253:10)
+    at Domain.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/exception.handler.js:26:27)
+    at emitOne (events.js:96:13)
+    at Domain.emit (events.js:188:7)
+    at Domain.errorHandler [as _errorHandler] (domain.js:97:23)
+    at process._fatalException (bootstrap_node.js:293:33)
+[2017-12-08 13:28:51.568] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:55.561] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:28:56.562] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:31:29.422] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:31:43.379] [INFO] system - 正在监听 port 7071
+[2017-12-08 13:32:02.469] [ERROR] system - error in domain { Error: EPERM: operation not permitted, unlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image'
+    at Error (native)
+    at Object.fs.unlinkSync (fs.js:1089:18)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:228:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/static_image/act_tpl_image',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-12-08 15:08:24.447] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:08:25.438] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:08:26.394] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:12:21.492] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:13:55.870] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:14:14.758] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:14:43.878] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:25:08.980] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:28:32.410] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:12.655] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:12.660] [INFO] system - 程序出现未捕获异常
+[2017-12-08 15:29:12.661] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-08 15:29:12.661] [FATAL] system - { Error: EEXIST: file already exists, symlink '/www/nodecms/static-act-comps/' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps/',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2017-12-08 15:29:12.668] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-08 15:29:12.668] [INFO] system - 关闭连接
+[2017-12-08 15:29:12.670] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:21.236] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:30.305] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:30.310] [INFO] system - 程序出现未捕获异常
+[2017-12-08 15:29:30.311] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-08 15:29:30.311] [FATAL] system - { Error: ENOENT: no such file or directory, symlink '/www/nodecms/static-act-comps/' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps/',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/' }
+[2017-12-08 15:29:30.318] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-08 15:29:30.318] [INFO] system - 关闭连接
+[2017-12-08 15:29:30.321] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:37.280] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:37.285] [INFO] system - 程序出现未捕获异常
+[2017-12-08 15:29:37.285] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-08 15:29:37.285] [FATAL] system - { Error: ENOENT: no such file or directory, symlink '/www/nodecms/static-act-comps/' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps/',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/' }
+[2017-12-08 15:29:37.292] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-08 15:29:37.293] [INFO] system - 关闭连接
+[2017-12-08 15:29:37.295] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:42.286] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:42.290] [INFO] system - 程序出现未捕获异常
+[2017-12-08 15:29:42.291] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-08 15:29:42.291] [FATAL] system - { Error: ENOENT: no such file or directory, symlink '/www/nodecms/static-act-comps/' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps/',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/' }
+[2017-12-08 15:29:42.298] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-08 15:29:42.298] [INFO] system - 关闭连接
+[2017-12-08 15:29:42.300] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:45.345] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:29:45.350] [INFO] system - 程序出现未捕获异常
+[2017-12-08 15:29:45.351] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-12-08 15:29:45.351] [FATAL] system - { Error: ENOENT: no such file or directory, symlink '/www/nodecms/static-act-comps/' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/activity.handler.js:23:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'symlink',
+  path: '/www/nodecms/static-act-comps/',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components/' }
+[2017-12-08 15:29:45.358] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-12-08 15:29:45.358] [INFO] system - 关闭连接
+[2017-12-08 15:29:45.361] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:30:45.924] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:30:48.516] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:57:31.318] [INFO] system - 正在监听 port 7071
+[2017-12-08 15:58:28.094] [INFO] system - 正在监听 port 7071
+[2017-12-08 16:07:27.248] [INFO] system - 正在监听 port 7071
+[2017-12-08 16:07:30.930] [INFO] system - 正在监听 port 7071

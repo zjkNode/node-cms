@@ -1,0 +1,47 @@
+[2017-11-30 10:51:38.106] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-30 10:51:38.109] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-30 10:51:43.735] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 10:51:43.736] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 10:51:47.234] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-30 10:51:47.239] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-30 10:51:56.264] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=8 
+[2017-11-30 10:52:02.988] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-30 10:52:02.989] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-30 10:52:40.716] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-11-30 10:52:40.728] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":template",":parts",":desc",:status,:count,":create_time")
+[2017-11-30 10:52:40.729] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`template`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("公告类模板zjk","noticezjk","activity/noticezjk/20171130/notice.html","images_0,buttons_1,shares_2","",1,0,"2017-11-30 10:52:40")
+[2017-11-30 10:52:41.003] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-30 10:52:41.005] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-30 10:52:43.758] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=9 
+[2017-11-30 10:53:41.178] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-30 10:54:10.613] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-11-30 10:54:10.624] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`parts`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":url",":data",:status,":template",":parts",:user_id,":create_time",":publish_time")
+[2017-11-30 10:54:10.626] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`url`,`data`,`status`,`template`,`parts`,`user_id`,`create_time`,`publish_time`) VALUES ("ttt","ttt","http://local_activity.jiandanjiekuan.com/pages/ttt/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;,&quot;background-image&quot;:&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/bg_1512010390890.jpg&quot;},&quot;activityCode&quot;:&quot;8812bb13ac3b40e8973a3ce3f1d6c7bd&quot;,&quot;images_0&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/tit_1512010399884.png&quot;,&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/time_1512010403314.png&quot;,&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/rules_1512010406647.png&quot;]},&quot;buttons_1&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/btn_1512010413633.png&quot;],&quot;button&quot;:{&quot;usages&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;600px&quot;,&quot;height&quot;:&quot;&quot;}},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;200px&quot;,&quot;background-color&quot;:&quot;&quot;}}},&quot;shares_2&quot;:{&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/ttt/img/btn_1512010447693.png&quot;],&quot;share&quot;:{&quot;url&quot;:&quot;&quot;,&quot;title&quot;:&quot;测试分享&quot;,&quot;desc&quot;:&quot;测试分享&quot;,&quot;imgUrl&quot;:&quot;&quot;}}}",2,"activity/noticezjk/20171130/notice.html","images_0,buttons_1,shares_2",1,"2017-11-30 10:54:10","2017-11-30 10:54:10")
+[2017-11-30 10:54:10.917] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 10:54:10.925] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 14:53:35.982] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-30 14:53:36.013] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-30 14:53:36.017] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-11-30 14:53:36.027] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-11-30 14:53:36.044] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-30 14:53:36.053] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-30 14:53:36.054] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-11-30 02:53:36")
+[2017-11-30 14:53:36.138] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-30 14:53:40.920] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-30 14:53:40.921] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-11-30 14:53:43.340] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-30 18:07:16.189] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-30 18:07:16.192] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-30 19:14:47.459] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 19:14:47.461] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 19:14:50.901] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=22 
+[2017-11-30 19:14:56.860] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 19:14:56.864] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 19:15:00.294] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=9 
+[2017-11-30 19:15:05.606] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 19:15:05.610] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 19:15:09.130] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=16 
+[2017-11-30 19:15:16.421] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-11-30 19:15:26.836] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-11-30 19:15:26.837] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-11-30 19:15:30.902] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=10 

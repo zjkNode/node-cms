@@ -1,0 +1,40 @@
+[2018-03-09 10:35:14.209] [INFO] system - 正在监听 port 7071
+[2018-03-09 11:05:35.958] [INFO] system - 正在监听 port 7071
+[2018-03-09 13:57:00.874] [ERROR] system - { Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Template render error: (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/tpls/template.html)
+  Error: filter not found: cssFilter
+    at Object.exports.prettifyError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:34:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:489:31
+    at new_cls.root [as rootRenderFunc] (eval at _compile (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:568:24), <anonymous>:33:3)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:482:15)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:313:35
+    at createTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:235:25)
+    at handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:250:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:264:21
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:207:13)
+    at Object.exports.asyncIter (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/lib.js:214:5)
+    at new_cls.getTemplate (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:243:17)
+    at new_cls.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/src/environment.js:305:14)
+    at Object.module.exports.render (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nunjucks/index.js:72:14)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:226:32
+    at Object.exports.getAllConfigs (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/system/config.service.js:87:16)
+    at exports.preview (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:218:19) name: 'Template render error' } undefined
+[2018-03-09 15:33:21.113] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:01:10.707] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:23:48.566] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:23:53.677] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:24:47.946] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:24:52.006] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:28:57.624] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:31:27.134] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:47:16.826] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:49:34.097] [INFO] system - 正在监听 port 7071
+[2018-03-09 16:53:07.544] [INFO] system - 正在监听 port 7071
+[2018-03-09 17:04:06.585] [INFO] system - 正在监听 port 7071
+[2018-03-09 17:08:44.543] [INFO] system - 正在监听 port 7071
+[2018-03-09 18:55:32.780] [INFO] system - 正在监听 port 7071
+[2018-03-09 18:55:53.111] [INFO] system - 正在监听 port 7071
+[2018-03-09 18:56:09.717] [INFO] system - 正在监听 port 7071
+[2018-03-09 19:49:52.197] [INFO] system - 正在监听 port 7071
+[2018-03-09 20:14:28.034] [INFO] system - 正在监听 port 7071

@@ -1,0 +1,175 @@
+[2017-12-21 11:19:07.095] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:23:29.702] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:26:23.877] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:27:36.275] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:28:50.974] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:29:09.844] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:29:26.474] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:33:42.207] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:34:51.599] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:35:51.684] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 11:35:51.684] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 11:53:02.354] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 11:53:02.361] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 11:53:06.605] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 11:56:42.390] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 11:56:42.392] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 11:59:56.518] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 11:59:56.518] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:00:00.214] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=26 
+[2017-12-21 12:00:42.601] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 12:00:42.602] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:00:45.990] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:00:45.991] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:00:47.647] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=26 
+[2017-12-21 12:00:52.262] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 12:00:52.262] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:00:54.551] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=53 
+[2017-12-21 12:02:48.296] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=53 
+[2017-12-21 12:02:53.451] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:02:53.461] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:02:55.686] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 12:04:47.134] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:04:47.136] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:04:49.053] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 12:05:25.746] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 12:05:25.746] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:05:27.647] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=53 
+[2017-12-21 12:07:18.732] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 12:07:18.740] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:07:19.962] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:07:19.962] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:07:21.579] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 12:07:27.874] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:07:27.876] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:58:34.221] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 12:58:34.221] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 12:58:37.395] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 12:59:02.528] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 12:59:35.746] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:05:32.710] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:06:07.262] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:07:18.236] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:09:22.320] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:09:33.224] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:14:15.624] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:15:16.689] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:17:01.310] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 13:17:01.311] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:17:26.613] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 13:17:26.658] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:17:29.197] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:18:22.843] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 13:18:22.844] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:18:25.071] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:26:59.594] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:28:49.161] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:29:16.662] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 13:29:16.668] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:29:18.365] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=53 
+[2017-12-21 13:29:33.959] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:29:33.960] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 13:29:37.946] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:30:03.654] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 13:30:10.805] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 13:30:10.807] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:30:12.975] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=50 
+[2017-12-21 13:30:30.247] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:30:30.249] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 13:30:41.596] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-21 13:30:41.611] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=53 
+[2017-12-21 13:30:41.620] [DEBUG] database - DELETE FROM `act` WHERE `id`=53 
+[2017-12-21 13:30:41.669] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-21 13:30:41.671] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:30:43.576] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-21 13:30:43.587] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-21 13:30:45.710] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 14:46:11.553] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 14:58:12.218] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 15:44:29.418] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 15:44:58.481] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 15:45:50.514] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 15:47:08.895] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:06:10.652] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:10:51.738] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:11:52.914] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:14:38.439] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:16:52.757] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:17:41.355] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:17:44.599] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:24:57.264] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:26:47.120] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:29:20.555] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:32:37.219] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:33:06.918] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:39:05.631] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:44:09.481] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:45:04.859] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:46:08.667] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:50:11.210] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:55:35.071] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:57:13.495] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 16:59:29.380] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:06:01.527] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:10:16.404] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:10:51.836] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:11:47.259] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:12:59.916] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:15:07.529] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:16:11.399] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:18:10.248] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:34:57.740] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:36:05.865] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:42:36.476] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:43:09.986] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:43:53.908] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:44:15.200] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:44:45.663] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:44:55.409] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:45:32.001] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 17:47:27.098] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:21:23.092] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:22:50.787] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:23:32.762] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:24:11.902] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:24:13.665] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:26:06.301] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:27:22.052] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:27:30.043] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:34:30.176] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:36:40.747] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:37:20.131] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:37:26.349] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:39:45.146] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:40:42.109] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:41:23.321] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:42:14.035] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:49:32.332] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:50:09.954] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:50:18.454] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:50:47.111] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:51:18.118] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:52:56.328] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:53:32.108] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:53:54.840] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-21 18:53:54.874] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:58:02.399] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:58:41.075] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:58:52.733] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:59:24.256] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 18:59:52.995] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:04:07.149] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:09:25.883] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:12:04.646] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:12:38.014] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:13:27.994] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:13:32.087] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:14:50.224] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:14:51.919] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:16:06.538] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:20:55.044] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:30:29.820] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:31:54.789] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:36:35.503] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:37:26.929] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 
+[2017-12-21 19:37:28.334] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=24 

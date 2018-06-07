@@ -1,0 +1,225 @@
+[2017-12-07 17:31:58.762] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-07 17:32:01.998] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-12-07 17:32:02.021] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 17:32:02.033] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 17:32:02.036] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("{&quot;user&quot;:{&quot;code&quot;:&quot;ERR_USER_OR_PWD&quot;,&quot;msg&quot;:&quot;用户名或密码不正确&quot;}}","/api/signin","127.0.0.1","","2017-12-07 05:32:02")
+[2017-12-07 17:32:06.845] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-12-07 17:32:06.870] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-12-07 17:32:06.877] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-12-07 17:32:06.887] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-12-07 17:32:06.895] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 17:32:06.904] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 17:32:06.905] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-12-07 05:32:06")
+[2017-12-07 17:32:13.657] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:32:13.658] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:37:47.540] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:37:47.546] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:38:03.723] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=15 
+[2017-12-07 17:38:26.924] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:38:26.925] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:38:29.050] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=14 
+[2017-12-07 17:40:22.008] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:40:22.010] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:42:04.420] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 17:42:04.445] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2017-12-07 17:42:04.458] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2017-12-07 17:42:04.459] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("zjk test","tplzjk","/images/act_tpl_image/1512639724438.png","images","",1,0,"2017-12-07 05:42:04")
+[2017-12-07 17:42:04.751] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:42:04.759] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:42:07.182] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 17:45:23.136] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-07 17:45:24.016] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 17:45:28.946] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 17:45:28.960] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 17:45:30.315] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 17:46:07.300] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 17:46:09.525] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 18:11:21.802] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 18:11:21.803] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 18:28:59.652] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-12-07 18:28:59.955] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 18:28:59.963] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 18:29:04.436] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 18:29:04.438] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 18:29:06.197] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 18:29:35.374] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 18:33:54.413] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 18:35:12.070] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 18:36:38.953] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 18:36:38.969] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 18:36:38.985] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 18:36:38.986] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:errror","/api/act/publish","127.0.0.1","admin","2017-12-07 06:36:38")
+[2017-12-07 19:00:35.427] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:01:43.890] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:02:38.055] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:03:56.728] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:06:58.164] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:10:15.151] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:10:15.171] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 19:10:15.185] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 19:10:15.186] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207182906/close_1512642572263.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 07:10:15")
+[2017-12-07 19:12:12.014] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:13:50.679] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:13:50.696] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 19:13:50.711] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 19:13:50.712] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207182906/close_1512642572263.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 07:13:50")
+[2017-12-07 19:14:32.928] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 19:14:32.942] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 19:14:32.942] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207182906/close_1512642572263.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 07:14:32")
+[2017-12-07 19:14:54.413] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 19:14:54.424] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 19:14:54.425] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:errror","/api/act/publish","127.0.0.1","admin","2017-12-07 07:14:54")
+[2017-12-07 19:16:10.289] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 19:16:10.302] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 19:16:10.303] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:errror","/api/act/publish","127.0.0.1","admin","2017-12-07 07:16:10")
+[2017-12-07 19:41:26.273] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:43:53.443] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:44:46.160] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:45:22.077] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:48:11.389] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:48:11.446] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 19:48:11.459] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time",":publish_time")
+[2017-12-07 19:48:11.459] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES ("aaa","aaa","a59d0ce2e3534920832aaa4d32a8fb74","http://local_activity.jiandanjiekuan.com/pages/aaa/2/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;./img/close_1512647201274.png&quot;]}],&quot;activityCode&quot;:&quot;a59d0ce2e3534920832aaa4d32a8fb74&quot;}",2,"images",1,"2017-12-07 07:48:11","2017-12-07 19:48:11")
+[2017-12-07 19:48:11.776] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 19:48:11.784] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 19:48:47.075] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=39 
+[2017-12-07 19:49:08.608] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 19:49:08.616] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 19:50:14.270] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=39 
+[2017-12-07 19:50:27.803] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:50:27.867] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 19:50:27.879] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=39 
+[2017-12-07 19:50:27.880] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/3/index.html",`activity_code`="a59d0ce2e3534920832aaa4d32a8fb74",`user_id`=1,`status`=2,`update_time`="2017-12-07 07:50:27",`publish_time`="2017-12-07 19:50:27",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;./img/close_1512647424624.png&quot;]}],&quot;activityCode&quot;:&quot;a59d0ce2e3534920832aaa4d32a8fb74&quot;}" WHERE `id`=39 
+[2017-12-07 19:50:28.184] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 19:50:28.197] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 19:51:36.176] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=39 
+[2017-12-07 19:51:47.760] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 19:51:47.826] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 19:51:47.838] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=39 
+[2017-12-07 19:51:47.839] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/4/index.html",`activity_code`="a59d0ce2e3534920832aaa4d32a8fb74",`user_id`=1,`status`=2,`update_time`="2017-12-07 07:51:47",`publish_time`="2017-12-07 19:51:47",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;./img/btnBg_1512647504129.png&quot;]}],&quot;activityCode&quot;:&quot;a59d0ce2e3534920832aaa4d32a8fb74&quot;}" WHERE `id`=39 
+[2017-12-07 19:51:48.120] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 19:51:48.127] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:02:34.006] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 20:02:34.010] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:02:35.684] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 20:02:47.579] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:02:47.654] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:02:47.665] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time",":publish_time")
+[2017-12-07 20:02:47.666] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES ("aaa","aaa","915f00f10ba341e4a4e8648bc6fe2e81","http://local_activity.jiandanjiekuan.com/pages/aaa/5/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;./img/close_1512648164363.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}",2,"images",1,"2017-12-07 08:02:47","2017-12-07 20:02:47")
+[2017-12-07 20:02:47.950] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:02:47.951] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:06:08.392] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:07:56.240] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:07:56.311] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:07:56.323] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=40 
+[2017-12-07 20:07:56.324] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/6/index.html",`activity_code`="915f00f10ba341e4a4e8648bc6fe2e81",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:07:56",`publish_time`="2017-12-07 20:07:56",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20171207200608/close_1512648463876.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}" WHERE `id`=40 
+[2017-12-07 20:07:56.603] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:07:56.619] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:08:22.333] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:08:55.931] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:08:55.987] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:08:56.007] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:08:56.008] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:08:55")
+[2017-12-07 20:09:01.232] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:09:01.241] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:09:01.242] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:09:01")
+[2017-12-07 20:09:31.414] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:09:31.469] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:09:31.486] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:09:31.487] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:09:31")
+[2017-12-07 20:09:39.827] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:09:39.833] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:09:46.388] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:09:53.703] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:09:53.713] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:09:53.713] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:09:53")
+[2017-12-07 20:10:47.882] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-12-07 20:10:47.883] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:10:49.499] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=16 
+[2017-12-07 20:11:01.522] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:11:01.579] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:11:01.590] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time",":publish_time")
+[2017-12-07 20:11:01.591] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`,`publish_time`) VALUES ("bbb","bbb","526cbe294e834fc0ad66d868af1384c6","http://local_activity.jiandanjiekuan.com/pages/bbb/1/index.html","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/bbb/1/img/close_1512648659479.png&quot;]}],&quot;activityCode&quot;:&quot;526cbe294e834fc0ad66d868af1384c6&quot;}",2,"images",1,"2017-12-07 08:11:01","2017-12-07 20:11:01")
+[2017-12-07 20:11:01.881] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:11:01.882] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:11:09.039] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=41 
+[2017-12-07 20:11:31.926] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:11:31.936] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=41 
+[2017-12-07 20:11:31.937] [DEBUG] database - UPDATE `act` SET `name`="bbb",`code`="bbb",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/bbb/2/index.html",`activity_code`="526cbe294e834fc0ad66d868af1384c6",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:11:31",`publish_time`="2017-12-07 20:11:31",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/bbb/1/img/close_1512648659479.png&quot;]}],&quot;activityCode&quot;:&quot;526cbe294e834fc0ad66d868af1384c6&quot;}" WHERE `id`=41 
+[2017-12-07 20:11:32.226] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:11:32.226] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:11:49.899] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=41 
+[2017-12-07 20:13:47.381] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:13:47.382] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:18:12.282] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=41 
+[2017-12-07 20:18:14.384] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:18:14.438] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:18:14.449] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=41 
+[2017-12-07 20:18:14.449] [DEBUG] database - UPDATE `act` SET `name`="bbb",`code`="bbb",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/bbb/2/index.html",`activity_code`="526cbe294e834fc0ad66d868af1384c6",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:18:14",`publish_time`="2017-12-07 20:18:14",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/bbb/1/img/close_1512648659479.png&quot;]}],&quot;activityCode&quot;:&quot;526cbe294e834fc0ad66d868af1384c6&quot;}" WHERE `id`=41 
+[2017-12-07 20:18:14.730] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:18:14.739] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:18:21.840] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:18:25.094] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:18:25.105] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:18:25.106] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:18:25")
+[2017-12-07 20:18:26.254] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:18:26.264] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:18:26.264] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:18:26")
+[2017-12-07 20:20:00.483] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:20:00.540] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:20:00.560] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:20:00.561] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:20:00")
+[2017-12-07 20:20:30.100] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:20:30.156] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:20:30.172] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:20:30.172] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:20:30")
+[2017-12-07 20:21:36.502] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:21:36.559] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:21:36.575] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:21:36.576] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:21:36")
+[2017-12-07 20:23:20.461] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:23:20.517] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:23:20.539] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:23:20.539] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:23:20")
+[2017-12-07 20:26:00.168] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:26:00.225] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:26:00.241] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:26:00.242] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:26:00")
+[2017-12-07 20:28:06.569] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:28:06.631] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:28:06.649] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:28:06.650] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:28:06")
+[2017-12-07 20:28:50.032] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:28:50.044] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:28:50.045] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:28:49")
+[2017-12-07 20:29:54.713] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:29:54.770] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-12-07 20:29:54.781] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-12-07 20:29:54.782] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:图片 /Users/mac/Desktop/Applications/GitLab/cms-backend/temp/20171207200608/close_1512648463876.png 不存在或已被删除","/api/act/publish","127.0.0.1","admin","2017-12-07 08:29:54")
+[2017-12-07 20:31:35.918] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:31:35.980] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:31:35.993] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=40 
+[2017-12-07 20:31:35.994] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/6/index.html",`activity_code`="915f00f10ba341e4a4e8648bc6fe2e81",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:31:35",`publish_time`="2017-12-07 20:31:35",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/6/img/close_1512649892188.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}" WHERE `id`=40 
+[2017-12-07 20:31:36.285] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:31:36.291] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:32:13.593] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:32:16.325] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:32:16.377] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:32:16.387] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=40 
+[2017-12-07 20:32:16.388] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/6/index.html",`activity_code`="915f00f10ba341e4a4e8648bc6fe2e81",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:32:16",`publish_time`="2017-12-07 20:32:16",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/6/img/close_1512649892188.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}" WHERE `id`=40 
+[2017-12-07 20:32:16.688] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:32:16.694] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:33:23.364] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:33:25.483] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:33:25.528] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:33:25.542] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=40 
+[2017-12-07 20:33:25.543] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/6/index.html",`activity_code`="915f00f10ba341e4a4e8648bc6fe2e81",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:33:25",`publish_time`="2017-12-07 20:33:25",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/6/img/close_1512649892188.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}" WHERE `id`=40 
+[2017-12-07 20:33:25.822] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:33:25.829] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2017-12-07 20:33:45.604] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=40 
+[2017-12-07 20:33:47.786] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2017-12-07 20:33:47.831] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2017-12-07 20:33:47.841] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time",`data`=":data" WHERE `id`=40 
+[2017-12-07 20:33:47.842] [DEBUG] database - UPDATE `act` SET `name`="aaa",`code`="aaa",`components`="images",`url`="http://local_activity.jiandanjiekuan.com/pages/aaa/6/index.html",`activity_code`="915f00f10ba341e4a4e8648bc6fe2e81",`user_id`=1,`status`=2,`update_time`="2017-12-07 08:33:47",`publish_time`="2017-12-07 20:33:47",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;no-repeat&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;http://local_activity.jiandanjiekuan.com/pages/aaa/6/img/close_1512649892188.png&quot;]}],&quot;activityCode&quot;:&quot;915f00f10ba341e4a4e8648bc6fe2e81&quot;}" WHERE `id`=40 
+[2017-12-07 20:33:48.111] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2017-12-07 20:33:48.117] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

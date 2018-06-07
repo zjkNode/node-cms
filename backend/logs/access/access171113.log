@@ -1,0 +1,6 @@
+[2017-11-13 10:19:50.299] [INFO] access - POST /api/signin
+[2017-11-13 10:19:50.556] [INFO] access - GET /api/menu/listsTree
+[2017-11-13 10:19:50.636] [INFO] access - GET /api/user/userInfo
+[2017-11-13 10:19:53.445] [INFO] access - GET /api/act/tpl/lists
+[2017-11-13 10:20:01.522] [WARN] access - GET /api/act/tpl/lists
+[2017-11-13 10:20:02.918] [INFO] access - GET /api/act/lists?keys=&pageSize=15&pageIndex=1

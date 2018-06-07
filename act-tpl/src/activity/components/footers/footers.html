@@ -1,0 +1,5 @@
+<div class="footersWrap" style="{{item.footers.style | styleFn}}">
+    {% for key , value in item.footers.txt %}
+        <p style="{{value.style | styleFn}}">{{value.content}}</p>
+    {% endfor %}
+</div>

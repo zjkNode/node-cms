@@ -1,0 +1,156 @@
+[2018-05-29 10:20:43.472] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-29 10:20:43.899] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-29 10:20:43.906] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-29 10:21:13.441] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-29 10:21:13.458] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-29 10:21:13.459] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-29 10:21:13.467] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-29 10:21:13.480] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-29 10:21:13.488] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-29 10:21:13.491] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-29 10:21:13")
+[2018-05-29 10:21:27.708] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-29 10:21:27.709] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-29 10:21:30.165] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 10:21:32.967] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:21:33.013] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:38:05.168] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:38:05.211] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:39:43.882] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:39:43.899] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:39:57.810] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:39:57.826] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:40:01.957] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:40:01.968] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:40:12.100] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:40:12.109] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:40:24.579] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:40:24.585] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:43:29.514] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:43:29.530] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 10:44:11.624] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 10:44:11.631] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:15:46.289] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-29 13:15:46.329] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:15:46.334] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:17:29.387] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:17:29.398] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:20:42.720] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:20:42.730] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:21:24.328] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:21:24.334] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:21:54.151] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:21:54.178] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:35:58.339] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 13:36:03.787] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-29 13:36:03.797] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:36:34.199] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 13:36:35.968] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:36:35.978] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:44:47.170] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:44:47.174] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:45:35.891] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:45:35.906] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:46:04.640] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:46:04.650] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:49:53.453] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:49:53.468] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:53:15.178] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:53:15.190] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:54:09.822] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:54:09.829] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:56:18.723] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:56:18.728] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 13:57:50.525] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 13:57:50.530] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:21:00.302] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:21:00.357] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:23:16.205] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:23:16.210] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:23:27.647] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:23:27.668] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:32:11.795] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:32:11.821] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:33:39.801] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:33:39.811] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 14:33:51.293] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 14:33:51.303] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:44:18.838] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2018-05-29 15:44:18.921] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2018-05-29 15:44:18.947] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2018-05-29 15:44:18.970] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2018-05-29 15:44:18.998] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-05-29 15:44:19.017] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-05-29 15:44:19.019] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2018-05-29 03:44:18")
+[2018-05-29 15:44:24.982] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 15:44:26.666] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 15:44:26.675] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:52:21.832] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 15:52:21.838] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:53:53.682] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 15:53:53.691] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:56:33.927] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 15:56:37.230] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=55 
+[2018-05-29 15:56:37.237] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:58:19.436] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-29 15:58:20.875] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 15:58:20.889] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 15:59:55.881] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=60 
+[2018-05-29 15:59:55.885] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:03:41.483] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-29 16:03:41.513] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-05-29 16:03:41.517] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("","","16a09318de3b41618be58114faa67a7a","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;scratch&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;margin-top&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;text&quot;:&quot;&quot;,&quot;maskImage&quot;:&quot;&quot;},&quot;prizes&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580843193.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529155955/1527580808404.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;544px&quot;,&quot;margin-top&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5c2b5565ee534f3fbcdfa689cebc870f&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580839581.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529155955/1527580948776.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;137px&quot;,&quot;margin-top&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;d94292b068244302b218319a0b156bcd&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580856043.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580870449.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null}]}],&quot;activityCode&quot;:&quot;16a09318de3b41618be58114faa67a7a&quot;,&quot;code&quot;:&quot;&quot;}",1,"scratch",1,"2018-05-29 04:03:41")
+[2018-05-29 16:03:41.900] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-29 16:03:41.915] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-29 16:06:04.809] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:06:04.818] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:09:39.912] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:09:39.924] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:13:43.196] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:13:43.210] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:15:02.282] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:15:02.288] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:21:04.279] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:21:04.302] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 16:28:12.027] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-29 16:28:12.039] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=123 
+[2018-05-29 16:28:12.040] [DEBUG] database - UPDATE `act` SET `name`="",`code`="",`activity_code`="16a09318de3b41618be58114faa67a7a",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;scratch&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;603px&quot;,&quot;background-image&quot;:&quot;/temp/20180529162104/1527582075344.png&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;margin-top&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;160px&quot;,&quot;width&quot;:&quot;&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;661px&quot;,&quot;height&quot;:&quot;335px&quot;},&quot;text&quot;:&quot;&quot;,&quot;maskImage&quot;:&quot;/temp/20180529162104/1527582091780.png&quot;},&quot;prizes&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162104/1527582375621.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529162104/1527582431396.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppCoupons&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;352px&quot;,&quot;margin-top&quot;:&quot;200px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5c2b5565ee534f3fbcdfa689cebc870f&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580839581.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529155955/1527580948776.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;137px&quot;,&quot;margin-top&quot;:&quot;&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;d94292b068244302b218319a0b156bcd&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580856043.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529155955/1527580870449.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null}]}],&quot;activityCode&quot;:&quot;16a09318de3b41618be58114faa67a7a&quot;,&quot;code&quot;:&quot;&quot;}",`url`="",`components`="scratch",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-05-29 04:28:12" WHERE `id`=123 
+[2018-05-29 16:28:12.426] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-29 16:28:12.442] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-29 16:28:14.464] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 16:28:14.478] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 17:00:03.537] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-29 17:00:03.582] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=123 
+[2018-05-29 17:00:03.583] [DEBUG] database - UPDATE `act` SET `name`="",`code`="",`activity_code`="16a09318de3b41618be58114faa67a7a",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;scratch&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;603px&quot;,&quot;background-image&quot;:&quot;/temp/20180529162104/1527582075344.png&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;margin-top&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;160px&quot;,&quot;width&quot;:&quot;&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;661px&quot;,&quot;height&quot;:&quot;335px&quot;},&quot;text&quot;:&quot;&quot;,&quot;maskImage&quot;:&quot;/temp/20180529162104/1527582091780.png&quot;},&quot;prizes&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162104/1527582375621.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529162104/1527582431396.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppCoupons&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;352px&quot;,&quot;margin-top&quot;:&quot;200px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5c2b5565ee534f3fbcdfa689cebc870f&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162814/1527584134676.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529162814/1527584180169.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppCredit&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;352px&quot;,&quot;margin-top&quot;:&quot;200px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;d94292b068244302b218319a0b156bcd&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162814/1527584384787.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null}]}],&quot;activityCode&quot;:&quot;16a09318de3b41618be58114faa67a7a&quot;,&quot;code&quot;:&quot;&quot;}",`url`="",`components`="scratch",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-05-29 05:00:03" WHERE `id`=123 
+[2018-05-29 17:00:04.025] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-29 17:00:04.032] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-29 17:00:06.106] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 17:00:06.113] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 17:01:28.902] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-29 17:01:28.910] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`activity_code`=":activity_code",`data`=":data",`url`=":url",`components`=":components",`uuser_id`=:uuser_id,`status`=:status,`update_time`=":update_time" WHERE `id`=123 
+[2018-05-29 17:01:28.911] [DEBUG] database - UPDATE `act` SET `name`="",`code`="",`activity_code`="16a09318de3b41618be58114faa67a7a",`data`="{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;scratch&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;603px&quot;,&quot;background-image&quot;:&quot;/temp/20180529162104/1527582075344.png&quot;,&quot;background-color&quot;:&quot;#fb4c2a&quot;,&quot;margin-top&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;160px&quot;,&quot;width&quot;:&quot;&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;width&quot;:&quot;661px&quot;,&quot;height&quot;:&quot;335px&quot;},&quot;text&quot;:&quot;&quot;,&quot;maskImage&quot;:&quot;/temp/20180529162104/1527582091780.png&quot;,&quot;maskColor&quot;:&quot;&quot;},&quot;prizes&quot;:[{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162104/1527582375621.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529162104/1527582431396.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppCoupons&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;352px&quot;,&quot;margin-top&quot;:&quot;200px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;5c2b5565ee534f3fbcdfa689cebc870f&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162814/1527584134676.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:{&quot;imageUrl&quot;:&quot;/temp/20180529162814/1527584180169.png&quot;,&quot;usages&quot;:[&quot;goApp&quot;,&quot;goAppCredit&quot;],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;352px&quot;,&quot;margin-top&quot;:&quot;200px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;d94292b068244302b218319a0b156bcd&quot;}},{&quot;id&quot;:&quot;&quot;,&quot;img&quot;:&quot;/temp/20180529162814/1527584384787.png&quot;,&quot;alert&quot;:&quot;&quot;,&quot;button&quot;:null}]}],&quot;activityCode&quot;:&quot;16a09318de3b41618be58114faa67a7a&quot;,&quot;code&quot;:&quot;&quot;}",`url`="",`components`="scratch",`uuser_id`=1,`status`=CASE WHEN `status` = 2 THEN 3 ELSE `status` END,`update_time`="2018-05-29 05:01:28" WHERE `id`=123 
+[2018-05-29 17:01:29.205] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-29 17:01:29.210] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-29 17:01:31.012] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 17:01:31.025] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 17:42:50.638] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 17:42:50.663] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 17:47:13.806] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 17:47:13.850] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:21:57.865] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:21:57.866] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:38:15.807] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:38:15.878] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:39:18.634] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:39:18.639] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:55:23.036] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:55:23.179] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:55:50.877] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:55:50.932] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 18:59:51.665] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 18:59:51.692] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 19:00:13.311] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 19:00:13.319] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 19:00:58.003] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 19:00:58.013] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-29 19:03:18.190] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=123 
+[2018-05-29 19:03:18.207] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

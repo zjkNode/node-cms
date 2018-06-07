@@ -1,0 +1,201 @@
+[2018-03-23 09:29:17.278] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 09:29:17.282] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 09:29:23.264] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-23 09:29:29.599] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 09:44:48.617] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 09:47:15.670] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 09:48:56.350] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 09:52:14.873] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:00:19.053] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:00:50.926] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:02.534] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:06.284] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:21.604] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:44.613] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:57.518] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:01:57.687] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:12:01.104] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:12:01.110] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:12:17.007] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:12:17.018] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:13:02.939] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:13:03.141] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:13:25.158] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:13:25.163] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:36:11.133] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-03-23 10:36:11.135] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-03-23 10:41:47.795] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:42:46.812] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-23 10:42:46.822] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES (":name",":domain",":oss_code",":baidu_code",":download_urls",":publish_path",:user_id,":create_time")
+[2018-03-23 10:42:46.823] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES ("小小租","activity.xiaoxiaozulin.com","xxz","000","111","/www/static_act",1,"2018-03-23 10:42:46")
+[2018-03-23 10:42:46.850] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:43:26.717] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-23 10:43:26.751] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES (":name",":domain",":oss_code",":baidu_code",":download_urls",":publish_path",:user_id,":create_time")
+[2018-03-23 10:43:26.752] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES ("火山钱包","activity.zhenggaofeng.com","zgf","111","111","/www/static_act",1,"2018-03-23 10:43:26")
+[2018-03-23 10:43:26.868] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 10:43:30.274] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 10:43:30.282] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 10:43:33.910] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=97 
+[2018-03-23 10:43:42.369] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-23 10:43:43.702] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 10:43:43.711] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:14:28.731] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 11:14:28.745] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-23 11:14:30.818] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 11:14:30.828] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:16:21.100] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=NaN 
+[2018-03-23 11:16:21.105] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/config.service.js { Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at PoolConnection.query (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:208:25)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:45:14
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:64:7)
+    at bound (domain.js:280:14)
+    at Handshake.runBound [as _callback] (domain.js:293:12)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:95:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2018-03-23 11:16:21.126] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:16:21.134] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:16:21.135] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:服务器出错，活动配置出错,配置Id：NaN","/api/act/publish","127.0.0.1","admin","2018-03-23 11:16:21")
+[2018-03-23 11:17:07.308] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:17:07.335] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:17:07.348] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:17:07.349] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:17:07")
+[2018-03-23 11:17:19.085] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:17:19.094] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:17:19.104] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:17:19.105] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:17:19")
+[2018-03-23 11:18:29.904] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:18:29.924] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:18:29.941] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:18:29.942] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:18:29")
+[2018-03-23 11:18:59.533] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:18:59.551] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:18:59.567] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:18:59.568] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:18:59")
+[2018-03-23 11:19:07.079] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-23 11:19:07.085] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-03-23 11:19:07.085] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("act1","act1","16c4b69933394a71b5439b65fcdaa428","","{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180323111430/1521774899255.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;/temp/20180323111430/1521774940941.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/temp/20180323111430/1521774971217.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",1,"images,buttons,images",1,"2018-03-23 11:19:07")
+[2018-03-23 11:19:07.414] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 11:19:07.423] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 11:19:10.180] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:19:15.822] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 11:19:15.853] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:20:27.997] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:20:33.987] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:20:45.351] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:21:11.405] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:21:24.467] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:21:43.357] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:21:43.367] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:21:55.960] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:21:55.970] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:22:00.717] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:22:00.727] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:22:00.734] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:22:00.734] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:22:00")
+[2018-03-23 11:23:10.639] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:23:10.658] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:23:10.673] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:23:10.674] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:23:10")
+[2018-03-23 11:23:24.486] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:23:24.503] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:23:24.517] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:23:24.518] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:23:24")
+[2018-03-23 11:23:44.000] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:23:44.014] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:23:44.030] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:23:44.030] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:23:44")
+[2018-03-23 11:26:05.841] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:26:05.863] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2018-03-23 11:26:05.882] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2018-03-23 11:26:05.883] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("服务器出错，发布活动失败:undefined","/api/act/publish","127.0.0.1","admin","2018-03-23 11:26:05")
+[2018-03-23 11:26:34.155] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 11:26:34.326] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-23 11:26:34.359] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`data`=":data",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=98 
+[2018-03-23 11:26:34.360] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="local_activity.xiaoxiaozulin.comxxz/act1/1/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774899255.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;/xxz/act1/1/img/1521774940941.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774971217.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",`activity_code`="16c4b69933394a71b5439b65fcdaa428",`user_id`=1,`status`=2,`update_time`="2018-03-23 11:26:34",`publish_time`="2018-03-23 11:26:34" WHERE `id`=98 
+[2018-03-23 11:26:34.677] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 11:26:34.684] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 11:28:05.610] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:28:05.634] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:31:49.627] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 11:31:49.643] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 11:31:49.648] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 11:32:15.134] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 11:32:15.136] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 12:33:14.027] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 12:33:14.029] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 12:33:41.161] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 12:33:41.190] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 12:33:41.199] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 12:33:45.040] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 12:33:45.205] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-23 12:33:45.242] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`data`=":data",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=98 
+[2018-03-23 12:33:45.243] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="local_activity.xiaoxiaozulin.com/xxz/act1/1/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774899255.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;/xxz/act1/1/img/1521774940941.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774971217.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",`activity_code`="16c4b69933394a71b5439b65fcdaa428",`user_id`=1,`status`=2,`update_time`="2018-03-23 12:33:45",`publish_time`="2018-03-23 12:33:45" WHERE `id`=98 
+[2018-03-23 12:33:45.622] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 12:33:45.624] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 12:35:29.070] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=98 
+[2018-03-23 12:35:29.072] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 12:35:32.734] [DEBUG] database - SELECT * FROM `act_config`  WHERE `id`=1 
+[2018-03-23 12:35:32.959] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-03-23 12:35:33.018] [DEBUG] database - UPDATE `act` SET `name`=":name",`code`=":code",`components`=":components",`url`=":url",`data`=":data",`activity_code`=":activity_code",`user_id`=:user_id,`status`=:status,`update_time`=":update_time",`publish_time`=":publish_time" WHERE `id`=98 
+[2018-03-23 12:35:33.019] [DEBUG] database - UPDATE `act` SET `name`="act1",`code`="act1",`components`="images,buttons,images",`url`="local_activity.xiaoxiaozulin.com/xxz/act1/1/index.html",`data`="{&quot;title&quot;:&quot;act1&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;#c63a2f&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774899255.png&quot;]},{&quot;name&quot;:&quot;buttons&quot;,&quot;buttons&quot;:{&quot;orientH&quot;:false,&quot;space&quot;:&quot;20px&quot;,&quot;items&quot;:[{&quot;imageUrl&quot;:&quot;/xxz/act1/1/img/1521774940941.png&quot;,&quot;usages&quot;:[],&quot;href&quot;:&quot;&quot;,&quot;style&quot;:{&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;margin-bottom&quot;:&quot;20px&quot;},&quot;responses&quot;:[],&quot;uuid&quot;:&quot;bd472c534734479aa39b978594adf7f6&quot;}]},&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;,&quot;background-color&quot;:&quot;&quot;}}},{&quot;name&quot;:&quot;images&quot;,&quot;image_path&quot;:[&quot;/xxz/act1/1/img/1521774971217.png&quot;]}],&quot;activityCode&quot;:&quot;16c4b69933394a71b5439b65fcdaa428&quot;}",`activity_code`="16c4b69933394a71b5439b65fcdaa428",`user_id`=1,`status`=2,`update_time`="2018-03-23 12:35:32",`publish_time`="2018-03-23 12:35:32" WHERE `id`=98 
+[2018-03-23 12:35:33.439] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 12:35:33.439] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 15:30:59.529] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-23 15:31:10.069] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 15:31:10.076] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 15:31:29.758] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-03-23 15:31:32.500] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-03-23 15:31:32.513] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 15:37:48.319] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 15:37:48.321] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-03-23 15:37:49.630] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 15:59:30.713] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 15:59:30.731] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 15:59:33.875] [DEBUG] database - DELETE FROM `act_config` WHERE `id`=1 
+[2018-03-23 15:59:33.903] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 15:59:39.038] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:00:33.199] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-03-23 16:00:33.215] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:00:59.399] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-23 16:00:59.411] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES (":name",":domain",":oss_code",":baidu_code",":download_urls",":publish_path",:user_id,":create_time")
+[2018-03-23 16:00:59.412] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES ("aaa","aaaa","aaa","aaa","aaa","/www/static_act",1,"2018-03-23 04:00:59")
+[2018-03-23 16:00:59.449] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:01:04.547] [DEBUG] database - DELETE FROM `act_config` WHERE `id`=3 
+[2018-03-23 16:01:04.577] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:01:24.374] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-23 16:01:24.385] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES (":name",":domain",":oss_code",":baidu_code",":download_urls",":publish_path",:user_id,":create_time")
+[2018-03-23 16:01:24.385] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES ("aaa","aaa","aaa","aaaa","aaa","/www/static_act",1,"2018-03-23 04:01:24")
+[2018-03-23 16:01:24.422] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:01:28.028] [DEBUG] database - DELETE FROM `act_config` WHERE `id`=4 
+[2018-03-23 16:01:28.051] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:02:26.598] [DEBUG] database - SHOW COLUMNS FROM `act_config`
+[2018-03-23 16:02:26.608] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES (":name",":domain",":oss_code",":baidu_code",":download_urls",":publish_path",:user_id,":create_time")
+[2018-03-23 16:02:26.609] [DEBUG] database - INSERT INTO `act_config` (`name`,`domain`,`oss_code`,`baidu_code`,`download_urls`,`publish_path`,`user_id`,`create_time`) VALUES ("小小租","activity.xiaoxiaozulin.com","xxz","1111","1111","/www/static_act",1,"2018-03-23 04:02:26")
+[2018-03-23 16:02:26.640] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-03-23 16:02:29.649] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-03-23 16:02:29.655] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15

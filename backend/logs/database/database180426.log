@@ -1,0 +1,35 @@
+[2018-04-26 10:49:44.920] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-26 10:49:51.077] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 10:49:53.821] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-26 10:49:53.827] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-26 10:49:56.285] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-26 10:49:58.389] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-26 10:49:58.391] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-26 10:49:59.203] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 10:50:02.159] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 11:27:34.836] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-26 11:39:37.540] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-26 17:23:46.044] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-04-26 17:26:17.945] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 17:26:21.213] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-26 17:26:21.220] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-26 17:26:22.292] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-04-26 17:26:23.314] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-04-26 17:26:23.315] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-04-26 17:26:26.716] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 17:26:29.128] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-26 17:27:39.620] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-04-26 17:27:39.645] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-04-26 17:27:39.653] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`cover`=":cover",`update_time`=":update_time" WHERE `id`="54" 
+[2018-04-26 17:27:39.653] [DEBUG] database - UPDATE `act_tpl` SET `name`="静态活动",`code`="static",`parts`="images,buttons,images",`desc`="",`cover`="/images/act_tpl_image/1524734859636.png",`update_time`="2018-04-26 05:27:39" WHERE `id`="54" 
+[2018-04-26 17:27:39.911] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 17:28:33.311] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-04-26 17:28:33.313] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-04-26 17:30:38.023] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-04-26 17:30:38.027] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-04-26 17:30:46.496] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-04-26 17:30:50.127] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=54 
+[2018-04-26 17:31:10.038] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-04-26 17:31:10.049] [DEBUG] database - UPDATE `act_tpl` SET `name`=":name",`code`=":code",`parts`=":parts",`desc`=":desc",`cover`=":cover",`update_time`=":update_time" WHERE `id`="54" 
+[2018-04-26 17:31:10.049] [DEBUG] database - UPDATE `act_tpl` SET `name`="静态活动",`code`="static",`parts`="images,buttons,images",`desc`="",`cover`="/images/act_tpl_image/1524735070034.png",`update_time`="2018-04-26 05:31:10" WHERE `id`="54" 
+[2018-04-26 17:31:10.326] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC

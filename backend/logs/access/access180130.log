@@ -1,0 +1,16 @@
+[2018-01-30 13:46:55.729] [WARN] access - GET /api/news/lists?keys=&pageIndex=1&pageSize=15
+[2018-01-30 13:46:58.292] [WARN] access - GET /api/news/type/alllists
+[2018-01-30 19:08:14.056] [INFO] access - POST /api/signin
+[2018-01-30 19:08:14.325] [INFO] access - GET /api/user/userInfo
+[2018-01-30 19:08:14.371] [INFO] access - GET /api/menu/listsTree
+[2018-01-30 19:08:17.820] [INFO] access - GET /api/act/tpl/lists
+[2018-01-30 19:08:19.937] [INFO] access - GET /api/act/tpl/51
+[2018-01-30 19:08:28.129] [WARN] access - GET /api/act/tpl/lists
+[2018-01-30 19:13:46.712] [WARN] access - GET /api/menu/listsTree
+[2018-01-30 19:13:46.716] [WARN] access - GET /api/user/userInfo
+[2018-01-30 19:14:05.048] [WARN] access - GET /api/menu/listsTree
+[2018-01-30 19:14:05.078] [WARN] access - GET /api/user/userInfo
+[2018-01-30 19:14:50.267] [WARN] access - GET /api/menu/listsTree
+[2018-01-30 19:14:50.271] [WARN] access - GET /api/user/userInfo
+[2018-01-30 19:15:46.325] [WARN] access - GET /api/menu/listsTree
+[2018-01-30 19:15:46.328] [WARN] access - GET /api/user/userInfo

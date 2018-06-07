@@ -1,0 +1,171 @@
+[2018-05-21 12:02:31.814] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-21 12:02:31.849] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 12:02:31.850] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 12:02:56.755] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2018-05-21 12:02:56.764] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="1" 
+[2018-05-21 12:02:56.765] [DEBUG] database - UPDATE `config` SET `name`="简单借款官网baseUrl",`key`="baseUrl",`value`="http://localhost:8010",`status`=2,`update_time`="2018-05-21 12:02:56" WHERE `id`="1" 
+[2018-05-21 12:02:56.790] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 12:02:56.791] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 12:03:04.087] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2018-05-21 12:03:04.093] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="3" 
+[2018-05-21 12:03:04.093] [DEBUG] database - UPDATE `config` SET `name`="图片访问域名",`key`="imageDomain",`value`="http://local_node.jiandanjiekuan.com/image",`status`=2,`update_time`="2018-05-21 12:03:04" WHERE `id`="3" 
+[2018-05-21 12:03:04.119] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 12:03:04.122] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 12:03:08.331] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2018-05-21 12:03:08.338] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="4" 
+[2018-05-21 12:03:08.340] [DEBUG] database - UPDATE `config` SET `name`="图片上传保存路径",`key`="imageSavePath",`value`="/www/nodecms",`status`=2,`update_time`="2018-05-21 12:03:08" WHERE `id`="4" 
+[2018-05-21 12:03:08.373] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 12:03:08.373] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 12:04:09.064] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 12:04:18.235] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=56 
+[2018-05-21 13:41:14.260] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 13:52:20.263] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-21 13:52:20.288] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-21 14:08:20.126] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 14:08:20.128] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 14:08:31.783] [DEBUG] database - SHOW COLUMNS FROM `config`
+[2018-05-21 14:08:31.791] [DEBUG] database - UPDATE `config` SET `name`=":name",`key`=":key",`value`=":value",`status`=:status,`update_time`=":update_time" WHERE `id`="4" 
+[2018-05-21 14:08:31.792] [DEBUG] database - UPDATE `config` SET `name`="图片上传保存路径",`key`="imageSavePath",`value`="/www/nodecms",`status`=1,`update_time`="2018-05-21 02:08:31" WHERE `id`="4" 
+[2018-05-21 14:08:31.818] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 14:08:31.819] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 14:08:51.272] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2018-05-21 14:08:51.281] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2018-05-21 14:08:54.940] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 14:14:22.926] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-05-21 14:14:22.931] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-05-21 14:15:25.862] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 14:15:36.188] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-05-21 14:15:36.211] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-05-21 14:15:36.220] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-05-21 14:15:36.220] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("fasdf","asdfasd","/images/act_tpl_image/1526883336207.png","rolling","",1,0,"2018-05-21 02:15:36")
+[2018-05-21 14:15:36.461] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 14:15:58.390] [DEBUG] database - DELETE FROM `act_tpl` WHERE `id`=57 
+[2018-05-21 14:15:58.421] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 14:16:41.458] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-05-21 14:16:41.497] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-05-21 14:16:41.497] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("滚动文本","rolling","/images/act_tpl_image/1526883401442.png","rolling","",1,0,"2018-05-21 02:16:41")
+[2018-05-21 14:16:41.786] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 14:16:44.200] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:16:44.218] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 14:22:31.245] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:22:31.257] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 14:54:20.592] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:54:20.639] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 14:55:23.709] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:55:23.722] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 14:57:02.547] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:57:02.559] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 14:57:40.621] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 14:57:40.637] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:00:32.250] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:00:32.261] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:01:32.932] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:01:32.941] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:16:15.438] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:16:15.445] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:40:35.240] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:40:35.287] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:47:11.988] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:47:11.993] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:47:15.526] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:47:15.533] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 15:48:13.420] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 15:48:13.448] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:00:01.208] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:00:01.231] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:14:26.036] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:14:26.042] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:47:37.546] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:47:37.567] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:48:31.114] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:48:31.119] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:50:46.391] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:50:46.399] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 16:57:10.363] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 16:57:10.375] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:00:25.642] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:00:25.653] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:34:34.925] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:34:34.948] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:36:01.397] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:36:01.414] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:37:02.270] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:37:02.295] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:38:11.539] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:38:11.548] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:38:27.417] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:38:27.429] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:39:00.626] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:39:00.633] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 17:41:32.532] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 17:41:32.536] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:21:35.709] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:21:35.727] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:23:11.083] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:23:11.085] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:23:42.292] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:23:42.302] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:39:26.272] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:39:26.282] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:42:06.646] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:42:06.653] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:43:50.363] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:43:50.369] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:44:37.164] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:44:37.171] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:45:16.115] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:45:16.124] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 18:46:26.554] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 18:46:26.566] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:04:58.605] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:04:58.606] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:06:02.006] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:06:02.013] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:06:50.672] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:06:50.683] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:09:48.663] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:09:48.670] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:12:45.136] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:12:45.143] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:14:34.657] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:14:34.669] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:27:17.442] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:27:17.449] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:28:43.507] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-21 19:28:43.516] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-05-21 19:28:43.519] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("","","07457f79402d479eadefc27361609f9d","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;419px&quot;,&quot;background-image&quot;:&quot;/temp/20180521192717/1526902057088.jpg&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;100px&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180521192717/1526902052209.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;0 0.46rempx&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;第一行\n第二行\n第三行\n第四行\n第五行\n第六行&quot;}}],&quot;activityCode&quot;:&quot;07457f79402d479eadefc27361609f9d&quot;,&quot;code&quot;:&quot;&quot;}",1,"rolling",1,"2018-05-21 07:28:43")
+[2018-05-21 19:28:43.858] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-21 19:28:43.865] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-21 19:28:45.836] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=116 
+[2018-05-21 19:28:45.848] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:29:20.653] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=116 
+[2018-05-21 19:29:20.662] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:36:58.387] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=116 
+[2018-05-21 19:36:58.390] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:39:52.618] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=116 
+[2018-05-21 19:39:52.629] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:40:53.782] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 19:40:56.633] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-21 19:40:56.640] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-21 19:40:59.357] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=116 
+[2018-05-21 19:40:59.366] [DEBUG] database - DELETE FROM `act` WHERE `id`=116 
+[2018-05-21 19:40:59.389] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-21 19:40:59.389] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-21 19:41:01.633] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-05-21 19:41:03.227] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:41:03.232] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=58 
+[2018-05-21 19:42:30.110] [DEBUG] database - SHOW COLUMNS FROM `act`
+[2018-05-21 19:42:30.127] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES (":name",":code",":activity_code",":url",":data",:status,":components",:user_id,":create_time")
+[2018-05-21 19:42:30.127] [DEBUG] database - INSERT INTO `act` (`name`,`code`,`activity_code`,`url`,`data`,`status`,`components`,`user_id`,`create_time`) VALUES ("","","4b285b08356847d7a424b6d4c18f54cb","","{&quot;title&quot;:&quot;简单借款&quot;,&quot;style&quot;:{&quot;background-color&quot;:&quot;&quot;,&quot;background-repeat&quot;:&quot;&quot;,&quot;background-image&quot;:&quot;&quot;},&quot;components&quot;:[{&quot;name&quot;:&quot;rolling&quot;,&quot;wrap&quot;:{&quot;style&quot;:{&quot;height&quot;:&quot;419px&quot;,&quot;background-image&quot;:&quot;/temp/20180521194103/1526902868006.jpg&quot;,&quot;background-color&quot;:&quot;&quot;,&quot;padding-top&quot;:&quot;100px&quot;,&quot;background-repeat&quot;:&quot;repeat-x&quot;}},&quot;content&quot;:{&quot;style&quot;:{&quot;background-image&quot;:&quot;/temp/20180521194103/1526902881294.1c6f970.png&quot;,&quot;width&quot;:&quot;783px&quot;,&quot;height&quot;:&quot;121px&quot;,&quot;padding&quot;:&quot;0 0.46rempx&quot;,&quot;line-height&quot;:&quot;121px&quot;},&quot;text&quot;:&quot;第1行文本内容\\000第2行文本内容\\000第3行文本内容\\000第4行文本内容&quot;}}],&quot;activityCode&quot;:&quot;4b285b08356847d7a424b6d4c18f54cb&quot;,&quot;code&quot;:&quot;&quot;}",1,"rolling",1,"2018-05-21 07:42:30")
+[2018-05-21 19:42:30.403] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-05-21 19:42:30.407] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-05-21 19:42:32.324] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:42:32.329] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-21 19:44:21.381] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-21 19:44:21.399] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:44:37.266] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-21 19:44:37.281] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:48:43.097] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-21 19:48:43.100] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-21 19:48:50.769] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=117 
+[2018-05-21 19:48:50.776] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC

@@ -1,0 +1,176 @@
+{
+  "title": "简单借款",
+  "style": {
+    "background-color": "",
+    "background-repeat": "no-repeat",
+    "background-image": ""
+  },
+  "components": [
+    {
+      "name": "images",
+      "image_path": [
+        "/temp/undefined/t1_1515481956418.jpg"
+      ]
+    },
+    {
+      "name": "forms",
+      "imgcode_alert": "alerts_2",
+      "image_path": [],
+      "wrap": {
+        "value": "havePadding",
+        "iconcolor": "＃000",
+        "bg":{
+          "style": {
+            "background-color": "#f0f999",
+            "background-image": ""
+          }
+        },
+        "style": {
+          "width": "750px"
+        }
+      },
+      "input": {
+        "style": {
+          "height": "175px"
+        },
+        "borderColor": ""
+      },
+      "buttons": {
+        "imageUrl": "/temp/undefined/btn_1515482065309.png",
+        "usages": [
+          "goBackEnd"
+        ],
+        "href": "",
+        "style": {
+          "width": "750px",
+          "height": "200px"
+        },
+        "responses": [
+          {
+            "1001": "this.handle"
+          },
+          {
+            "1009": "this.handle"
+          }
+        ],
+        "uuid": "f86aa923eaf94c31b3d6039aa0801200"
+      }
+    },
+    {
+      "name": "alerts",
+      "wrap": {
+        "closeBtn": {
+          "isShow": true,
+          "image_path": []
+        },
+        "style": {
+          "width": "750px",
+          "height": "750px",
+          "background-color": "#fff",
+          "background-image": "",
+          "background-repeat": "",
+          "border-radius": "6px"
+        }
+      },
+      "contents": {
+        "name": "_imgcode_alert",
+        "image_path": [
+          "/temp/undefined/t1_1515482119749.jpg"
+        ],
+        "uuid": "34dc33a28ca44753ba8e1b4d8e747965"
+      },
+      "buttons": [
+        {
+          "imageUrl": "/temp/undefined/btn_1515482139959.png",
+          "usages": [
+            "goAlerts"
+          ],
+          "href": "",
+          "style": {
+            "width": "700px",
+            "height": "100px"
+          },
+          "responses": [
+            {
+              "1001": "this.handle"
+            },
+            {
+              "1009": "this.handle"
+            }
+          ],
+          "uuid": "dcb835798435402e81c487e1e104cd16"
+        }
+      ]
+    },
+    {
+      "name": "alerts",
+      "wrap": {
+        "closeBtn": {
+          "isShow": false,
+          "image_path": []
+        },
+        "style": {
+          "width": "",
+          "height": "",
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "",
+          "border-radius": ""
+        }
+      },
+      "contents": {
+        "name": "",
+        "image_path": [],
+        "uuid": "c2a6bc5f1c604d2d89d86d2db102bd45"
+      },
+      "buttons": []
+    },
+    {
+      "name": "alerts",
+      "wrap": {
+        "closeBtn": {
+          "isShow": false,
+          "image_path": []
+        },
+        "style": {
+          "width": "",
+          "height": "",
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "",
+          "border-radius": ""
+        }
+      },
+      "contents": {
+        "name": "",
+        "image_path": [],
+        "uuid": "a52b579639ef41fe9df8e16cddd5bf9f"
+      },
+      "buttons": []
+    },
+    {
+      "name": "alerts",
+      "wrap": {
+        "closeBtn": {
+          "isShow": false,
+          "image_path": []
+        },
+        "style": {
+          "width": "",
+          "height": "",
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "",
+          "border-radius": ""
+        }
+      },
+      "contents": {
+        "name": "",
+        "image_path": [],
+        "uuid": "879d2110899f476796fbe7a37c90713a"
+      },
+      "buttons": []
+    }
+  ],
+  "activityCode": "6bd099721ce24772b0d006ba570821f1"
+}

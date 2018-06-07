@@ -1,0 +1,106 @@
+@import "../base";
+.mainWrapper{
+    margin-top: 40px;
+    .tpl_aside{
+        width: 250px;
+        min-height: 200px;
+        overflow-y: scroll;
+	    border:10px solid #99a9bf;
+        position: relative;
+        top:0;
+        .tagContent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 80px;
+        }
+        .el-card__body{
+            text-align: center;
+        }
+    }
+}
+    
+.el-card{
+	position:relative;
+    border-radius: 0;
+    border:none;
+    border-bottom:1px dashed #d1dbe5;
+    // &:last-child{
+    //     border:none;
+    // }
+	.card_mask{
+		display:none;
+    	position:absolute;
+    	background:rgba(0,0,0,.7);
+    	top:0;
+    	left:0;
+    	right:0;
+    	bottom:0;
+    	text-align:center;
+        justify-content:center;
+        align-items:center;
+        font-size: 18px;
+        color: #fff;
+        &>span{
+            cursor: pointer;
+        }
+    }
+   	&:hover{
+   		.card_mask{
+            display:flex;
+   		}
+   	}
+}
+
+.tpl{
+    border: 2px solid #ccc;
+    width:auto;
+    width: 375px;
+    min-height: 200px;
+    .el-card{
+        background-color: transparent;
+        box-shadow:none;
+        -webkit-box-shadow:none;
+    }
+}
+.tpl_hidden{
+    border: 1px dashed #ccc;
+    border-top:0;
+    height:auto;
+    width: 375px;
+    display:inline-block;
+    box-sizing:border-box;
+    &:empty{
+        border:none;
+    }
+    li{
+        position:relative;
+        border-bottom:1px dashed #bfcbd9;
+        border-right: 1px dashed #bfcbd9;
+        margin-bottom:-1px;
+        margin-right: -1px;
+        width:93px;
+        height:30px;
+        overflow:hidden;
+        text-align:center;
+        word-wrap:break-word;
+        float:left;
+        line-height:1;
+        &:hover .masker, &.selected .masker{
+            display:block;
+        }
+
+        .masker{
+            cursor:pointer;
+            background: rgba(0, 0, 0, 0.7);
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            color:#fff;
+            display:none;
+            line-height:30px
+        }
+    }
+}

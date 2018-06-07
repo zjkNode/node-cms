@@ -1,0 +1,10 @@
+<div class="btnWrap" style="{{item.wrap.style | styleFn}}">
+	<ul class="{{ 'flex' if item.buttons.orientH else 'flex-center-v' }}">
+	{% for btnItem in item.buttons.items %}
+		<li>
+		{% include "../_partials/_button.html" ignore missing %}
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+

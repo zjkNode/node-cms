@@ -1,0 +1,17 @@
+[2017-11-06 10:27:40.457] [WARN] access - GET /api/user/userInfo
+[2017-11-06 10:27:40.487] [WARN] access - GET /api/menu/listsTree
+[2017-11-06 10:27:45.302] [INFO] access - GET /api/contracts/lists?keys=
+[2017-11-06 10:27:51.113] [INFO] access - POST /api/contracts/1
+[2017-11-06 10:27:51.263] [INFO] access - GET /api/contracts/lists?keys=
+[2017-11-06 11:22:42.179] [INFO] access - GET /api/user/userInfo
+[2017-11-06 11:22:42.188] [INFO] access - GET /api/menu/listsTree
+[2017-11-06 11:22:42.202] [INFO] access - GET /api/contracts/lists?keys=
+[2017-11-06 14:23:50.342] [WARN] access - GET /api/user/userInfo
+[2017-11-06 14:23:50.348] [WARN] access - GET /api/menu/listsTree
+[2017-11-06 14:23:55.679] [WARN] access - GET /api/contracts/lists?keys=
+[2017-11-06 15:28:01.222] [WARN] access - GET /api/user/userInfo
+[2017-11-06 15:28:01.228] [WARN] access - GET /api/menu/listsTree
+[2017-11-06 15:28:01.244] [WARN] access - GET /api/contracts/lists?keys=
+[2017-11-06 15:29:45.604] [WARN] access - GET /api/user/userInfo
+[2017-11-06 15:29:45.610] [WARN] access - GET /api/menu/listsTree
+[2017-11-06 15:29:45.624] [WARN] access - GET /api/contracts/lists?keys=

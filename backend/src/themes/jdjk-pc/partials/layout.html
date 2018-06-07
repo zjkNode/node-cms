@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <title>小额信贷_个人小额贷款_信用贷款_小额贷款-简单借款网提供快速贷款服务</title>
+    <meta name="Keywords" content="简单借款,和创金服,小额信贷,小额贷款,个人贷款,快速借款,手机贷款">
+    <meta name="description" content="简单借款是和创金服旗下专注金融领域小额信贷的移动端信用贷款平台,为工作人群提供个人贷款、小额贷款、手机贷款、网络贷款快速借款等贷款服务,致力打造以信用为凭证、无需担保的个人信用钱包。个人快速借款、快速贷款就上简单借款贷款平台！">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <!--<script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>-->
+        <!--<script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>-->
+    <!--<![endif]&ndash;&gt;-->
+    <link rel="stylesheet" type="text/css" href="{{baseUrl}}/static/css/reset.css" />
+    {% block css %}{% endblock %}
+    <script type="text/javascript" src="{{baseUrl}}/static/js/jquery-1.10.1.min.js"></script>
+  </head>
+  <body>
+    {% include "jdjk-pc/partials/header.html" %}
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
+    {% include "jdjk-pc/partials/footer.html" %}
+    {% block js %}{% endblock%}
+
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?eb4bdae8431af52ffa1a67b656ffe482";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,4 @@
+[2018-05-17 19:34:02.079] [INFO] access - POST /api/signin
+[2018-05-17 19:34:02.196] [INFO] access - GET /api/menu/listsTree
+[2018-05-17 19:34:02.201] [INFO] access - GET /api/user/userInfo
+[2018-05-17 19:34:05.093] [INFO] access - GET /api/act/tpl/lists

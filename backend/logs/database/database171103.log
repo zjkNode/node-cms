@@ -1,0 +1,9 @@
+[2017-11-03 14:49:19.846] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-03 17:59:51.084] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-03 18:00:26.692] [DEBUG] database - SELECT * FROM `users`  WHERE `email`="admin@jdjk.com" 
+[2017-11-03 18:00:26.702] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-03 18:00:26.707] [DEBUG] database - SELECT * FROM `dep`  WHERE `id`=1 
+[2017-11-03 18:00:26.712] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (0,1)  order by `pids` ASC
+[2017-11-03 18:00:26.722] [DEBUG] database - SHOW COLUMNS FROM `logs`
+[2017-11-03 18:00:26.733] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES (":content",":url",":ip",":username",":create_time")
+[2017-11-03 18:00:26.733] [DEBUG] database - INSERT INTO `logs` (`content`,`url`,`ip`,`username`,`create_time`) VALUES ("登录成功:admin","/api/signin","127.0.0.1","admin","2017-11-03 06:00:26")

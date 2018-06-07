@@ -1,0 +1,50 @@
+[2017-10-25 09:47:39.616] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-10-25 09:47:39.623] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-10-25 09:47:39.633] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-10-25 11:58:42.389] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 11:59:08.481] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 11:59:08.622] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 11:59:08.629] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:01:14.415] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 12:01:14.559] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:01:14.563] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:01:47.662] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 12:01:47.941] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:01:47.960] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:01:48.009] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,14,13,1,8,10,7,6,5)  order by `id` ASC
+[2017-10-25 12:02:03.987] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 12:02:04.191] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:02:04.201] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:02:04.231] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,14,13,1,8,10,7,6,5)  order by `id` ASC
+[2017-10-25 12:03:41.615] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 12:03:41.725] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:03:41.731] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:03:41.761] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,14,13,1,8,10,7,6,5)  order by `id` ASC
+[2017-10-25 12:03:57.910] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-10-25 12:03:58.113] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:03:58.128] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-10-25 12:03:58.171] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,14,13,1,8,10,7,6,5)  order by `id` ASC
+[2017-10-25 12:04:01.923] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:01.923] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 15,15
+[2017-10-25 12:04:01.930] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (12,11,10,9,7,6,5,4)  order by `id` ASC
+[2017-10-25 12:04:03.551] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:03.552] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 30,15
+[2017-10-25 12:04:03.566] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,7,5,3)  order by `id` ASC
+[2017-10-25 12:04:04.620] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:04.621] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 45,15
+[2017-10-25 12:04:04.651] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (3)  order by `id` ASC
+[2017-10-25 12:04:05.439] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:05.440] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 60,15
+[2017-10-25 12:04:05.497] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (3)  order by `id` ASC
+[2017-10-25 12:04:06.683] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:06.684] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 75,15
+[2017-10-25 12:04:06.715] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (3)  order by `id` ASC
+[2017-10-25 12:04:07.758] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:07.759] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 105,15
+[2017-10-25 12:04:07.780] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (3,10,11,4,9)  order by `id` ASC
+[2017-10-25 12:04:10.048] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:10.049] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 120,15
+[2017-10-25 12:04:10.071] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (11,6,4,12,5,7)  order by `id` ASC
+[2017-10-25 12:04:11.242] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 135,15
+[2017-10-25 12:04:11.243] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-10-25 12:04:11.260] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (5,12,4)  order by `id` ASC

@@ -1,0 +1,135 @@
+[2018-03-27 19:31:45.824] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:40:03.333] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:45:13.005] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:45:37.091] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:46:51.917] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:46:52.911] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:47:47.127] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:47:48.113] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:47:49.143] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:47:51.229] [INFO] system - 正在监听 port 7071
+[2018-03-27 19:47:59.432] [ERROR] system - error in domain { SyntaxError: Unexpected token u in JSON at position 0
+    at Object.parse (native)
+    at async.auto.actData (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:192:36)
+    at runTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1619:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1559:13
+    at processQueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1569:13)
+    at taskComplete (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1588:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1612:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:132:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/config.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-27 19:48:29.670] [INFO] system - 正在监听 port 7071
+[2018-03-27 20:47:58.925] [INFO] system - 正在监听 port 7071
+[2018-03-27 20:49:37.214] [INFO] system - 正在监听 port 7071
+[2018-03-27 20:51:37.542] [INFO] system - 正在监听 port 7071
+[2018-03-27 20:52:21.693] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:03:06.059] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:03:08.673] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:03:09.683] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:23:49.178] [ERROR] system - error in domain { ReferenceError: actData is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:544:41
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:541:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-27 21:25:03.701] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:25:19.722] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:25:44.771] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:25:54.844] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:26:00.164] [ERROR] system - error in domain { TypeError: Cannot read property 'substring' of undefined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:547:40
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:541:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-27 21:27:11.102] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:27:18.081] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:27:22.701] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:27:25.247] [ERROR] system - error in domain { ReferenceError: error is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:558:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5302:29)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:546:24
+    at nextTask (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5297:14)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:5304:9)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js:541:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/act.service.js:18:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-03-27 21:27:42.748] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:27:43.777] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:28:23.861] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:28:52.986] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:28:58.994] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:29:00.008] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:29:02.061] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:38:02.193] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:46:53.750] [INFO] system - 正在监听 port 7071
+[2018-03-27 21:47:16.922] [INFO] system - 正在监听 port 7071

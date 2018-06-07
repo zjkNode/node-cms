@@ -1,0 +1,167 @@
+[2018-01-20 15:43:02.629] [ERROR] system - ReferenceError: path is not defined
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:154:27)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2018-01-20 15:43:48.021] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:162:32
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:44:24.470] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:162:32
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:44:56.745] [ERROR] system - error in domain { ReferenceError: fs is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:166:9
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2181:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:2148:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:45:29.017] [ERROR] system - error in domain { TypeError: client.put(...).then is not a function
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:16:6)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:53:44.605] [ERROR] system - error in domain { TypeError: client.put(...).then is not a function
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:16:6)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 16:05:19.520] [ERROR] system - error in domain { ReferenceError: key is not defined
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:29:32)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2181:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }

@@ -1,0 +1,306 @@
+[2017-11-07 11:05:25.919] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-07 11:05:25.971] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 11:05:25.972] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:05:25.986] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:05:40.886] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 11:05:42.651] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 11:05:42.652] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:05:44.634] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 11:05:44.636] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:05:47.237] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:05:47.244] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:07:06.923] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:07:06.932] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:16:45.875] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:16:45.889] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:17:53.133] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:17:53.136] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:33:42.285] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:33:42.305] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:33:47.536] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:33:47.555] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:38:31.382] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 11:38:32.554] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 11:38:32.559] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:38:33.554] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 11:38:33.555] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:38:36.830] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:38:36.838] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:38:40.887] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 11:38:40.888] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-11-07 11:38:40.895] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:38:40.901] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 11:38:41.918] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-11-07 11:38:41.926] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 11:38:47.522] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 11:38:47.523] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:38:54.278] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2017-11-07 11:38:54.279] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-07 11:38:54.284] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2017-11-07 11:38:54.293] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:38:59.189] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:38:59.189] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 11:39:00.191] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:39:00.192] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-11-07 11:39:00.201] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-11-07 11:39:04.534] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:39:04.534] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 11:39:04.544] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:42:30.442] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:42:30.443] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 11:42:30.448] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:43:50.614] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 11:43:50.615] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 11:43:50.620] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:44:17.764] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 11:46:36.603] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 11:47:14.120] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 11:47:37.718] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 11:47:37.733] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:48:02.987] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 11:48:02.987] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,30
+[2017-11-07 11:48:05.487] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:48:05.488] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 11:49:45.461] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 11:49:45.461] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 11:50:19.806] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 11:50:19.808] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:50:27.936] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 11:50:27.949] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:50:29.088] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:50:29.104] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 11:50:29.104] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:50:29.129] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:50:45.766] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 11:50:45.786] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-07 11:50:49.031] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:50:49.045] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 11:50:49.046] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:50:49.046] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:51:27.093] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:51:27.101] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 11:51:27.102] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:51:27.103] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:55:46.958] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:55:46.962] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:55:46.964] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 11:55:46.970] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 11:57:42.376] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:57:42.381] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 11:57:42.382] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 11:57:42.389] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:13:05.014] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:05.046] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:13:05.072] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:13:05.169] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:38.892] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:38.896] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:13:38.896] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:13:39.021] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:42.677] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:13:42.684] [DEBUG] database - SELECT * FROM `roles`  WHERE `id`=1 
+[2017-11-07 13:13:54.970] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:54.973] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:13:54.977] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:13:54.984] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:14:10.558] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:14:10.566] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:14:10.570] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:14:10.570] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:14:12.330] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:14:12.336] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:14:12.336] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:14:12.338] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:15:29.147] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:15:29.154] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:15:29.164] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:15:29.270] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:15:31.398] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 13:15:38.752] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 13:15:38.758] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:15:42.544] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:15:42.544] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 13:15:51.314] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 13:15:51.319] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:18:28.106] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:18:28.110] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:18:28.112] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:18:28.120] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:18:34.326] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:34.330] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:34.332] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-11-07 13:18:34.343] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:34.352] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2017-11-07 13:18:46.466] [DEBUG] database - SELECT count(*) as tmp_count FROM `users`
+[2017-11-07 13:18:46.467] [DEBUG] database - SELECT * FROM `users`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:18:46.471] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:18:46.475] [DEBUG] database - SELECT * FROM `roles`  WHERE `id` in (1) 
+[2017-11-07 13:18:46.476] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (1)  order by `pids` ASC
+[2017-11-07 13:18:47.906] [DEBUG] database - SELECT * FROM `roles`  WHERE `depid`=1 
+[2017-11-07 13:18:54.557] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:54.561] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:54.562] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-11-07 13:18:54.567] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:18:54.574] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2017-11-07 13:19:37.520] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:19:45.723] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:19:45.727] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:19:47.886] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2017-11-07 13:19:47.887] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:19:55.158] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:19:55.160] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:20:02.692] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:20:02.693] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-11-07 13:20:02.701] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-11-07 13:20:06.359] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:20:06.359] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 13:20:06.364] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:20:08.009] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:20:08.009] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-07 13:20:19.412] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:20:19.413] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-11-07 13:20:19.418] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:20:19.425] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:20:21.206] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-11-07 13:20:21.213] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:20:31.266] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:20:39.382] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:20:39.382] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:20:41.098] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:21:05.383] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:21:05.385] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:21:06.421] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2017-11-07 13:21:06.422] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:21:09.574] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:21:09.575] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:21:11.214] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:22:16.016] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:22:57.641] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 13:23:31.557] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 13:23:36.945] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:24:09.076] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:24:34.359] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:24:34.365] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:24:35.549] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:24:59.063] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:25:08.061] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:25:40.198] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:26:48.154] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:27:40.719] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 13:27:43.904] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 13:27:43.915] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:27:45.136] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 13:27:45.137] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:27:50.510] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2017-11-07 13:28:45.433] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:28:45.435] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 13:28:46.372] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2017-11-07 13:28:46.373] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:28:47.815] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2017-11-07 13:28:47.818] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:28:54.900] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 13:28:54.911] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:29:01.360] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:29:01.364] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:29:01.366] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:29:01.372] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:29:42.361] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:29:42.372] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:29:42.374] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:29:42.379] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:29:56.443] [DEBUG] database - SELECT * FROM `dep`  order by `pids` ASC
+[2017-11-07 13:29:56.447] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:30:09.132] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:30:09.137] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:30:09.138] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:30:09.140] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:31:23.714] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:31:23.721] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:31:23.721] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:31:23.727] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:31:32.447] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:31:32.454] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:31:32.454] [DEBUG] database - SELECT count(*) as tmp_count FROM `roles`
+[2017-11-07 13:31:32.456] [DEBUG] database - SELECT * FROM `roles`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:31:43.531] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:31:43.538] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:31:43.541] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-11-07 13:31:43.548] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:31:43.554] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2017-11-07 13:33:32.231] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:33:32.237] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:33:32.238] [DEBUG] database - SELECT * FROM `rule`  order by `id` ASC
+[2017-11-07 13:33:32.247] [DEBUG] database - SELECT * FROM `rule`  WHERE `status`=1 
+[2017-11-07 13:33:32.252] [DEBUG] database - SELECT * FROM `rule`  WHERE `id` in (1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)  order by `id` ASC
+[2017-11-07 13:33:39.882] [DEBUG] database - SELECT count(*) as tmp_count FROM `users`
+[2017-11-07 13:33:39.882] [DEBUG] database - SELECT * FROM `users`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:33:39.890] [DEBUG] database - SELECT * FROM `dep`  WHERE `id` in (1)  order by `pids` ASC
+[2017-11-07 13:33:39.891] [DEBUG] database - SELECT * FROM `roles`  WHERE `id` in (1) 
+[2017-11-07 13:33:39.892] [DEBUG] database - SELECT * FROM `dep`  WHERE `status`=1 
+[2017-11-07 13:33:43.824] [DEBUG] database - SELECT * FROM `roles`  WHERE `depid`=1 
+[2017-11-07 13:34:22.453] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:35:11.343] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2017-11-07 13:35:19.751] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:35:19.758] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:35:24.906] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2017-11-07 13:35:24.907] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:35:30.000] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2017-11-07 13:35:30.001] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:37:44.841] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:37:44.842] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:38:38.454] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:38.457] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:38:45.849] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:45.849] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-11-07 13:38:45.864] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-11-07 13:38:48.319] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 13:38:48.320] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:48.359] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:38:49.609] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:38:49.611] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:51.758] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:51.763] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 13:38:51.766] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:38:54.415] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:38:54.416] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-07 13:38:56.284] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:38:56.285] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 13:38:56.290] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 13:38:58.327] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-07 13:39:08.449] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:39:08.449] [DEBUG] database - SELECT count(*) as tmp_count FROM `files`
+[2017-11-07 13:39:08.470] [DEBUG] database - SELECT * FROM `files`  order by `id` DESC LIMIT 0,15
+[2017-11-07 13:39:08.470] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:39:10.494] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-11-07 13:39:10.508] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:59:37.423] [DEBUG] database - SELECT * FROM `file_type`  order by `id` ASC
+[2017-11-07 13:59:37.430] [DEBUG] database - SELECT * FROM `file_type`  WHERE `status`=1 
+[2017-11-07 13:59:41.919] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:59:41.919] [DEBUG] database - SELECT * FROM `contracts_type`  order by `id` ASC
+[2017-11-07 13:59:43.842] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:59:43.842] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts_history`
+[2017-11-07 13:59:43.847] [DEBUG] database - SELECT * FROM `contracts_history`  order by `id` ASC LIMIT 0,15
+[2017-11-07 13:59:45.642] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 13:59:45.643] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 13:59:45.647] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 14:00:01.166] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 14:00:01.167] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 14:00:01.172] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 15:02:12.489] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 15:02:12.491] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 15:02:12.497] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 15:03:00.256] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 15:03:00.256] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 15:03:00.260] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 15:03:52.702] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 15:03:52.703] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 15:03:52.709] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 15:04:12.106] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 15:04:12.106] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 15:04:12.146] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 15:04:29.970] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 15:04:29.971] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 15:04:29.975] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-07 16:17:53.782] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-07 16:17:53.784] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-07 16:17:53.793] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15

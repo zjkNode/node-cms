@@ -1,0 +1,42 @@
+[2017-11-06 10:27:40.453] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-06 10:27:45.280] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 10:27:45.287] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 10:27:45.289] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 10:27:51.077] [DEBUG] database - SHOW COLUMNS FROM `contracts`
+[2017-11-06 10:27:51.082] [DEBUG] database - UPDATE `contracts` SET `status`=:status,`publish_time`=":publish_time",`update_time`=":update_time" WHERE `id`=1 
+[2017-11-06 10:27:51.082] [DEBUG] database - UPDATE `contracts` SET `status`=1,`publish_time`="2017-11-06 10:27:51",`update_time`="2017-11-06 10:27:51" WHERE `id`=1 
+[2017-11-06 10:27:51.092] [DEBUG] database - INSERT INTO contracts_history (`cid`,`version`,`content`, `title`, `typename`,`publish_time`,`create_time`)
+    SELECT a.id,(SELECT CASE WHEN ISNULL(MAX(version)) THEN 1 ELSE MAX(version)+1 END FROM contracts_history WHERE cid = :contractsId),a.content,a.title,b.`name`,a.publish_time, NOW() from contracts a
+   INNER JOIN contracts_type b on a.typeid = b.id
+   WHERE a.id = :contractsId
+[2017-11-06 10:27:51.093] [DEBUG] database - INSERT INTO contracts_history (`cid`,`version`,`content`, `title`, `typename`,`publish_time`,`create_time`)
+    SELECT a.id,(SELECT CASE WHEN ISNULL(MAX(version)) THEN 1 ELSE MAX(version)+1 END FROM contracts_history WHERE cid = 1),a.content,a.title,b.`name`,a.publish_time, NOW() from contracts a
+   INNER JOIN contracts_type b on a.typeid = b.id
+   WHERE a.id = 1
+[2017-11-06 10:27:51.159] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 10:27:51.174] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 10:27:51.196] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 10:27:53.835] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 10:28:44.564] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 10:29:17.153] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 11:22:42.158] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-06 11:22:42.183] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 11:22:42.185] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 11:22:42.192] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 11:22:45.026] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 11:23:08.595] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 14:23:50.325] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-06 14:23:55.660] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 14:23:55.666] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 14:23:55.667] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 14:23:58.244] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 15:28:01.205] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-06 15:28:01.226] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 15:28:01.227] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 15:28:01.233] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 15:28:03.721] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 
+[2017-11-06 15:29:45.586] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2017-11-06 15:29:45.608] [DEBUG] database - SELECT * FROM `contracts_type`  WHERE `status`=1  order by `id` ASC
+[2017-11-06 15:29:45.609] [DEBUG] database - SELECT count(*) as tmp_count FROM `contracts`
+[2017-11-06 15:29:45.614] [DEBUG] database - SELECT * FROM `contracts`  order by `id` DESC,`publish_time` DESC LIMIT 0,15
+[2017-11-06 15:29:48.528] [DEBUG] database - SELECT * FROM `contracts`  WHERE `id`=1 

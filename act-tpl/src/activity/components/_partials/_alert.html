@@ -1,0 +1,24 @@
+<div class="mask flex-center-v" id="alerts_{{loop.index0}}">
+    <div class="alertWrap {{ 'radius' if item.wrap.radius }} {{ item.name }}"  style="{{ item.wrap.style | styleFn }}">
+        
+        {% if item.closeBtn.imgUrl != '' %}
+        <div class="close {{ item.closeBtn.position }}">
+            <img src="{{ item.closeBtn.imgUrl }}" alt="" />
+        </div>
+        {% endif %}
+
+        <div class="alertContent" style="{{ item.content.wrap.style | styleFn }}">
+            {% block alertContent %}{% endblock %}
+        </div>
+
+        <div class="alertBottom">
+            <ul class="{{ 'flex' if item.buttons.orientH else 'flex-center-v' }}">
+            {% for btnItem in item.buttons.items %}
+                <li>
+                    {% include "./_button.html" ignore missing %}
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

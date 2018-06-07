@@ -1,0 +1,230 @@
+[2018-01-15 09:16:53.406] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-15 11:14:11.469] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 11:14:14.679] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-15 11:15:28.194] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-15 11:15:37.978] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=39 
+[2018-01-15 11:15:44.420] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 11:15:44.427] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 11:15:46.909] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:16:17.150] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:17:43.268] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:18:49.899] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:21:05.405] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:22:04.146] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:22:38.231] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:23:16.052] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-01-15 11:23:42.672] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:24:02.218] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:29:47.185] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:31:56.998] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/act.controller.js timeId参数验证失败
+[2018-01-15 11:32:41.970] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:33:41.620] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:34:55.598] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:35:08.647] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:35:39.248] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:36:57.903] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:37:17.342] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:38:48.020] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:38:52.653] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:39:02.982] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:40:26.695] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:41:15.445] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:42:51.760] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:43:02.574] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:43:28.832] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:44:09.792] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:46:46.393] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:48:57.782] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:49:11.280] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:49:43.664] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:49:59.398] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:51:10.011] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:51:28.489] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:52:37.894] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:54:18.276] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:55:00.434] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:55:08.572] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:55:20.282] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:55:41.355] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:58:31.171] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:58:43.821] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:58:57.206] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 11:59:25.963] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 12:01:06.679] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:01:08.873] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2018-01-15 12:01:12.824] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:01:14.032] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=40 
+[2018-01-15 12:01:17.489] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:01:19.141] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=41 
+[2018-01-15 12:01:25.510] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:01:26.998] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 12:01:27.004] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 12:01:29.801] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=79 
+[2018-01-15 12:03:08.173] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:03:22.645] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 12:03:22.650] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 12:03:28.427] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 12:03:32.850] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:04:29.750] [DEBUG] database - SELECT * FROM `config`  WHERE `status`=1 
+[2018-01-15 12:04:29.763] [DEBUG] database - SHOW COLUMNS FROM `act_tpl`
+[2018-01-15 12:04:29.784] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES (":name",":code",":cover",":parts",":desc",:status,:count,":create_time")
+[2018-01-15 12:04:29.785] [DEBUG] database - INSERT INTO `act_tpl` (`name`,`code`,`cover`,`parts`,`desc`,`status`,`count`,`create_time`) VALUES ("alert","alert","/images/act_tpl_image/1515989069760.png","alerts","",1,0,"2018-01-15 12:04:29")
+[2018-01-15 12:04:30.013] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 12:04:33.787] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 12:05:42.126] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 12:07:57.453] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 12:09:37.265] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 12:10:25.155] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 12:10:28.053] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:20:28.892] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:24:50.017] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:25:40.346] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:26:08.792] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:28:53.258] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:29:17.407] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:29:40.833] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:30:15.252] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:32:34.432] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:33:28.000] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:34:50.816] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:37:37.652] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:40:19.784] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:48:30.846] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:51:37.031] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:52:03.377] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:53:41.039] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:54:09.741] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:54:38.497] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 13:55:19.866] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:00:23.996] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:06:12.348] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js { Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:291:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:339:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:11:24)
+    at exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:33:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:410:3)
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true }
+[2018-01-15 14:06:59.985] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:07:00.124] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:07:00.271] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:07:02.876] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:09:09.608] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:09:41.149] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:11:51.117] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:12:07.552] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:12:30.978] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:13:12.108] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:13:28.878] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:15:08.232] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:15:47.585] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:30:17.933] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:36:22.669] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:38:30.902] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:39:34.161] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:44:13.401] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:44:24.579] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 14:45:30.103] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:12:36.584] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:26:26.025] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:30:15.347] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:38:53.794] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:41:20.546] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:46:40.764] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:51:59.836] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 15:55:47.115] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:13:19.861] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:14:30.641] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:15:58.697] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:48:44.042] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:49:57.592] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:51:26.107] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:55:15.292] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js { Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:48:16)
+    at _execute (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:37:10)
+    at Object.select (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:156:5)
+    at Object.exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:11:24)
+    at exports.one (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/act/tpl.controller.js:33:19)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:354:14)
+    at param (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:410:3)
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000 }
+[2018-01-15 16:56:00.492] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 16:56:26.726] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:05:15.299] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:05:52.680] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:07:04.815] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:07:34.935] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:07:47.324] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:10:45.535] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:11:12.204] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:13:37.110] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:15:33.596] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:21:56.632] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:22:32.655] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:23:19.248] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:24:19.930] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:24:43.627] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:25:45.177] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:26:50.167] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:27:22.472] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:28:04.949] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:38:37.970] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:41:38.936] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:41:56.691] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:42:40.287] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:47:34.697] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 17:49:29.368] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 18:33:04.193] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 18:33:04.201] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 18:33:06.748] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=81 
+[2018-01-15 18:33:06.754] [DEBUG] database - DELETE FROM `act` WHERE `id`=81 
+[2018-01-15 18:33:06.782] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 18:33:06.783] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 18:33:08.926] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=80 
+[2018-01-15 18:33:08.931] [DEBUG] database - DELETE FROM `act` WHERE `id`=80 
+[2018-01-15 18:33:08.956] [DEBUG] database - SELECT count(*) as tmp_count FROM `act`
+[2018-01-15 18:33:08.956] [DEBUG] database - SELECT * FROM `act`  order by `id` DESC LIMIT 0,15
+[2018-01-15 18:33:10.774] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-15 18:33:14.606] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 
+[2018-01-15 18:38:13.824] [DEBUG] database - SELECT * FROM `act_tpl`  WHERE `id`=42 

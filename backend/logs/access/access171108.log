@@ -1,0 +1,7 @@
+[2017-11-08 14:32:35.385] [WARN] access - GET /api/user/userInfo
+[2017-11-08 14:32:35.399] [WARN] access - GET /api/menu/listsTree
+[2017-11-08 14:33:12.121] [INFO] access - POST /api/img
+[2017-11-08 14:33:38.318] [INFO] access - POST /api/img
+[2017-11-08 14:36:38.182] [WARN] access - GET /api/contracts/type/lists?keys=
+[2017-11-08 14:36:41.396] [WARN] access - GET /api/contracts/history/lists?keys=&pageSize=15&pageIndex=1
+[2017-11-08 14:36:44.443] [WARN] access - GET /api/contracts/lists?keys=

@@ -1,0 +1,240 @@
+[2018-01-20 11:22:14.560] [INFO] system - 正在监听 port 7071
+[2018-01-20 12:46:31.588] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:26:52.953] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:33:52.659] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:33:53.742] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:34:44.400] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:34:53.406] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:34:55.108] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:34:57.120] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:36:02.677] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:36:16.653] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:37:04.821] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:40:59.583] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:41:12.625] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:41:30.316] [INFO] system - 正在监听 port 7071
+[2018-01-20 13:41:48.510] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:40:55.496] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:41:16.824] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:42:04.867] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:42:05.924] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:42:13.884] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:43:02.629] [ERROR] system - ReferenceError: path is not defined
+    at exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:154:27)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/auth.handler.js:11:4) undefined
+[2018-01-20 15:43:38.758] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:43:41.458] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:43:48.021] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:162:32
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:44:18.523] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:44:24.470] [ERROR] system - error in domain { TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:7:11)
+    at Object.join (path.js:1211:7)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:162:32
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:44:48.635] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:44:56.745] [ERROR] system - error in domain { ReferenceError: fs is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:166:9
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2181:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:2148:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:45:23.085] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:45:29.017] [ERROR] system - error in domain { TypeError: client.put(...).then is not a function
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:16:6)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:45:48.935] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:47:26.385] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:47:35.113] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:48:10.203] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:48:15.168] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:51:59.913] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:53:33.494] [INFO] system - 正在监听 port 7071
+[2018-01-20 15:53:44.605] [ERROR] system - error in domain { TypeError: client.put(...).then is not a function
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:16:6)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 15:53:51.421] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:05:14.063] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:05:19.520] [ERROR] system - error in domain { ReferenceError: key is not defined
+    at Object.exports.upload (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/ali-oss.lib.js:29:32)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/operate/loan.controller.js:172:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2181:5
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-20 16:05:36.797] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:07:18.113] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:07:19.112] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:08:12.313] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:14:04.781] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:14:06.519] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:19:52.046] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:19:56.636] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:19:57.667] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:22:05.160] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:22:21.139] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:22:23.116] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:22:30.392] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:23:13.511] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:25:00.941] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:25:13.002] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:26:31.302] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:27:13.395] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:27:25.482] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:29:15.953] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:29:19.605] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:29:35.616] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:30:42.800] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:30:43.840] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:30:44.829] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:30:45.859] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:08.679] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:11.360] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:23.144] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:25.191] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:40.381] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:32:41.455] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:33:44.670] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:34:27.918] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:35:22.037] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:35:32.755] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:35:33.781] [INFO] system - 正在监听 port 7071
+[2018-01-20 16:37:29.555] [INFO] system - 正在监听 port 7071

@@ -1,0 +1,648 @@
+[2017-10-19 10:06:05.954] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:06:31.063] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:06:44.457] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:06:44.457] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:06:44.457] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:06:44.458] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:08:02.539] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:08:06.385] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:08:06.386] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:08:06.386] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:08:06.387] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:10:06.319] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:10:39.137] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:10:45.272] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:10:45.272] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:10:45.272] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:10:45.274] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:11:45.343] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:11:50.846] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:11:50.847] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:11:50.847] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:11:50.848] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:13:50.773] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:14:21.010] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:14:21.010] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:14:21.011] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:14:21.011] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:16:20.933] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:16:20.955] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:16:20.955] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:16:20.955] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:16:20.956] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:18:20.938] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:22:24.858] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:22:29.400] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:22:29.400] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:22:29.400] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:22:29.401] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:24:29.314] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:25:16.637] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:25:26.736] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:25:26.736] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:25:26.736] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:25:26.737] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:25:39.419] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:25:39.420] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:25:39.420] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:25:39.421] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:26:37.576] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:26:37.576] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:26:37.577] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:26:37.578] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:27:10.887] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:27:14.631] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:27:14.631] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:27:14.631] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:27:14.633] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:29:14.556] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:29:14.584] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:29:14.584] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:29:14.585] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:29:14.586] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:31:14.552] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:31:14.602] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:31:14.603] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:31:14.603] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:31:14.604] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:31:46.970] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:31:59.568] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:31:59.569] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:31:59.569] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:31:59.570] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:32:22.409] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:32:22.409] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:32:22.409] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:32:22.410] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:33:59.507] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:33:59.507] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:33:59.507] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:33:59.508] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:37:06.979] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:37:10.397] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:37:10.397] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:37:10.397] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:37:10.398] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:37:13.401] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:37:18.077] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:37:18.077] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:37:18.078] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:37:18.078] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:37:21.083] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:37:51.135] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:37:51.135] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:37:51.135] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:37:51.137] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:37:54.142] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:39:56.648] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:40:23.132] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:40:26.502] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:40:26.502] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:40:26.502] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:40:26.503] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:40:26.503] [INFO] system - 关闭连接
+[2017-10-19 10:40:26.505] [INFO] system - 重新开启监听
+[2017-10-19 10:40:26.506] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:40:32.606] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:40:32.606] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:40:32.606] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:40:32.607] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:40:32.608] [INFO] system - 关闭连接
+[2017-10-19 10:40:32.611] [INFO] system - 重新开启监听
+[2017-10-19 10:40:32.612] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:41:10.761] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:41:10.761] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:41:10.761] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:41:10.762] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:41:10.762] [INFO] system - 关闭连接
+[2017-10-19 10:41:10.764] [INFO] system - 重新开启监听
+[2017-10-19 10:41:10.765] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:43:13.617] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:43:13.618] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:43:13.618] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:43:13.619] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:43:13.619] [INFO] system - 关闭连接
+[2017-10-19 10:43:13.621] [INFO] system - 重新开启监听
+[2017-10-19 10:43:13.621] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:43:27.389] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:43:27.390] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:43:27.390] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:43:27.391] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:43:27.392] [INFO] system - 关闭连接
+[2017-10-19 10:43:27.392] [INFO] system - 重新开启监听
+[2017-10-19 10:43:27.392] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:44:44.863] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:44:44.863] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:44:44.864] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:44:44.865] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:44:44.865] [INFO] system - 关闭连接
+[2017-10-19 10:44:44.866] [INFO] system - 重新开启监听
+[2017-10-19 10:44:44.866] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:45:13.819] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:45:13.820] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:45:13.820] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:45:13.821] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:45:13.821] [INFO] system - 关闭连接
+[2017-10-19 10:45:13.824] [INFO] system - 重新开启监听
+[2017-10-19 10:45:13.825] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:45:31.470] [INFO] system - 程序出现未捕获异常
+[2017-10-19 10:45:31.471] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2017-10-19 10:45:31.471] [FATAL] system - ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:38:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:16:11
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:158:20
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:39:13
+    at Handshake.onConnect (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Pool.js:58:9)
+    at Handshake.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Handshake.ErrorPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:105:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+[2017-10-19 10:45:31.472] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2017-10-19 10:45:31.472] [INFO] system - 关闭连接
+[2017-10-19 10:45:31.475] [INFO] system - 重新开启监听
+[2017-10-19 10:45:31.475] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:48:30.143] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:49:04.329] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:51:46.951] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:52:21.001] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:52:21.760] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:52:29.986] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:57:56.698] [INFO] system - 正在监听 port 7071
+[2017-10-19 10:58:07.556] [ERROR] system - { Error: Uncaught, unspecified "error" event. (PhantomJS not installed)
+    at EventEmitter.emit (events.js:163:17)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:67:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/child.js:52:12
+    at ChildProcess.exithandler (child_process.js:213:5)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Socket.<anonymous> (internal/child_process.js:334:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at Pipe._handle.close [as _onclose] (net.js:498:12)
+  context: 'PhantomJS not installed',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true } undefined
+[2017-10-19 11:02:37.966] [INFO] system - 正在监听 port 7071
+[2017-10-19 13:31:21.119] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js 参数验证失败
+[2017-10-19 13:31:26.805] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js 参数验证失败
+[2017-10-19 13:31:28.933] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js 参数验证失败
+[2017-10-19 13:31:28.939] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js 参数验证失败
+[2017-10-19 13:33:34.826] [ERROR] system - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js 参数验证失败
+[2017-10-19 13:34:41.997] [ERROR] system - error in domain { ReferenceError: result is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:76:12
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:1609:17
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/login.controller.js:44:18
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/user.service.js:19:10
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-10-19 16:48:21.577] [INFO] system - 正在监听 port 7071
+[2017-10-19 16:49:30.082] [INFO] system - 正在监听 port 7071
+[2017-10-19 18:11:55.902] [INFO] system - 正在监听 port 7071

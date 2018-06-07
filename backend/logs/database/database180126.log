@@ -1,0 +1,171 @@
+[2018-01-26 09:52:07.361] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-01-26 09:52:07.363] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-01-26 09:52:07.516] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8)  order by `id` ASC
+[2018-01-26 09:52:15.421] [DEBUG] database - SELECT * FROM `news_type`  WHERE `status`=1 
+[2018-01-26 09:52:15.423] [DEBUG] database - SELECT count(*) as tmp_count FROM `news_seo`
+[2018-01-26 09:52:15.428] [DEBUG] database - SELECT * FROM `news_seo`  order by `id` DESC LIMIT 0,15
+[2018-01-26 09:52:17.161] [DEBUG] database - SELECT * FROM `news`  order by `create_time` DESC,`publish_time` DESC LIMIT 0,15
+[2018-01-26 09:52:17.162] [DEBUG] database - SELECT count(*) as tmp_count FROM `news`
+[2018-01-26 09:52:17.183] [DEBUG] database - SELECT * FROM `news_type`  WHERE `id` in (4,20,19,18,16,8)  order by `id` ASC
+[2018-01-26 09:52:18.214] [DEBUG] database - SELECT * FROM `news_type`  order by `id` ASC
+[2018-01-26 09:52:28.446] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-01-26 09:52:28.453] [DEBUG] database - SELECT * FROM `menus`  order by `sort` ASC
+[2018-01-26 09:52:30.601] [DEBUG] database - SELECT * FROM `logs`  order by `id` DESC LIMIT 0,15
+[2018-01-26 09:52:30.602] [DEBUG] database - SELECT count(*) as tmp_count FROM `logs`
+[2018-01-26 09:52:31.933] [DEBUG] database - SELECT count(*) as tmp_count FROM `config`
+[2018-01-26 09:52:31.934] [DEBUG] database - SELECT * FROM `config`  order by `id` DESC LIMIT 0,15
+[2018-01-26 09:53:19.403] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC
+[2018-01-26 14:46:14.660] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:46:14.661] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:46:14.661] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:46:14.662] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:46:14.663] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:46:14.663] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:46:14.692] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:46:14.692] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:46:14.693] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:46:14.693] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:47.344] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:47:47.344] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:47:47.345] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:47:47.345] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:47:47.345] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:47:47.346] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:47:47.354] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:47.359] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:47.360] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:47.361] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:52.831] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:47:52.832] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:47:52.833] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:47:52.834] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:47:52.842] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:47:52.843] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:22.093] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:48:22.100] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:48:22.101] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:48:22.102] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:48:22.114] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:22.116] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:24.332] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:48:24.333] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:48:24.333] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:48:24.335] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:48:24.342] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:24.347] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:38.373] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:48:38.373] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:48:38.375] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:48:38.376] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:48:38.381] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:38.382] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:40.730] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:48:40.732] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:48:40.738] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:48:40.740] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:09.236] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:09.236] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:09.243] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:09.244] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:19.124] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:19.125] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:19.130] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:19.132] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:43.279] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:43.280] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:43.287] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:43.288] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:50.332] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:50.332] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:50.336] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:50.338] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:52.802] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:52.803] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:52.803] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:49:52.803] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:49:52.804] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:52.804] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:52.818] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:52.822] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:52.823] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:52.823] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:54.656] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:49:54.657] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:49:54.660] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:49:54.660] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:49:54.665] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:49:54.672] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:44.548] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:44.549] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:44.550] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:50:44.551] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:50:44.556] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:44.557] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:45.254] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:45.258] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:45.258] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:50:45.259] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:50:45.265] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:45.269] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:51.084] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:51.084] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:51.087] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:50:51.090] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:50:51.094] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:51.094] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:55.150] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:55.151] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:55.153] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:50:55.160] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:50:55.167] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:55.167] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:57.513] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:57.513] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:57.514] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:50:57.514] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:50:57.514] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:50:57.517] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:50:57.525] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:57.529] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:57.529] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:50:57.529] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:14.158] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:14.159] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:14.160] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:14.161] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:14.169] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:14.169] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:18.594] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:18.595] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:18.596] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:18.596] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:18.596] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:18.597] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:18.603] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:18.603] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:18.603] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:18.610] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:28.395] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:28.395] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:28.397] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:28.399] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:28.406] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:28.417] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:30.412] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:30.413] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:30.413] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:30.413] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:30.425] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:30.425] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:33.956] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:33.958] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:33.958] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:33.959] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:33.966] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:33.966] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:39.315] [DEBUG] database - SELECT count(*) as tmp_count FROM `news` WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1 
+[2018-01-26 14:51:39.316] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="zx" AND `status`=1 
+[2018-01-26 14:51:39.316] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8,2) AND `status`=1  order by `publish_time` DESC LIMIT 0,8
+[2018-01-26 14:51:39.316] [DEBUG] database - SELECT * FROM `news_type`  WHERE `code`="wd" AND `status`=1 
+[2018-01-26 14:51:39.323] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (4,5,6,7,8) AND `status`=1  order by RAND() LIMIT 0,5
+[2018-01-26 14:51:39.326] [DEBUG] database - SELECT * FROM `news`  WHERE `typeid` in (9,10,11,12) AND `status`=1  order by RAND() LIMIT 0,5

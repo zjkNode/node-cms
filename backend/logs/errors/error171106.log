@@ -1,0 +1,96 @@
+[2017-11-06 10:29:17.178] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PhantomJS not installed)
+    at EventEmitter.emit (events.js:163:17)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:67:24
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/child.js:52:12
+    at ChildProcess.exithandler (child_process.js:213:5)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Socket.<anonymous> (internal/child_process.js:334:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at Pipe._handle.close [as _onclose] (net.js:498:12)
+  context: 'PhantomJS not installed',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-06 11:22:45.240] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PDF conversion failed with exit of 1)
+    at EventEmitter.emit (events.js:163:17)
+    at ChildProcess.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:90:31)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+  context: 'PDF conversion failed with exit of 1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-06 11:23:08.790] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PDF conversion failed with exit of 1)
+    at EventEmitter.emit (events.js:163:17)
+    at ChildProcess.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:90:31)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+  context: 'PDF conversion failed with exit of 1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-06 14:23:58.444] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PDF conversion failed with exit of 1)
+    at EventEmitter.emit (events.js:163:17)
+    at ChildProcess.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:90:31)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+  context: 'PDF conversion failed with exit of 1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-06 15:28:03.940] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PDF conversion failed with exit of 1)
+    at EventEmitter.emit (events.js:163:17)
+    at ChildProcess.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:90:31)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+  context: 'PDF conversion failed with exit of 1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2017-11-06 15:29:48.732] [ERROR] system - error in domain { Error: Uncaught, unspecified "error" event. (PDF conversion failed with exit of 1)
+    at EventEmitter.emit (events.js:163:17)
+    at ChildProcess.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/nodepdf/index.js:90:31)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+  context: 'PDF conversion failed with exit of 1',
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }

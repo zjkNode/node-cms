@@ -1,0 +1,77 @@
+[2018-01-22 11:31:11.844] [ERROR] system - error in domain { TypeError: Cannot read property 'substring' of undefined
+    at results.lists.map (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:77:51)
+    at Array.map (native)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:76:27
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3861:9
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:421:16
+    at iterateeCallback (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:928:24)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:906:16
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/async/dist/async.js:3858:13
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/act/tpl.service.js:65:21
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:160:16
+    at Query.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/lib/mysqldb.lib.js:49:13)
+    at bound (domain.js:280:14)
+    at Query.runBound [as _callback] (domain.js:293:12)
+    at Query.Sequence.end (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-01-22 14:55:28.822] [INFO] system - 正在监听 port 7071
+[2018-01-22 14:55:32.352] [INFO] system - 正在监听 port 7071
+[2018-01-22 14:56:32.572] [INFO] system - 正在监听 port 7071
+[2018-01-22 14:57:48.266] [INFO] system - 正在监听 port 7071
+[2018-01-22 14:59:17.208] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:01:15.597] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:01:21.599] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:02:07.806] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:03:02.007] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:03:31.108] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:04:55.399] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:07:53.358] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:08:21.435] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:09:09.210] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:10:13.446] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:14:39.467] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:16:57.686] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:16:58.835] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:17:19.845] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:23:18.439] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:23:20.132] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:24:52.414] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:25:38.524] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:25:50.594] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:26:20.715] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:13.868] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:14.889] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:20.859] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:22.807] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:26.831] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:38.879] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:45.900] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:46.932] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:27:59.964] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:30:53.491] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:31:21.024] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:31:23.700] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:31:41.766] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:31:47.751] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:40:33.576] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:40:39.506] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:43:46.865] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:44:13.992] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:44:14.993] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:45:47.261] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:46:36.034] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:46:36.977] [INFO] system - 正在监听 port 7071
+[2018-01-22 15:46:37.957] [INFO] system - 正在监听 port 7071
+[2018-01-22 16:08:56.477] [INFO] system - 正在监听 port 7071
+[2018-01-22 16:11:13.043] [INFO] system - 正在监听 port 7071
+[2018-01-22 17:14:26.749] [INFO] system - 正在监听 port 7071
+[2018-01-22 17:24:42.010] [INFO] system - 正在监听 port 7071

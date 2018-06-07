@@ -1,0 +1,47 @@
+[2018-05-31 13:54:02.704] [DEBUG] database - SELECT * FROM `menus`  WHERE `status`=1  order by `sort` ASC
+[2018-05-31 13:54:02.788] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 13:54:02.820] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 13:54:17.492] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 13:54:17.508] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:46:53.176] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:46:53.218] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:48:09.408] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:48:09.447] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:48:53.356] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:48:53.383] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:49:09.564] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:49:09.621] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:50:07.036] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:50:07.046] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:52:15.474] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:52:15.494] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:56:48.075] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:56:48.107] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:56:52.371] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:56:52.449] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:56:56.810] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:56:56.872] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:03.278] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:03.335] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:07.241] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:07.355] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:10.203] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:10.213] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:13.391] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:13.412] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:17.551] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:17.566] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:21.366] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:21.411] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:57:24.663] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:57:24.681] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 14:59:56.736] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 14:59:56.772] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 15:00:25.182] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 15:00:25.191] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 15:02:32.243] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 15:02:32.256] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 15:02:56.790] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 
+[2018-05-31 15:02:56.815] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 15:06:37.432] [DEBUG] database - SELECT * FROM `act_config`  order by `id` DESC
+[2018-05-31 15:06:37.460] [DEBUG] database - SELECT * FROM `act`  WHERE `id`=125 

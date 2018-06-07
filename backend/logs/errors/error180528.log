@@ -1,0 +1,52 @@
+[2018-05-28 18:01:21.865] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js timeId参数验证失败
+[2018-05-28 18:01:21.867] [ERROR] system - error in domain { TypeError: callback is not a function
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js:112:20
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:747:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }
+[2018-05-28 18:03:33.541] [ERROR] database - /Users/mac/Desktop/Applications/GitLab/cms-backend/src/services/files/files.service.js timeId参数验证失败
+[2018-05-28 18:20:14.906] [ERROR] system - error in domain { ReferenceError: callback is not defined
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/src/controllers/news/news.controller.js:884:16
+    at IncomingForm.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:105:9)
+    at emitNone (events.js:86:13)
+    at IncomingForm.emit (events.js:185:7)
+    at IncomingForm._maybeEnd (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:553:8)
+    at /Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/incoming_form.js:230:12
+    at WriteStream.<anonymous> (/Users/mac/Desktop/Applications/GitLab/cms-backend/node_modules/formidable/lib/file.js:74:5)
+    at WriteStream.g (events.js:291:16)
+    at emitNone (events.js:91:20)
+    at WriteStream.emit (events.js:185:7)
+    at finishMaybe (_stream_writable.js:514:14)
+    at afterWrite (_stream_writable.js:388:3)
+    at onwrite (_stream_writable.js:378:7)
+    at WritableState.onwrite (_stream_writable.js:89:5)
+    at fs.js:2137:5
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:747:5)
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: true }

@@ -1,0 +1,105 @@
+{% extends "hetrone/partials/layout.html" %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/static/css/information.css"/>
+{% endblock %}
+
+{% block content %}
+<div class="information-content clearfix">
+    <div class="main clearfix">
+        <div class="about_tab">
+            <ul>
+                <li class="about_tab_active">媒体报道</li>
+            </ul>
+        </div>
+        <div class="about_crumbs">
+            <ul>
+                <li>您的位置：</li>
+                <li><a href="/">首页</a>&nbsp;>&nbsp;</li>
+                <li><a>媒体报道</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main clearfix mt50">
+        <!--list-->
+        {% for item in news.lists %}
+        <a class="information_box clearfix" href="/detail/{{item.id}}.html">
+            <div class="information_test">
+                <h3>{{item.title}}</h3>
+                <p>{{item.content}}</p>
+            </div>
+            <div class="information_url">
+                <p>{{item.publish_time}}</p>
+                <div class="url"></div>
+            </div>
+        </a>
+        {% endfor %}
+        <!--end list-->
+
+        <div class="page">
+            <ul>
+                {% if  news.pagenumber > 1 %}
+                <li><a style="color:#aa854f" href="/list?code=news&pagenumber={{news.pagepre}}"> < </a></li>
+                {% endif %}
+
+                {% if  news.pagenumber > 2  %}
+                <li>
+                    ···
+                </li>
+                {% endif %}
+
+                {% if  news.pagenumber > 1  %}
+                <li>
+                    <a href="/list?code=news&pagenumber={{news.pagenumber-1}}">{{news.pagenumber-1}}</a>
+                </li>
+                {% endif %}
+
+                <li>
+                    <a href="/list?code=news&pagenumber={{news.pagenumber}}">{{news.pagenumber}}</a>
+                </li>
+
+
+                {% if  news.totalpagesizi > 1 and news.pagenumber != news.totalpagesizi  %}
+                <li>
+                    <a href="/list?code=news&pagenumber={{news.pagenumber+1}}">{{news.pagenumber + 1}}</a>
+                </li>
+                {% endif %}
+
+                {% if  news.totalpagesizi - news.pagenumber > 2  %}
+                <li>
+                    ···
+                </li>
+                {% endif %}
+
+                {% if news.totalpagesizi > news.pagenumber + 1 %}
+                <li>
+                    <a href="/list?code=news&pagenumber={{news.totalpagesizi}}">{{news.totalpagesizi}}</a>
+                </li>
+                {% endif %}
+
+                {% if  news.totalpagesizi > news.pagenumber %}
+                <li><a style="color:#aa854f" href="/list?code=news&pagenumber={{news.pagenext}}"> > </a></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <script>
+            (function() {
+               var str =  window.location.search;
+               var pagenamber =  str[str.length-1];
+                $('.page li').each(function(){
+                    if(parseInt($(this).text()) == pagenamber){
+                        $(this).addClass('li_active')
+                    }
+                })
+            })();
+        </script>
+
+    </div>
+
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript" src="{{baseUrl}}/static/js/information/index.js"></script>
+{% endblock%}

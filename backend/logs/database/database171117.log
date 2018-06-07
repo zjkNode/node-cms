@@ -1,0 +1,2 @@
+[2017-11-17 00:04:21.100] [DEBUG] database - SELECT count(*) as tmp_count FROM `act_tpl`
+[2017-11-17 00:04:21.119] [DEBUG] database - SELECT * FROM `act_tpl`  order by `id` DESC LIMIT 0,15

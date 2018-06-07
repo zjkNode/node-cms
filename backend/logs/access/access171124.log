@@ -1,0 +1,13 @@
+[2017-11-24 11:41:35.059] [WARN] access - GET /api/menu/listsTree
+[2017-11-24 11:41:35.101] [WARN] access - GET /api/user/userInfo
+[2017-11-24 11:41:35.145] [INFO] access - GET /api/act/tpl/1
+[2017-11-24 11:42:07.805] [WARN] access - GET /api/user/userInfo
+[2017-11-24 11:42:07.827] [WARN] access - GET /api/menu/listsTree
+[2017-11-24 11:42:07.836] [INFO] access - GET /api/act/tpl/1
+[2017-11-24 11:48:24.991] [WARN] access - GET /api/news/lists?keys=&pageIndex=1&pageSize=15
+[2017-11-24 11:48:36.342] [WARN] access - GET /preview/news/262?id=262
+[2017-11-24 11:48:36.718] [WARN] access - GET /apis/news/262
+[2017-11-24 11:48:46.696] [INFO] access - GET /api/act/tpl/lists
+[2017-11-24 11:48:46.752] [WARN] access - GET /activity/ttt/20171123/img/card.jpg
+[2017-11-24 11:49:14.817] [WARN] access - GET /api/act/lists?keys=&pageSize=15&pageIndex=1
+[2017-11-24 11:49:16.692] [WARN] access - GET /api/act/tpl/lists

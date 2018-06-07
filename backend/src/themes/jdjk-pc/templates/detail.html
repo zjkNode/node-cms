@@ -1,0 +1,53 @@
+{% extends "jdjk-pc/partials/layout.html" %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/static/css/detail.css" />
+{% endblock %}
+
+{% block content %}
+<div class="detailWrap">
+    <div class="detailRoute">
+        <p>
+            <a href="/">首页</a> &gt;
+            <a id="subTitle"></a> &gt;
+            <a id="thirdTitle"></a> &gt;
+            <span>正文</span>
+        </p>
+    </div>
+    <div class="detailContent">
+        <div class="detailMain">
+            <div class="article" id="article">
+                <h3 class="articalTit"></h3>
+                <div class="articleCon"></div>
+            </div>
+            <div class="articleItem">
+                <dl class="firstItem" id="zixunItem">
+                    <dt>栏目列表</dt>
+                    <dd>
+                        <a href="{{baseUrl}}/list.html?item=/zixun/gongjijindaikuan">公积金贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/zixun/xiaoedaikuan">小额贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/zixun/diyadaikuan">抵押贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/zixun/xinyongkadaikuan">信用卡贷款</a>
+                    </dd>
+                </dl>
+                <dl class="firstItem" id="wendaItem">
+                    <dt>栏目列表</dt>
+                    <dd>
+                        <a href="{{baseUrl}}/list.html?item=/wenda/diyadaikuan">抵押贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/wenda/gerendaikuan">个人贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/wenda/maifangdaikuan">买房贷款</a>
+                        <a href="{{baseUrl}}/list.html?item=/wenda/maichedaikuan">买车贷款</a>
+                    </dd>
+                </dl>
+                <dl class="secondItem" id="secondItem">
+                    <dt>热门资讯</dt>
+                    <dd></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script src="{{baseUrl}}/static/js/detail.js"></script>
+{% endblock%}

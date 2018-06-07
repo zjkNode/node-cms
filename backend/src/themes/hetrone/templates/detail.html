@@ -1,0 +1,34 @@
+{% extends "hetrone/partials/layout.html" %}
+
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/static/css/details.css"/>
+{% endblock %}
+
+{% block content %}
+<div class="details">
+    <div class="details-company-content mt50 clearfix">
+        <div class="about_tab">
+            <ul>
+                <li class="about_tab_active">媒体报道</li>
+            </ul>
+        </div>
+        <div class="about_crumbs">
+            <ul>
+                <li>您的位置：</li>
+                <li><a href="/">首页</a>&nbsp;>&nbsp;</li>
+                <li><a href="{{baseUrl}}/list?code=news&pagenumber=1">媒体报道</a>&nbsp;>&nbsp;</li>
+                <li class="text_ov">{{news.title}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="details-company-content mt50 mb80 clearfix">
+        <h3 class="date_title">{{news.title}}</h3>
+        <p class="date_time">{{news.publish_time}}</p>
+        {{news.content | safe }}
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+<script type="text/javascript" src="{{baseUrl}}/static/js/products.js"></script>
+{% endblock %}

@@ -1,0 +1,10 @@
+[2018-05-11 10:45:41.085] [WARN] access - GET /api/menu/listsTree
+[2018-05-11 10:45:41.097] [WARN] access - GET /api/user/userInfo
+[2018-05-11 10:45:41.101] [INFO] access - GET /api/act/tpl/55
+[2018-05-11 10:45:41.105] [WARN] access - GET /api/act/config/lists
+[2018-05-11 16:46:01.661] [WARN] access - GET /api/menu/listsTree
+[2018-05-11 16:46:01.722] [WARN] access - GET /api/user/userInfo
+[2018-05-11 16:46:01.727] [WARN] access - GET /api/act/config/lists
+[2018-05-11 16:46:01.733] [INFO] access - GET /api/act/tpl/55
+[2018-05-11 16:46:15.729] [INFO] access - POST /api/act/upload
+[2018-05-11 16:51:00.174] [INFO] access - POST /api/act/upload

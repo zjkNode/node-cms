@@ -1,0 +1,154 @@
+[2018-05-25 11:41:26.094] [INFO] system - 正在监听 port 7071
+[2018-05-25 11:41:26.101] [INFO] system - 程序出现未捕获异常
+[2018-05-25 11:41:26.102] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-05-25 11:41:26.102] [FATAL] system - { Error: EEXIST: file already exists, symlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/nodecms/static-temp' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:56:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/nodecms/static-temp',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp' }
+[2018-05-25 11:41:26.110] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-05-25 11:41:26.110] [INFO] system - 关闭连接
+[2018-05-25 11:41:26.112] [INFO] system - 程序出现未捕获异常
+[2018-05-25 11:41:26.112] [INFO] system - --------------------------------  uncaught Exception Start: --------------------------------
+[2018-05-25 11:41:26.112] [FATAL] system - { Error: EEXIST: file already exists, symlink '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/nodecms/static-act-comps' -> '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components'
+    at Error (native)
+    at Object.fs.symlinkSync (fs.js:1054:18)
+    at fs.access (/Users/mac/Desktop/Applications/GitLab/cms-backend/src/handlers/system.handler.js:32:8)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+  errno: -17,
+  code: 'EEXIST',
+  syscall: 'symlink',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/www/nodecms/static-act-comps',
+  dest: '/Users/mac/Desktop/Applications/GitLab/cms-backend/src/themes/activity/components' }
+[2018-05-25 11:41:26.113] [INFO] system - --------------------------------  uncaught Exception End: --------------------------------
+[2018-05-25 11:41:26.115] [INFO] system - 关闭连接
+[2018-05-25 11:41:26.117] [INFO] system - 正在监听 port 7071
+[2018-05-25 11:41:26.117] [INFO] system - 正在监听 port 7071
+[2018-05-25 16:41:56.227] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_97155f5b6c051dd808a3c76ed29cb8a4'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_97155f5b6c051dd808a3c76ed29cb8a4',
+  domainEmitter: 
+   WriteStream {
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: true,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 64586,
+        writing: true,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: [Function],
+        writelen: 64586,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 1,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     domain: 
+      Domain {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        members: [] },
+     _events: { finish: [Object], open: [Object] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_97155f5b6c051dd808a3c76ed29cb8a4',
+     fd: null,
+     flags: 'w',
+     mode: 438,
+     start: undefined,
+     autoClose: true,
+     pos: undefined,
+     bytesWritten: 0,
+     destroyed: true },
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: false }
+[2018-05-25 16:42:34.266] [ERROR] system - error in domain { Error: ENOENT: no such file or directory, open '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_583b8113170f10d4e295595f608193df'
+    at Error (native)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_583b8113170f10d4e295595f608193df',
+  domainEmitter: 
+   WriteStream {
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: true,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 64586,
+        writing: true,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: [Function],
+        writelen: 64586,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 1,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     domain: 
+      Domain {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        members: [] },
+     _events: { finish: [Object], open: [Object] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     path: '/Users/mac/Desktop/Applications/GitLab/cms-backend/temp/upload_583b8113170f10d4e295595f608193df',
+     fd: null,
+     flags: 'w',
+     mode: 438,
+     start: undefined,
+     autoClose: true,
+     pos: undefined,
+     bytesWritten: 0,
+     destroyed: true },
+  domain: 
+   Domain {
+     domain: null,
+     _events: { error: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  domainThrown: false }
+[2018-05-25 16:43:46.824] [INFO] system - 正在监听 port 7071
