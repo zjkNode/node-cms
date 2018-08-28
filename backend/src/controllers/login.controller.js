@@ -33,6 +33,7 @@ exports.signIn = function (req,res) {
   async.auto({
     user: function(callback) {
       userService.one(params, function(error, user){
+        
         if(error){
           logService.log(req,'登录失败:服务器出错');
           return callback(error);

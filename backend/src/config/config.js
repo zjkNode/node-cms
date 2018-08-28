@@ -1,8 +1,8 @@
 // dev DB
 exports.mysqlConfig = {
-    host: '172.16.51.30'
-    , user: 'cms_user'
-    , pwd: '123456'
+    host: '127.0.0.1'
+    , user: 'root'
+    , pwd: '1qaz@WSX'
     , dbname: 'cms_system'
     , port: 3306
 };

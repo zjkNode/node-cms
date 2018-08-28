@@ -65,8 +65,8 @@
                     var params = {
                         email: this.ruleForm.email,
                         password: util.encrypt(this.ruleForm.password)
+                        // password: this.ruleForm.password
                     };
-                    console.log(params);
                     this.$http.post(apiUrl,params).then((res)=>{
                         this.logining = false;
 
